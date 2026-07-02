@@ -88,7 +88,7 @@ function Navbar() {
                                     </li>
                                     <li>
                                         <NavLink
-                                            className="text-[#211D1A] hover:bg-slate-600 text-red-700 flex items-center justify-center"
+                                            className="hover:bg-slate-600 text-red-600 flex items-center justify-center"
                                             to="/saldi"
                                             onClick={() => setIsMenuOpen(false)}
                                         >
@@ -100,8 +100,8 @@ function Navbar() {
                         </div>
 
                         <div>
-                            <NavLink className="flex items-center gap-3 text-slate-100 text-3xl">
-                                <h2 className="font-semibold text-[#211D1A] font-title">TSHORT</h2>
+                            <NavLink className="flex items-center gap-3 text-slate-100">
+                                <h2 className="text-[1.5rem] font-semibold text-[#211D1A] font-title">TSHORT</h2>
                             </NavLink>
                         </div>
 
