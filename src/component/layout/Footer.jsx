@@ -42,22 +42,32 @@ function Footer() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex items-center w-full justify-between px-10">
           <div>
-            <div>
-              <div className="flex flex-col gap-2">
-                <h4 className="text-2xl"></h4>
-                <ul className="flex flex-col gap-1">
-                  <Link to="/privacy-policy">Privacy Policy</Link>
-                  <Link to="/termini-condizioni">Termini e Condizioni</Link>
-                  <Link to="/cookies">Cookies</Link>
-                  <Link to="/about">About</Link>
-                </ul>
-              </div>
+            <p>copywrite</p>
+          </div>
+          <div>
+            <div className="flex gap-2">
+              <h4 className="text-2xl"></h4>
+              <ul className="flex gap-1">
+                <Link to="/privacy-policy">Privacy Policy</Link>
+                <Link to="/termini-condizioni">Termini e Condizioni</Link>
+                <Link to="/cookies">Cookies</Link>
+                <Link to="/about">About</Link>
+              </ul>
             </div>
           </div>
         </div>
+
+
       </footer>
+
+
     </>
+
+
   );
 }
 
