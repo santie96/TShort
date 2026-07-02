@@ -21,7 +21,7 @@ function Navbar() {
                     <div className="group">
                         <RxHamburgerMenu
                             onClick={() => setIsMenuOpen(prev => !prev)}
-                            className="relative z-[60] text-slate-100 text-[2rem] cursor-pointer transition-transform duration-300 group-hover:scale-110"
+                            className="relative z-50 text-slate-100 text-[2rem] cursor-pointer transition-transform duration-300 group-hover:scale-110"
                         />
 
                         <div
