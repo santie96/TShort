@@ -24,6 +24,13 @@ function Navbar() {
         };
     }, [isMenuOpen]);
 
+    useEffect(() => {
+        document.body.style.overflow = isCartOpen ? "hidden" : "";
+        return () => {
+            document.body.style.overflow = "";
+        };
+    }, [isCartOpen]);
+
     return (
         <>
 
@@ -49,7 +56,7 @@ function Navbar() {
                                 )}
 
                                 <div
-                                    className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
+                                    className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
                                         ? "translate-x-0 opacity-100"
                                         : "-translate-x-full opacity-0 pointer-events-none"
                                         }`}
@@ -165,7 +172,7 @@ function Navbar() {
                                     <div className="fixed inset-0 bg-black/30 z-40"></div>
                                 )}
 
-                                <div className={`fixed top-0 right-0 z-50 w-85 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isCartOpen
+                                <div className={`fixed top-0 right-0 z-50 w-85 h-dvh bg-[#F6F4F0] flex flex-col transition-all duration-300 ease-in-out ${isCartOpen
                                     ? "translate-x-0 opacity-100"
                                     : "translate-x-full opacity-0 pointer-events-none"
                                     }`}>
