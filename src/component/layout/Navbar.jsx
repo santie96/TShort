@@ -7,6 +7,7 @@ import { PiMoonThin } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
+import { FiUser } from "react-icons/fi";
 
 
 function Navbar() {
@@ -23,136 +24,141 @@ function Navbar() {
     return (
         <>
 
-                <section className="w-full text-center">
-                    <div className="bg-[#211D1A] py-2">
-                        <p className="text-[#F6F4F0] font-text text-[0.75rem] w-full h-full m-0">Spedizione gratuita sopra i 49€ · Reso gratuito entro 30 giorni</p>
-                    </div>
-                </section>
-                <header className="w-full bg-[#F6F4F0] flex items-center sticky top-0 ">
-                    <div className="w-full h-full text-center">
-                        <div>
-                            <div className="flex items-center justify-between px-5 py-4 w-full">
+            <section className="w-full text-center">
+                <div className="bg-[#211D1A] py-2">
+                    <p className="text-[#F6F4F0] font-text text-[0.75rem] w-full h-full m-0">Spedizione gratuita sopra i 49€ · Reso gratuito entro 30 giorni</p>
+                </div>
+            </section>
+            <header className="w-full bg-[#F6F4F0] flex items-center sticky top-0 ">
+                <div className="w-full h-full text-center">
+                    <div>
+                        <div className="flex items-center justify-between px-5 py-4 w-full">
 
-                                <div className="group">
-                                    <RxHamburgerMenu
-                                        onClick={() => setIsMenuOpen(valore => !valore)}
-                                        className="z-50 text-[#211D1A] text-xl cursor-pointer transition-transform duration-300 group-hover:scale-110"
-                                    />
+                            <div className="group">
+                                <RxHamburgerMenu
+                                    onClick={() => setIsMenuOpen(valore => !valore)}
+                                    className="z-50 text-[#211D1A] text-xl cursor-pointer transition-transform duration-300 group-hover:scale-110"
+                                />
 
-                                    <div
-                                        className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
-                                            ? "translate-x-0 opacity-100"
-                                            : "-translate-x-full opacity-0 pointer-events-none"
-                                            }`}
-                                    >
-                                        <div className="flex items-center justify-between p-5">
-                                            <div>
-                                                <h2 className="font-semibold text-[#211D1A] font-title text-2xl">TSHORT</h2>
-                                            </div>
-                                            <div className="flex gap-3 text-xl">
-                                                <IoClose className="cursor-pointer" onClick={() => setIsMenuOpen(false)} />
-                                            </div>
+                                <div
+                                    className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
+                                        ? "translate-x-0 opacity-100"
+                                        : "-translate-x-full opacity-0 pointer-events-none"
+                                        }`}
+                                >
+                                    <div className="flex items-center justify-between p-5">
+                                        <div>
+                                            <h2 className="font-semibold text-[#211D1A] font-title text-[1.25rem]">TSHORT</h2>
+                                        </div>
+                                        <div className="flex gap-3 text-[1.25rem]">
+                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-4xl cursor-pointer" onClick={() => setIsMenuOpen(false)}>
+                                                <IoClose />
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+                                    <hr className="text-[#DDDAD5]" />
+
+                                    <ul className="flex flex-col items-start w-full px-4 pt-5 gap-3 text-slate-200 font-medium font-text text-[0.875rem]">
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/catalogo"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Catalogo
+                                            </NavLink>
+                                        </li>
+
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/abbigliamento-uomo"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Uomo
+                                            </NavLink>
+                                        </li>
+
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/abbigliamento-donna"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Donna
+                                            </NavLink>
+                                        </li>
+
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/abbigliamento-bambini"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Bambini
+                                            </NavLink>
+                                        </li>
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/nuovi-arrivi"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Nuovi arrivi
+                                            </NavLink>
+                                        </li>
+                                        <li className="w-full">
+                                            <NavLink
+                                                className="text-red-600 hover:text-red-500 hover:bg-[#EAE7E2] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                                                to="/saldi"
+                                                onClick={() => setIsMenuOpen(false)}
+                                            >
+                                                Saldi
+                                            </NavLink>
+                                        </li>
+                                    </ul>
+
+                                    <div className="p-6 fixed bottom-0 flex flex-col gap-3 font-text text-[0.875rem] border-t w-full border-[#DDDAD5]">
+                                        <div className="flex items-center gap-2 cursor-pointer">
+                                            <FiUser />
+                                            <NavLink to="/utente" onClick={() => setIsMenuOpen(false)}>Utente</NavLink>
+                                        </div>
+                                        <div className="flex items-center gap-2 cursor-pointer">
+                                            <FaRegHeart className="cursor-pointer" />
+                                            <NavLink to="/preferiti" onClick={() => setIsMenuOpen(false)}>Preferiti</NavLink>
+
                                         </div>
 
-                                        <hr className="text-gray-400" />
-
-                                        <ul className="flex flex-col items-start w-full px-4 pt-8 gap-9 text-slate-200 font-medium">
-                                            <li>
-                                                <NavLink
-                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
-                                                    to="/catalogo"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Catalogo
-                                                </NavLink>
-                                            </li>
-
-                                            <li>
-                                                <NavLink
-                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
-                                                    to="/abbigliamento-uomo"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Uomo
-                                                </NavLink>
-                                            </li>
-
-                                            <li>
-                                                <NavLink
-                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
-                                                    to="/abbigliamento-donna"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Donna
-                                                </NavLink>
-                                            </li>
-
-                                            <li>
-                                                <NavLink
-                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
-                                                    to="/abbigliamento-bambini"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Bambini
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink
-                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
-                                                    to="/nuovi-arrivi"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Nuovi arrivi
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink
-                                                    className="hover:bg-slate-600 text-red-600 flex items-center justify-center"
-                                                    to="/saldi"
-                                                    onClick={() => setIsMenuOpen(false)}
-                                                >
-                                                    Saldi
-                                                </NavLink>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div>
-                                    <NavLink className="flex items-center gap-3 text-slate-100">
-                                        <h2 className="text-[1.5rem] font-semibold text-[#211D1A] font-title">TSHORT</h2>
-                                    </NavLink>
-                                </div>
+                            <div>
+                                <NavLink className="flex items-center gap-3 text-slate-100">
+                                    <h2 className="text-[1.5rem] font-semibold text-[#211D1A] font-title">TSHORT</h2>
+                                </NavLink>
+                            </div>
 
-                                <div className="flex gap-4 text-xl">
-                                    <IoSearch className="cursor-pointer" />
-                                    <PiMoonThin className="cursor-pointer" />
-                                    <FaRegHeart className="cursor-pointer" />
-                                    <MdOutlineShoppingCart className="cursor-pointer" />
-                                </div>
-
-
-                                {/* Visualizzazione per Mobile */}
-                                {/* <nav>
-                        <ul className="flex ">
-                            <li>
-                                <NavLink to="/catalogo">Catalogo</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/abbigliamento-uomo">Uomo</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/abbigliamento-donna">Donna</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/abbigliamento-bambini">Bambini</NavLink>
-                            </li>
-                        </ul>
-                    </nav> */}
-                            </div >
-                        </div>
+                            <div className="flex gap-4 text-xl">
+                                <button  className="cursor-pointer" >
+                                    <IoSearch/>
+                                </button>
+                                <button  className="cursor-pointer" >
+                                    <PiMoonThin/>
+                                </button>
+                                <button  className="cursor-pointer" >
+                                    <FaRegHeart/>
+                                </button>
+                                <button  className="cursor-pointer" >
+                                    <MdOutlineShoppingCart/>
+                                </button>
+                            </div>
+                        </div >
                     </div>
-                </header >
+                </div>
+            </header >
 
 
         </>
