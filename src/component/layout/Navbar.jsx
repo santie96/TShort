@@ -8,11 +8,14 @@ import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";
+import { FiShoppingBag } from "react-icons/fi";
+
 
 
 function Navbar() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isCartOpen, setCartOpen] = useState(false);
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -35,10 +38,15 @@ function Navbar() {
                         <div className="flex items-center justify-between px-5 py-4 w-full">
 
                             <div className="group">
-                                <RxHamburgerMenu
-                                    onClick={() => setIsMenuOpen(valore => !valore)}
-                                    className="z-50 text-[#211D1A] text-xl cursor-pointer transition-transform duration-300 group-hover:scale-110"
-                                />
+                                <button onClick={() => setIsMenuOpen(valore => !valore)} className="cursor-pointer">
+                                    <RxHamburgerMenu
+                                        className="z-50 text-[#211D1A] text-xl transition-transform duration-300 group-hover:scale-110"
+                                    />
+                                </button>
+
+                                {isMenuOpen && (
+                                    <div className="fixed inset-0 bg-black/30 z-40"></div>
+                                )}
 
                                 <div
                                     className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
@@ -51,7 +59,7 @@ function Navbar() {
                                             <h2 className="font-semibold text-[#211D1A] font-title text-[1.25rem]">TSHORT</h2>
                                         </div>
                                         <div className="flex gap-3 text-[1.25rem]">
-                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-4xl cursor-pointer" onClick={() => setIsMenuOpen(false)}>
+                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setIsMenuOpen(false)}>
                                                 <IoClose />
                                             </button>
 
@@ -128,32 +136,65 @@ function Navbar() {
                                         <div className="flex items-center gap-2 cursor-pointer">
                                             <FaRegHeart className="cursor-pointer" />
                                             <NavLink to="/preferiti" onClick={() => setIsMenuOpen(false)}>Preferiti</NavLink>
-
                                         </div>
+
+
 
                                     </div>
                                 </div>
                             </div>
 
                             <div>
-                                <NavLink className="flex items-center gap-3 text-slate-100">
+                                <NavLink to="/" className="flex items-center gap-3 text-slate-100">
                                     <h2 className="text-[1.5rem] font-semibold text-[#211D1A] font-title">TSHORT</h2>
                                 </NavLink>
                             </div>
 
-                            <div className="flex gap-4 text-xl">
-                                <button  className="cursor-pointer" >
-                                    <IoSearch/>
+                            <div className="flex gap-1 text-xl">
+                                <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" >
+                                    <IoSearch />
                                 </button>
-                                <button  className="cursor-pointer" >
-                                    <PiMoonThin/>
+                                <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" >
+                                    <FaRegHeart />
                                 </button>
-                                <button  className="cursor-pointer" >
-                                    <FaRegHeart/>
+                                <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setCartOpen(valore => !valore)}>
+                                    <MdOutlineShoppingCart />
                                 </button>
-                                <button  className="cursor-pointer" >
-                                    <MdOutlineShoppingCart/>
-                                </button>
+
+                                {isCartOpen && (
+                                    <div className="fixed inset-0 bg-black/30 z-40"></div>
+                                )}
+
+                                <div className={`fixed top-0 right-0 z-50 w-85 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isCartOpen
+                                    ? "translate-x-0 opacity-100"
+                                    : "translate-x-full opacity-0 pointer-events-none"
+                                    }`}>
+                                    <div>
+                                        <div className="flex w-full justify-between p-6 font-title text-[1.2rem]">
+                                            <h3>Carrello</h3>
+                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setCartOpen(false)}>
+                                                <IoClose />
+                                            </button>
+                                        </div>
+                                        <hr className="text-[#DDDAD5]" />
+
+                                        <div className="font-text w-full h-dvh flex justify-center items-center">
+                                            <div className="flex flex-col items-center">
+                                                <div className="p-6 bg-[#EAE7E2] duration-300 rounded-full w-max inline-flex items-center justify-center">
+                                                    <FiShoppingBag className="text-[2rem] text-[#6E6862]" />
+                                                </div>
+
+                                                <h5 className="mt-4 text-center font-medium text-[1rem]">Il tuo carrello è vuoto</h5>
+                                                <p className="mt-1 text-[0.875rem]">Aggiungi i tuoi capi preferiti per iniziare</p>
+                                                <button className="text-[#EAE7E2] mt-4 rounded-md p-2 text-[0.875rem] bg-[#23201D]">Continua lo shopping</button>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div >
                     </div>
