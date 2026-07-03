@@ -9,10 +9,10 @@ import Carrello from "./component/pages/Carrello";
 import Contatti from "./component/pages/Contatti";
 import About from "./component/pages/About";
 import Cookies from "./component/pages/Cookies";
-import PrivacyPolicy from "./component/pages/PrivacyPolicy";
+import Privacy from "./component/pages/Privacy";
 import TerminiCondizioni from "./component/pages/TerminiCondizioni";
 import Preferiti from "./component/pages/Preferiti";
-import Utente from "./component/pages/Utente"
+import Utente from "./component/pages/Utente";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -29,7 +29,7 @@ function App() {
         <Route path="contatti" element={<Contatti />} />
         <Route path="about" element={<About />} />
         <Route path="cookies" element={<Cookies />} />
-        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="privacy" element={<Privacy />} />
         <Route path="termini-condizioni" element={<TerminiCondizioni />} />
         <Route path="preferiti" element={<Preferiti />} />
         <Route path="utente" element={<Utente />} />

@@ -146,9 +146,9 @@ function Footer() {
               <div>
                 <ul className="flex flex-col gap-1 md:flex-row md:gap-5">
                   <li className="hover:text-[#C47048]">
-                    <Link to="/privacy-policy">Privacy</Link>
+                    <Link to="/privacy">Privacy</Link>
                   </li>
-                  <li className="hover:text-[#C47048]">
+                  <li>
                     <Link to="/termini-condizioni">Termini e Condizioni</Link>
                   </li>
                   <li className="hover:text-[#C47048]">
