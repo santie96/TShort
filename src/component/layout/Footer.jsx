@@ -76,11 +76,6 @@ function Footer() {
                   <h4 className="text-[1.2rem] font-title  font-semibold">Assistenza</h4>
                   <ul className="flex flex-col gap-1">
                     <li>
-                      <NavLink to="/catalogo" className="hover:text-[#C47048]">
-                        Catalogo
-                      </NavLink>
-                    </li>
-                    <li>
                       <NavLink to="/abbigliamento-donna" className="hover:text-[#C47048]">
                         Spedizioni
                       </NavLink>
@@ -97,6 +92,11 @@ function Footer() {
                     </li>
                     <li>
                       <NavLink to="/nuovi-arrivi" className="hover:text-[#C47048]"></NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/contatti" className="hover:text-[#C47048]">
+                        Contatti
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink to="/saldi" className="hover:text-[#C47048]">
@@ -134,22 +134,6 @@ function Footer() {
                       <NavLink to="/nuovi-arrivi" className="hover:text-[#C47048]">
                         Press
                       </NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-col gap-1.5">
-                  <h4 className="text-[1.2rem] font-title  font-semibold">Contatti</h4>
-                  <ul className="flex flex-col gap-1">
-                    <li className="hover:text-[#C47048]">
-                      <a href="">Telefono: +39 3030064648</a>
-                    </li>
-                    <li className="hover:text-[#C47048]">
-                      <a href="">Email: info@thsort.it</a>
-                    </li>
-                    <li className="hover:text-[#C47048]">
-                      <a href="">Indirizzo: Via Peppino 38 (LI)</a>
                     </li>
                   </ul>
                 </div>

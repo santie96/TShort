@@ -98,6 +98,15 @@ function Navbar() {
                                             </li>
                                             <li>
                                                 <NavLink
+                                                    className="text-[#211D1A] hover:bg-slate-600 flex items-center justify-center"
+                                                    to="/nuovi-arrivi"
+                                                    onClick={() => setIsMenuOpen(false)}
+                                                >
+                                                    Nuovi arrivi
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <NavLink
                                                     className="hover:bg-slate-600 text-red-600 flex items-center justify-center"
                                                     to="/saldi"
                                                     onClick={() => setIsMenuOpen(false)}
