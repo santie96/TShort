@@ -10,7 +10,7 @@ function Footer() {
         {/* CONTIENE TUTTO */}
         <div className="flex items-center flex-col gap-6">
           {/* SECTION 1 */}
-          <section className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 md:gap-x-12 md:gap-y-10 w-full">
+          <section className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 md:gap-x-12 md:gap-y-10 lg:grid-cols-4  w-full">
             {/* LOGO E SOCIAL */}
             <div className="flex flex-col items-center gap-2 text-center  md:items-center md:text-center">
               <Link>
