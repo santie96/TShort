@@ -6,9 +6,9 @@ import { AiFillInstagram } from "react-icons/ai";
 function Footer() {
   return (
     <>
-      <footer className="flex justify-center bg-[#F6F4F0] text-[#211D1A] text-[0.875rem] font-text p-10">
-        <div className="flex items-center flex-col gap-8">
-          <div className="flex flex-col gap-8 items-center text-center">
+      <footer className="flex justify-center bg-[#F6F4F0] text-[#211D1A] text-[0.875rem] font-text p-7">
+        <div className="flex items-center flex-col gap-6">
+          <section className="flex flex-col mad:gap-6 items-center text-center">
             <div className="flex flex-col items-center gap-2">
               <Link>
                 <h2 className="text-[1.5rem] font-title  font-semibold">TSHORT</h2>
@@ -33,9 +33,9 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-6">
               <div>
-                <div className="flex flex-col gap-2">
+                <div className="flex-col gap-1.5 hidden md:flex">
                   <h4 className="text-[1.2rem] font-title font-semibold">Negozio</h4>
                   <ul className="flex flex-col gap-1">
                     <li>
@@ -72,7 +72,7 @@ function Footer() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-1.5">
                   <h4 className="text-[1.2rem] font-title  font-semibold">Assistenza</h4>
                   <ul className="flex flex-col gap-1">
                     <li>
@@ -107,7 +107,7 @@ function Footer() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-1.5">
                   <h4 className="text-[1.2rem] font-title  font-semibold">Azienda</h4>
                   <ul className="flex flex-col gap-1">
                     <li>
@@ -139,7 +139,7 @@ function Footer() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-col gap-2 ">
+                <div className="flex flex-col gap-1.5">
                   <h4 className="text-[1.2rem] font-title  font-semibold">Contatti</h4>
                   <ul className="flex flex-col gap-1">
                     <li className="hover:text-[#C47048]">
@@ -155,11 +155,11 @@ function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
 
           <hr className="text-[#211D1A] w-full" />
 
-          <div className="flex flex-col items-center w-full justify-between text-center gap-8">
+          <section className="flex flex-col items-center w-full justify-between text-center gap-8">
             <div className="flex flex-row gap-16">
               <div>
                 <ul className="flex flex-col gap-1">
@@ -178,7 +178,7 @@ function Footer() {
             <div className="flex justify-center">
               <p className="text-xs tracking-wide">&copy; 2026 TShort. Tutti i diritti riservati. P.IVA 12345678901</p>
             </div>
-          </div>
+          </section>
         </div>
       </footer>
     </>
