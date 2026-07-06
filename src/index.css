@@ -2,14 +2,12 @@
 @import "tailwindcss";
 
 @theme {
-  /* Font */
   --font-text: 'Inter', sans-serif;
   --font-title: "Fraunces", serif;
 
-  /* Dimensioni */
   --text-size: 1rem;
-  --title-size: 1.4rem;
-  --logo-size: 1.6rem;
-  --icon-size: 1.3rem;
-  --icon-social: 1.9rem;
+  --text-title-size: 1.4rem;
+  --text-logo-size: 1.6rem;
+  --text-icon-size: 1.3rem;
+  --text-icon-social: 1.9rem;
 }
