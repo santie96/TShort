@@ -13,10 +13,10 @@ function Footer() {
           <section className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 md:gap-x-12 md:gap-y-10 lg:grid-cols-4  w-full">
             {/* LOGO E SOCIAL */}
             <div className="flex flex-col items-center gap-2 text-center  md:items-center md:text-center">
-              <Link>
+              <NavLink to="/">
                 {/* LOGO */}
                 <h2 className="text-logo-size font-title font-semibold">TSHORT</h2>
-              </Link>
+              </NavLink>
               <p className="text-balance max-w-70">
                 Abbigliamento moderno per uomo, donna e bambino. Qualità curata, design essenziale, prezzi accessibili.
               </p>
