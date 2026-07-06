@@ -16,6 +16,7 @@ function Navbar() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isCartOpen, setCartOpen] = useState(false);
+    const [isSearchOpen, setSearchOpen] = useState(false);
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -44,10 +45,10 @@ function Navbar() {
                     <div>
                         <div className="flex items-center justify-between px-5 py-4 w-full">
 
-                            <div className="group">
-                                <button onClick={() => setIsMenuOpen(valore => !valore)} className="cursor-pointer">
+                            <div className="group flex items-center">
+                                <button onClick={() => setIsMenuOpen(valore => !valore)} className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer">
                                     <RxHamburgerMenu
-                                        className="z-50 text-[#211D1A] text-xl transition-transform duration-300 group-hover:scale-110"
+                                        className="z-50 text-[#211D1A] text-icon-size"
                                     />
                                 </button>
 
@@ -69,7 +70,6 @@ function Navbar() {
                                             <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setIsMenuOpen(false)}>
                                                 <IoClose />
                                             </button>
-
                                         </div>
                                     </div>
 
@@ -158,9 +158,11 @@ function Navbar() {
                             </div>
 
                             <div className="flex gap-1 text-icon-size">
-                                <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" >
+                                <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setSearchOpen(valore => !valore)}>
                                     <IoSearch />
                                 </button>
+
+
                                 <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" >
                                     <FaRegHeart />
                                 </button>
@@ -195,7 +197,7 @@ function Navbar() {
                                                 <h5 className="mt-4 text-center font-medium text-stitle.size">Il tuo carrello è vuoto</h5>
                                                 <p className="mt-1 text-size">Aggiungi i tuoi capi preferiti per iniziare</p>
                                                 <button className="text-[#EAE7E2] mt-4 rounded-md p-2 text-size bg-[#23201D]">Continua lo shopping</button>
-                                                
+
                                             </div>
                                         </div>
 
@@ -208,6 +210,13 @@ function Navbar() {
                     </div>
                 </div>
             </header >
+            <div className={`hidden ${isSearchOpen ? "" : "inline"}`}>
+
+                <form className="bg-[#F6F4F0]" action="">
+                    <input className="w-full py-4 px-7 border-t-2 focus:outline-none focus:ring-0 border-t-[#DDDAD5]" type="search" name="Serach" id="GlobalSearch" placeholder="Ricerca capi" />
+                </form>
+
+            </div>
 
 
         </>
