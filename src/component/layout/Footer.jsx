@@ -1,5 +1,4 @@
 import { NavLink, Link } from "react-router-dom";
-import { PiTShirtFill } from "react-icons/pi";
 import { CiFacebook } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 
