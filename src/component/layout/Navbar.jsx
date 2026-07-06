@@ -63,9 +63,9 @@ function Navbar() {
                                 >
                                     <div className="flex items-center justify-between p-5">
                                         <div>
-                                            <h2 className="font-semibold text-[#211D1A] font-title text-[1.25rem]">TSHORT</h2>
+                                            <h2 className="font-semibold text-[#211D1A] font-title text-logo-size">TSHORT</h2>
                                         </div>
-                                        <div className="flex gap-3 text-[1.25rem]">
+                                        <div className="flex gap-3 text-icon-size">
                                             <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setIsMenuOpen(false)}>
                                                 <IoClose />
                                             </button>
@@ -75,7 +75,7 @@ function Navbar() {
 
                                     <hr className="text-[#DDDAD5]" />
 
-                                    <ul className="flex flex-col items-start w-full px-4 pt-5 gap-3 text-slate-200 font-medium font-text text-[0.875rem]">
+                                    <ul className="flex flex-col items-start w-full px-4 pt-5 gap-3 text-slate-200 font-medium font-text text-size">
                                         <li className="w-full">
                                             <NavLink
                                                 className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
@@ -135,7 +135,7 @@ function Navbar() {
                                         </li>
                                     </ul>
 
-                                    <div className="p-6 fixed bottom-0 flex flex-col gap-3 font-text text-[0.875rem] border-t w-full border-[#DDDAD5]">
+                                    <div className="p-6 fixed bottom-0 flex flex-col gap-3 font-text text-size border-t w-full border-[#DDDAD5]">
                                         <div className="flex items-center gap-2 cursor-pointer">
                                             <FiUser />
                                             <NavLink to="/utente" onClick={() => setIsMenuOpen(false)}>Utente</NavLink>
@@ -153,11 +153,11 @@ function Navbar() {
 
                             <div>
                                 <NavLink to="/" className="flex items-center gap-3 text-slate-100">
-                                    <h2 className="text-[1.5rem] font-semibold text-[#211D1A] font-title">TSHORT</h2>
+                                    <h2 className="text-logo-size font-semibold text-[#211D1A] font-title">TSHORT</h2>
                                 </NavLink>
                             </div>
 
-                            <div className="flex gap-1 text-xl">
+                            <div className="flex gap-1 text-icon-size">
                                 <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" >
                                     <IoSearch />
                                 </button>
@@ -177,13 +177,12 @@ function Navbar() {
                                     : "translate-x-full opacity-0 pointer-events-none"
                                     }`}>
                                     <div>
-                                        <div className="flex w-full justify-between p-6 font-title text-[1.2rem]">
-                                            <h3>Carrello</h3>
-                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setCartOpen(false)}>
+                                        <div className="flex w-full justify-between p-6 font-title border border-[#DDDAD5]">
+                                            <h3 className="text-title-size">Carrello</h3>
+                                            <button className="p-2 hover:bg-[#EAE7E2] duration-300 text-icon-size rounded-full cursor-pointer" onClick={() => setCartOpen(false)}>
                                                 <IoClose />
                                             </button>
                                         </div>
-                                        <hr className="text-[#DDDAD5]" />
 
                                         <div className="font-text w-full h-dvh flex justify-center items-center">
                                             <div className="flex flex-col items-center">
@@ -191,9 +190,9 @@ function Navbar() {
                                                     <FiShoppingBag className="text-[2rem] text-[#6E6862]" />
                                                 </div>
 
-                                                <h5 className="mt-4 text-center font-medium text-[1rem]">Il tuo carrello è vuoto</h5>
-                                                <p className="mt-1 text-[0.875rem]">Aggiungi i tuoi capi preferiti per iniziare</p>
-                                                <button className="text-[#EAE7E2] mt-4 rounded-md p-2 text-[0.875rem] bg-[#23201D]">Continua lo shopping</button>
+                                                <h5 className="mt-4 text-center font-medium text-stitle.size">Il tuo carrello è vuoto</h5>
+                                                <p className="mt-1 text-size">Aggiungi i tuoi capi preferiti per iniziare</p>
+                                                <button className="text-[#EAE7E2] mt-4 rounded-md p-2 text-size bg-[#23201D]">Continua lo shopping</button>
 
                                             </div>
 
