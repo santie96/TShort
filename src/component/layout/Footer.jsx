@@ -6,7 +6,7 @@ import { CiInstagram } from "react-icons/ci";
 function Footer() {
   return (
     <>
-      <footer className="bg-[#F6F4F0] text-[#211D1A] text-[0.875rem] font-text p-7">
+      <footer className="bg-[#F6F4F0] text-[#211D1A] text-size font-text p-7">
         {/* CONTIENE TUTTO */}
         <div className="flex items-center flex-col gap-6">
           {/* SECTION 1 */}
@@ -15,13 +15,13 @@ function Footer() {
             <div className="flex flex-col items-center gap-2 text-center  md:items-center md:text-center">
               <Link>
                 {/* LOGO */}
-                <h2 className="text-[1.5rem] font-title font-semibold">TSHORT</h2>
+                <h2 className="text-logo-size font-title font-semibold">TSHORT</h2>
               </Link>
               <p className="text-balance max-w-70">
                 Abbigliamento moderno per uomo, donna e bambino. Qualità curata, design essenziale, prezzi accessibili.
               </p>
               {/* SOCIAL */}
-              <ul className="flex gap-2 text-[1.8rem] md:mt-1">
+              <ul className="flex gap-2 text-icon-social md:mt-1">
                 <li className="group">
                   <a href="" className=" hover:text-[#C47048]  ">
                     <CiFacebook className="duration-300 transition-transform group-hover:scale-120" />
@@ -37,7 +37,7 @@ function Footer() {
 
             {/* NEGOZIO */}
             <div className="hidden flex-col gap-1.5 md:flex md:items-center">
-              <h4 className="text-[1.2rem] font-title font-semibold">Negozio</h4>
+              <h4 className="text-title-size font-title font-semibold">Negozio</h4>
               <ul className="flex flex-col gap-1">
                 <li>
                   <NavLink to="/catalogo" className="hover:text-[#C47048]">
@@ -74,7 +74,7 @@ function Footer() {
 
             {/* ASSISTENZA */}
             <div className="flex flex-col gap-1.5 items-center md:items-center">
-              <h4 className="text-[1.2rem] font-title font-semibold">Assistenza</h4>
+              <h4 className="text-title-size font-title font-semibold">Assistenza</h4>
               <ul className="flex flex-col gap-1">
                 <li>
                   <NavLink to="/spedizioni" className="hover:text-[#C47048]">
@@ -106,7 +106,7 @@ function Footer() {
 
             {/* AZIENDA */}
             <div className="flex flex-col gap-1.5 items-center md:items-center">
-              <h4 className="text-[1.2rem] font-title font-semibold">Azienda</h4>
+              <h4 className="text-title-size font-title font-semibold">Azienda</h4>
               <ul className="flex flex-col gap-1">
                 <li>
                   <NavLink to="/chi-siamo" className="hover:text-[#C47048]">
