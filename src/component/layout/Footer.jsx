@@ -148,7 +148,7 @@ function Footer() {
                   <li className="hover:text-[#C47048]">
                     <Link to="/privacy">Privacy</Link>
                   </li>
-                  <li>
+                  <li className="hover:text-[#C47048]">
                     <Link to="/termini-condizioni">Termini e Condizioni</Link>
                   </li>
                   <li className="hover:text-[#C47048]">
