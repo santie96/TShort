@@ -1,7 +1,12 @@
+import HeroNArrivi from "../ui/Hero/HeroNArrivi"
+import HeroSaldi from "../ui/Hero/HeroSaldi"
+
+
 function Home() {
     return (
         <>
-        <div>Home</div>
+            <HeroSaldi />
+            <HeroNArrivi />
         </>
     )
 }
