@@ -1,4 +1,4 @@
-@import url("https://googleapis.com");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -7,7 +7,7 @@
 
   --text-logo-size: 1.6rem; /* LOGO */
   --text-title-page-size: 1.7rem; /* H1 */
-  --text-title-size: 1.4rem; /* H2-H3 */
+  --text-title-size: 1.5rem; /* H2-H3 */
   --text-stitle-size: 1.2rem; /* H4-5 */
   --text-size: 1rem; /* TESTO/P */
 
