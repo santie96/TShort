@@ -5,6 +5,8 @@ import Catalogo from "./component/pages/Catalogo";
 import ABambini from "./component/pages/ABambini";
 import AUomo from "./component/pages/AUomo";
 import ADonna from "./component/pages/ADonna";
+import NuoviArrivi from "./component/pages/NuoviArrivi";
+import Saldi from "./component/pages/Saldi";
 import Carrello from "./component/pages/Carrello";
 import Contatti from "./component/pages/Contatti";
 import About from "./component/pages/About";
@@ -16,6 +18,7 @@ import Utente from "./component/pages/Utente";
 
 import { Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <Routes>
@@ -25,6 +28,8 @@ function App() {
         <Route path="abbigliamento-bambini" element={<ABambini />} />
         <Route path="abbigliamento-uomo" element={<AUomo />} />
         <Route path="abbigliamento-donna" element={<ADonna />} />
+        <Route path="nuovi-arrivi" element={<NuoviArrivi />} />
+        <Route path="saldi" element={<Saldi />} />
         <Route path="carrello" element={<Carrello />} />
         <Route path="contatti" element={<Contatti />} />
         <Route path="about" element={<About />} />
