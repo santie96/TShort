@@ -17,7 +17,11 @@ function SideBarMenu({ isOpen, onClose }) {
             >
                 <div className="flex items-center justify-between p-5">
                     <div>
-                        <h2 className="font-semibold text-[#211D1A] font-title text-logo-size">TSHORT</h2>
+                        <NavLink 
+                        className="font-semibold text-[#211D1A] font-title text-logo-size"
+                        to="/"
+                        onClick={onClose} 
+                        >TSHORT</NavLink>
                     </div>
                     <div className="flex gap-3 text-icon-size">
                         <button
@@ -83,7 +87,7 @@ function SideBarMenu({ isOpen, onClose }) {
                     </li>
                     <li className="w-full">
                         <NavLink
-                            className="text-red-600 hover:text-red-500 hover:bg-[#EAE7E2] p-4 rounded-xl w-full flex items-center justify-start duration-300"
+                            className="text-[#D33B36] hover:text-[#F6F4F0] hover:bg-[#D33B36] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/saldi"
                             onClick={onClose}
                         >
