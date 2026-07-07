@@ -37,7 +37,7 @@ function SideBarCart({ isOpen, onClose }) {
                             <p className="mt-1 text-size">Aggiungi i tuoi capi preferiti per iniziare</p>
                             <button 
                             type="button"
-                            className="text-[#EAE7E2] mt-4 cursor-pointer rounded-md p-2 text-size bg-[#23201D]" 
+                            className="text-[#EAE7E2] hover:bg-[#C47048] mt-4 cursor-pointer rounded-md p-2 text-size bg-[#23201D] hover:scale-110 transition-all duration-500" 
                             onClick={onClose}>
                                 <NavLink to="/catalogo">Continua lo shopping</NavLink>
                             </button>
