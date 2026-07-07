@@ -1,47 +1,43 @@
+import { NavLink } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
+import { FiUser } from "react-icons/fi";
 
-import { useState, useEffect } from "react";
-
-function MenuMobile() {
-
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    useEffect(() => {
-        document.body.style.overflow = isMenuOpen ? "hidden" : "";
-        return () => {
-            document.body.style.overflow = "";
-        };
-    }, [isMenuOpen]);
-
-
+function SideBarMenu({ isOpen, onClose }) {
     return (
         <>
+            {isOpen && (
+                <div className="fixed inset-0 bg-black/30 z-40" onClick={onClose}></div>
+            )}
+
             <div
-                className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] rounded-b-2xl flex flex-col transition-all duration-300 ease-in-out ${isMenuOpen
+                className={`fixed top-0 left-0 z-50 w-75 h-dvh bg-[#F6F4F0] flex flex-col transition-all duration-300 ease-in-out ${isOpen
                     ? "translate-x-0 opacity-100"
                     : "-translate-x-full opacity-0 pointer-events-none"
                     }`}
             >
                 <div className="flex items-center justify-between p-5">
                     <div>
-                        <h2 className="font-semibold text-[#211D1A] font-title text-[1.25rem]">TSHORT</h2>
+                        <h2 className="font-semibold text-[#211D1A] font-title text-logo-size">TSHORT</h2>
                     </div>
-                    <div className="flex gap-3 text-[1.25rem]">
-                        <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-4xl cursor-pointer" onClick={() => setIsMenuOpen(false)}>
+                    <div className="flex gap-3 text-icon-size">
+                        <button
+                            type="button"
+                            className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer text-[#211D1A]"
+                            onClick={onClose}
+                        >
                             <IoClose />
                         </button>
-
                     </div>
                 </div>
 
                 <hr className="text-[#DDDAD5]" />
 
-                <ul className="flex flex-col items-start w-full px-4 pt-5 gap-3 text-slate-200 font-medium font-text text-[0.875rem]">
+                <ul className="flex flex-col items-start w-full px-4 pt-5 gap-3 text-slate-200 font-medium font-text text-size">
                     <li className="w-full">
                         <NavLink
                             className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/catalogo"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Catalogo
                         </NavLink>
@@ -51,7 +47,7 @@ function MenuMobile() {
                         <NavLink
                             className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/abbigliamento-uomo"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Uomo
                         </NavLink>
@@ -61,7 +57,7 @@ function MenuMobile() {
                         <NavLink
                             className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/abbigliamento-donna"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Donna
                         </NavLink>
@@ -71,7 +67,7 @@ function MenuMobile() {
                         <NavLink
                             className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/abbigliamento-bambini"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Bambini
                         </NavLink>
@@ -80,7 +76,7 @@ function MenuMobile() {
                         <NavLink
                             className="text-[#211D1A] hover:bg-[#EAE7E2] hover:text-[#C47048] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/nuovi-arrivi"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Nuovi arrivi
                         </NavLink>
@@ -89,28 +85,22 @@ function MenuMobile() {
                         <NavLink
                             className="text-red-600 hover:text-red-500 hover:bg-[#EAE7E2] p-4 rounded-xl w-full flex items-center justify-start duration-300"
                             to="/saldi"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={onClose}
                         >
                             Saldi
                         </NavLink>
                     </li>
                 </ul>
 
-                <div className="p-6 fixed bottom-0 flex flex-col gap-3 font-text text-[0.875rem] border-t w-full border-[#DDDAD5]">
-                    <div className="flex items-center gap-2 cursor-pointer">
+                <div className="p-6 fixed bottom-0 font-text text-size border-t w-full border-[#DDDAD5]">
+                    <div className="flex items-center gap-2 cursor-pointer text-[#211D1A]">
                         <FiUser />
-                        <NavLink to="/utente" onClick={() => setIsMenuOpen(false)}>Utente</NavLink>
+                        <NavLink to="/utente" onClick={onClose}>Utente</NavLink>
                     </div>
-                    <div className="flex items-center gap-2 cursor-pointer">
-                        <FaRegHeart className="cursor-pointer" />
-                        <NavLink to="/preferiti" onClick={() => setIsMenuOpen(false)}>Preferiti</NavLink>
-
-                    </div>
-
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default MenuMobile
+export default SideBarMenu;
