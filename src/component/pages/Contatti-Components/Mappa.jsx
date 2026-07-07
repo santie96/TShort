@@ -15,8 +15,8 @@ function MiaMappa() {
           <div>
             <h4 className="text-stitle-size font-semibold">Sede legale</h4>
             <a
-              href="https://maps.google.com/?q=Via+dell'Essenziale+42+Livorno"
-              className="underline decoration-transparent hover:decoration-[#C47048] transition-colors duration-300"
+              href="https://www.google.com/maps/place/Via+Alessandro+Pannocchia,+22,+57124+Livorno"
+              className="underline decoration-transparent hover:decoration-[#C47048] transition-colors duration-300" target="black"
             >
               Via Alessandro Pannocchia, 22 57124 Livorno (LI) - Italia
             </a>

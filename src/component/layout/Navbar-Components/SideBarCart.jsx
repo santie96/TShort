@@ -35,7 +35,12 @@ function SideBarCart({ isOpen, onClose }) {
                             </div>
                             <h5 className="mt-4 text-center font-medium text-stitle.size">Il tuo carrello è vuoto</h5>
                             <p className="mt-1 text-size">Aggiungi i tuoi capi preferiti per iniziare</p>
-                            <button className="text-[#EAE7E2] mt-4 cursor-pointer rounded-md p-2 text-size bg-[#23201D] ">Continua lo shopping</button>
+                            <button 
+                            type="button"
+                            className="text-[#EAE7E2] mt-4 cursor-pointer rounded-md p-2 text-size bg-[#23201D]" 
+                            onClick={onClose}>
+                                <NavLink to="/catalogo">Continua lo shopping</NavLink>
+                            </button>
 
                         </div>
                     </div>
