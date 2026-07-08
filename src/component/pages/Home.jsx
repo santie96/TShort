@@ -1,12 +1,10 @@
-import HeroNArrivi from "../ui/Hero/HeroNArrivi"
-import HeroSaldi from "../ui/Hero/HeroSaldi"
+import CarouselHero from "../ui/Hero/CarouselHero"
 
 
 function Home() {
     return (
         <>
-            <HeroSaldi />
-            <HeroNArrivi />
+        <CarouselHero />
         </>
     )
 }
