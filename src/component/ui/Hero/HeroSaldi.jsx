@@ -13,7 +13,7 @@ function HeroSaldi() {
                     <button
                         type="button"
                         className="text-[#F6F4F0] font-semibold mt-4 cursor-pointer rounded-md lg:py-2 lg:px-6 py-2 px-4 text-stitle-size bg-[#D33B36] transition-transform hover:scale-110 duration-300 shadow">
-                        <NavLink to="/saldi">Approfittane ora</NavLink>
+                        <NavLink to="/saldi" className="uppercase">Approfittane ora!</NavLink>
                     </button>
                 </div>
                 <p className="text-[#F6F4F0] text-sm mt-3">Saldi disponibili fino al 10/08.</p>
