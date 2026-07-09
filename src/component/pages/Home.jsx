@@ -1,14 +1,13 @@
-import ContCard from "../ui/Card/ContCards"
-import CarouselHero from "../ui/Hero/CarouselHero"
-
+import ContCategorie from "../ui/Card-Categorie/ContCategorie";
+import CarouselHero from "../ui/Hero/CarouselHero";
 
 function Home() {
-    return (
-        <>
-        <CarouselHero />
-        <ContCard />
-        </>
-    )
+  return (
+    <>
+      <CarouselHero />
+      <ContCategorie />
+    </>
+  );
 }
 
-export default Home
+export default Home;
