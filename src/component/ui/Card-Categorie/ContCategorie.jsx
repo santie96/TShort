@@ -1,6 +1,6 @@
-import Card from "./Card";
+import CardCategorie from "./CardCategorie";
 
-function ContCard() {
+function ContCategorie() {
   const categorie = [
     {
       title: "Donna",
@@ -33,7 +33,7 @@ function ContCard() {
             <div className=" px-4 sm:px-6 lg:px-75 py-4 md:py-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
                 {categorie.map((item) => (
-                  <Card key={item.title} {...item} />
+                  <CardCategorie key={item.title} {...item} />
                 ))}
               </div>
             </div>
@@ -44,4 +44,4 @@ function ContCard() {
   );
 }
 
-export default ContCard;
+export default ContCategorie;

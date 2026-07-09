@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
-function Card({ title, subtitle, image, to }) {
+function CardCategorie({ title, subtitle, image, to }) {
   return (
     <>
       <NavLink to={to} className="relative overflow-hidden rounded-xl">
@@ -26,4 +26,4 @@ function Card({ title, subtitle, image, to }) {
   );
 }
 
-export default Card;
+export default CardCategorie;
