@@ -6,7 +6,7 @@ function Contatti() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Qui gestirai l'invio del form (es. API, Formspree, EmailJS, ecc.)
-    alert("Messaggio inviato con successo!");
+    /*   alert("Messaggio inviato con successo!"); */
   };
 
   return (
