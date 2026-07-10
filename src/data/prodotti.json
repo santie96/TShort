@@ -221,47 +221,47 @@
   },
   {
     "id": 21,
-    "nome": "T-shirt bambino nero",
-    "sottotitolo": "T-shirt in cotone nero",
-    "descrizione": "T-shirt da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità nero.",
+    "nome": "T-shirt bambino nera",
+    "sottotitolo": "T-shirt in cotone nera",
+    "descrizione": "T-shirt da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità nera.",
     "prezzo": 24.99,
     "categoria": "bambino",
     "sconto": 0,
     "nuovoArrivo": true,
-    "immagine": "/images/bambino/t-shirt-nero.jpg"
+    "immagine": "https://img.magnific.com/foto-gratuito/studio-shot-di-bello-atletico-dalla-pelle-scura-ragazzino-in-posa-isolato-in-maglietta-nera-mantenendo-le-mani-sulla-sua-vita-formazione-al-chiuso_343059-2241.jpg"
   },
   {
     "id": 22,
-    "nome": "Felpa bambino bianco",
-    "sottotitolo": "Felpa con cappuccio bianco",
-    "descrizione": "Felpa da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità bianco.",
+    "nome": "Felpa bambino bianca",
+    "sottotitolo": "Felpa con cappuccio bianca",
+    "descrizione": "Felpa da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "prezzo": 59.99,
     "categoria": "bambino",
     "sconto": 10,
     "nuovoArrivo": false,
-    "immagine": "/images/bambino/felpa-bianco.jpg"
+    "immagine": "https://plus.unsplash.com/premium_photo-1706036778750-fb7d62e5c60d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 23,
-    "nome": "Jeans bambino grigio",
+    "nome": "Jeans bambino classici",
     "sottotitolo": "Jeans comodi grigio",
     "descrizione": "Jeans da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità grigio.",
     "prezzo": 34.99,
     "categoria": "bambino",
     "sconto": 20,
     "nuovoArrivo": true,
-    "immagine": "/images/bambino/jeans-grigio.jpg"
+    "immagine": "https://plus.unsplash.com/premium_photo-1723809808474-d4f3488faf1d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 24,
-    "nome": "Polo bambino beige",
-    "sottotitolo": "Polo classica beige",
-    "descrizione": "Polo da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità beige.",
+    "nome": "Polo bambino gialla",
+    "sottotitolo": "Polo classica gialla",
+    "descrizione": "Polo da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "prezzo": 34.99,
     "categoria": "bambino",
     "sconto": 30,
     "nuovoArrivo": false,
-    "immagine": "/images/bambino/polo-beige.jpg"
+    "immagine": "https://img.magnific.com/foto-gratuito/ritratto-di-un-ragazzo-carino-in-una-maglietta-gialla-su-sfondo-nero-in-posa-per-la-fotocamera_78492-3830.jpg"
   },
   {
     "id": 25,
@@ -283,7 +283,7 @@
     "categoria": "bambino",
     "sconto": 25,
     "nuovoArrivo": false,
-    "immagine": "/images/bambino/giubbotto-verde-oliva.jpg"
+    "immagine": "https://images.pexels.com/photos/19179192/pexels-photo-19179192/free-photo-of-giacca-foglie-in-piedi-autunno.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
     "id": 27,
@@ -294,40 +294,40 @@
     "categoria": "bambino",
     "sconto": 40,
     "nuovoArrivo": true,
-    "immagine": "/images/bambino/shorts-marrone.jpg"
+    "immagine": "https://images.pexels.com/photos/25158812/pexels-photo-25158812/free-photo-of-in-piedi-sorridente-ragazzo-interni.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
     "id": 28,
-    "nome": "Maglione bambino antracite",
-    "sottotitolo": "Maglione caldo antracite",
-    "descrizione": "Maglione da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità antracite.",
+    "nome": "Maglione bambino rosso",
+    "sottotitolo": "Maglione caldo rosso",
+    "descrizione": "Maglione da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "prezzo": 44.99,
     "categoria": "bambino",
     "sconto": 0,
     "nuovoArrivo": false,
-    "immagine": "/images/bambino/maglione-antracite.jpg"
+    "immagine": "https://images.pexels.com/photos/33720559/pexels-photo-33720559.jpeg"
   },
   {
     "id": 29,
-    "nome": "Tuta bambino ecrù",
+    "nome": "Tuta bambino grigia",
     "sottotitolo": "Tuta sportiva ecrù",
     "descrizione": "Tuta da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità ecrù.",
     "prezzo": 39.99,
     "categoria": "bambino",
     "sconto": 35,
     "nuovoArrivo": true,
-    "immagine": "/images/bambino/tuta-ecrù.jpg"
+    "immagine": "https://images.pexels.com/photos/14571334/pexels-photo-14571334.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
     "id": 30,
-    "nome": "Camicia bambino crema",
-    "sottotitolo": "Camicia casual crema",
-    "descrizione": "Camicia da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità crema.",
+    "nome": "Camicia bambino blu",
+    "sottotitolo": "Camicia a quadretti",
+    "descrizione": "Camicia da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "prezzo": 49.99,
     "categoria": "bambino",
     "sconto": 50,
     "nuovoArrivo": false,
-    "immagine": "/images/bambino/camicia-crema.jpg"
+    "immagine": "https://img.magnific.com/foto-gratuito/condizione-della-tazza-di-caffe-del-bambino-piccolo-isolata-sulla-parete-bianca_231208-1048.jpg"
   },
   {
     "id": 31,
@@ -397,14 +397,14 @@
   },
   {
     "id": 37,
-    "nome": "Jeans bambina marrone",
-    "sottotitolo": "Jeans comodi marrone",
-    "descrizione": "Jeans da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità marrone.",
+    "nome": "Jeans bambina chiari",
+    "sottotitolo": "Jeans comodi chiari",
+    "descrizione": "Jeans da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità chiara.",
     "prezzo": 34.99,
     "categoria": "bambina",
     "sconto": 40,
     "nuovoArrivo": true,
-    "immagine": "/images/bambina/jeans-marrone.jpg"
+    "immagine": "https://img.magnific.com/foto-gratuito/ragazza-del-colpo-pieno-in-studio-con-lo-skateboard_23-2149853381.jpg"
   },
   {
     "id": 38,
