@@ -265,14 +265,14 @@
   },
   {
     "id": 25,
-    "title": "Pantaloni sport bambino blu navy",
-    "subtitle": "Pantaloni morbidi blu navy",
-    "descrizione": "Pantaloni sport da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità blu navy.",
+    "title": "Pantaloni sport bambino arancioni",
+    "subtitle": "Pantaloni morbidi arancioni",
+    "descrizione": "Pantaloni sport da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità arancione.",
     "price": 29.99,
     "categories": "bambino",
     "sale": 15,
     "newArrivals": true,
-    "image": "/images/bambino/pantaloni-sport-blu-navy.jpg"
+    "image": "https://images.pexels.com/photos/34272485/pexels-photo-34272485.jpeg"
   },
   {
     "id": 26,
