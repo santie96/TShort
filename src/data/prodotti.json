@@ -8,7 +8,7 @@
     "categoria": "uomo",
     "sconto": 0,
     "nuovoArrivo": true,
-    "immagine": "/images/uomo/t-shirt-nero.jpg"
+    "immagine": "https://images.pexels.com/photos/12154469/pexels-photo-12154469.jpeg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "categoria": "uomo",
     "sconto": 10,
     "nuovoArrivo": false,
-    "immagine": "/images/uomo/felpa-bianco.jpg"
+    "immagine": "https://images.pexels.com/photos/8217308/pexels-photo-8217308.jpeg"
   },
   {
     "id": 3,
