@@ -9,7 +9,7 @@ function CardProdotti({ id, image, title, subtitle, to }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsLargeScreen(widow.innerWidth >= 1024);
+      setIsLargeScreen(window.innerWidth >= 1024);
     };
 
     handleResize();
@@ -33,7 +33,7 @@ function CardProdotti({ id, image, title, subtitle, to }) {
             </div>
 
             <div className="absolute bottom-0 flex flex-1 items-end p-5 md:p-5 lg:p-5 w-full h-full inset-0 bg-[#191101]/10 justify-center">
-              <div className="py-2.5 w-full lg:translate-y-3 lg:opacity-0 lg:bg-[#23201D] max-[1024px]:bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:group-hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out text-base font-semibold">
+              <div className="py-2.5 w-full translate-y-3 opacity-0 bg-[#23201D] max-[1024px]:bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center transition-all group-hover:bg-[#C47048] group-hover:opacity-100 group-hover:translate-y-0 duration-500 ease-in-out text-base  font-semibold">
                 <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                   {isLargeScreen ? (
                     <span>+ Aggiungi al carrello</span>
