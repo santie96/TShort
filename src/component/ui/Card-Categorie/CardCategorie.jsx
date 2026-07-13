@@ -5,7 +5,7 @@ function CardCategorie({ title, subtitle, image, to }) {
   return (
     <>
       <NavLink to={to} className="relative overflow-hidden rounded-xl">
-        <div className="relative group aspect-[3/4] sm:aspect-[4/5] ">
+        <div className="relative group aspect-3/4 sm:aspect-4/5 ">
           <img
             src={image}
             alt={title}

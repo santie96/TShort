@@ -6,7 +6,6 @@ import { IoSearch } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";
-import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlineDeleteSweep } from "react-icons/md";
 import SideBarMenu from "./Navbar-Components/SideBarMenu";
 import SideBarCart from "./Navbar-Components/SideBarCart";
