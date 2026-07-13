@@ -1,13 +1,18 @@
-import CarouselHero from "../ui/Hero/CarouselHero";
-import ContCategorie from "../ui/Card-Categorie/ContCategorie";
-import ContProdotti from "../ui/Card-Prodotti/ContProdotti";
+import CarouselHero from "../ui/CarouselHero";
+import WidgetCategorie from "../ui/WidgetCategorie";
+import WidgetNuoviArrivi from "../ui/WidgetNuoviArrivi";
+import WidgetSaldi from "../ui/WidgetSaldi";
+
+
 
 function Home() {
   return (
     <>
       <CarouselHero />
-      <ContCategorie />
-      <ContProdotti />
+      <WidgetCategorie />
+      <WidgetNuoviArrivi />
+      <WidgetSaldi />
+     
     </>
   );
 }
