@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import HeroSaldi from "./HeroSaldi";
-import HeroNArrivi from "./HeroNArrivi";
-import HeroEssentials from "./HeroEssentials";
+import HeroSaldi from "./Hero/HeroSaldi";
+import HeroNArrivi from "./Hero/HeroNArrivi";
+import HeroEssentials from "./Hero/HeroEssentials";
 
 const realSlides = [<HeroSaldi key="saldi" />, <HeroNArrivi key="nuovi-arrivi" />, <HeroEssentials key="essentials" />];
 
