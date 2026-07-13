@@ -6,8 +6,8 @@
     "descrizione": "Top da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità blu navy.",
     "price": 29.99,
     "categories": "donna",
-    "sale": 15,
-    "newArrivals": false,
+    "sale": 0,
+    "newArrivals": true,
     "image": "https://images.pexels.com/photos/33083401/pexels-photo-33083401.jpeg"
   },
   {
@@ -17,8 +17,8 @@
     "descrizione": "Camicia da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità beige.",
     "price": 49.99,
     "categories": "uomo",
-    "sale": 30,
-    "newArrivals": false,
+    "sale": 0,
+    "newArrivals": true,
     "image": "https://images.pexels.com/photos/17251204/pexels-photo-17251204.jpeg"
   },
   {
@@ -28,7 +28,7 @@
     "descrizione": "Shorts da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 29.99,
     "categories": "bambina",
-    "sale": 50,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://images.pexels.com/photos/4048795/pexels-photo-4048795.jpeg"
   },
@@ -39,7 +39,7 @@
     "descrizione": "Jeans skinny da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 64.99,
     "categories": "donna",
-    "sale": 30,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://images.pexels.com/photos/17720422/pexels-photo-17720422.jpeg"
   },
@@ -50,8 +50,8 @@
     "descrizione": "Felpa da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 59.99,
     "categories": "bambina",
-    "sale": 10,
-    "newArrivals": false,
+    "sale": 0,
+    "newArrivals": true,
     "image": "https://images.pexels.com/photos/30683030/pexels-photo-30683030.jpeg"
   },
   {
@@ -61,7 +61,7 @@
     "descrizione": "Camicia da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 49.99,
     "categories": "bambino",
-    "sale": 50,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://img.magnific.com/free-photo/medium-shot-cute-modern-boy-posing_23-2148423275.jpg"
   },
@@ -73,7 +73,7 @@
     "price": 39.99,
     "categories": "bambina",
     "sale": 0,
-    "newArrivals": false,
+    "newArrivals": true,
     "image": "https://img.magnific.com/foto-gratuito/una-bambina-carina-che-balla-a-casa_1157-19732.jpg"
   },
   {
@@ -83,8 +83,8 @@
     "descrizione": "Giubbotto da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità verde oliva.",
     "price": 49.99,
     "categories": "bambino",
-    "sale": 25,
-    "newArrivals": false,
+    "sale": 0,
+    "newArrivals": true,
     "image": "https://images.pexels.com/photos/19179192/pexels-photo-19179192/free-photo-of-giacca-foglie-in-piedi-autunno.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
@@ -95,7 +95,7 @@
     "price": 24.99,
     "categories": "bambino",
     "sale": 0,
-    "newArrivals": false,
+    "newArrivals": true,
     "image": "https://img.magnific.com/foto-gratuito/studio-shot-di-bello-atletico-dalla-pelle-scura-ragazzino-in-posa-isolato-in-maglietta-nera-mantenendo-le-mani-sulla-sua-vita-formazione-al-chiuso_343059-2241.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "descrizione": "Jeans da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità grigio.",
     "price": 34.99,
     "categories": "bambino",
-    "sale": 20,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://plus.unsplash.com/premium_photo-1723809808474-d4f3488faf1d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -127,7 +127,7 @@
     "descrizione": "Gonna da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità marrone.",
     "price": 39.99,
     "categories": "donna",
-    "sale": 40,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://images.pexels.com/photos/9814509/pexels-photo-9814509.jpeg"
   },
@@ -138,8 +138,8 @@
     "descrizione": "Blazer da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità crema.",
     "price": 99.99,
     "categories": "uomo",
-    "sale": 50,
-    "newArrivals": false,
+    "sale": 0,
+    "newArrivals": true,
     "image": "https://img.magnific.com/foto-gratuito/ritratto-del-modello-sorridente-bello-dell-uomo-d-affari-dei-pantaloni-a-vita-bassa-che-indossa-vestito-beige-casuale_158538-891.jpg"
   },
   {
@@ -149,7 +149,7 @@
     "descrizione": "Jeans da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità chiara.",
     "price": 34.99,
     "categories": "bambina",
-    "sale": 40,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://img.magnific.com/foto-gratuito/ragazza-del-colpo-pieno-in-studio-con-lo-skateboard_23-2149853381.jpg"
   },
@@ -160,7 +160,7 @@
     "descrizione": "Pigiama da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano.",
     "price": 24.99,
     "categories": "bambina",
-    "sale": 35,
+    "sale": 0,
     "newArrivals": true,
     "image": "https://images.pexels.com/photos/18863554/pexels-photo-18863554.jpeg"
   },
@@ -171,8 +171,8 @@
     "descrizione": "Polo da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità blu navy.",
     "price": 34.99,
     "categories": "uomo",
-    "sale": 15,
-    "newArrivals": true,
+    "sale": 20,
+    "newArrivals": false,
     "image": "https://images.unsplash.com/photo-1625910513399-c9fcba54338c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
@@ -182,7 +182,7 @@
     "descrizione": "Blazer da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità antracite.",
     "price": 99.99,
     "categories": "donna",
-    "sale": 0,
+    "sale": 30,
     "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/bella-donna-alla-moda-che-posa-con-un-vestito-elegante_1328-3290.jpg"
   },
@@ -193,7 +193,7 @@
     "descrizione": "Cardigan da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità panna.",
     "price": 49.99,
     "categories": "bambina",
-    "sale": 25,
+    "sale": 40,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/5561136/pexels-photo-5561136.jpeg"
   },
@@ -204,7 +204,7 @@
     "descrizione": "Cardigan da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità verde oliva.",
     "price": 49.99,
     "categories": "donna",
-    "sale": 25,
+    "sale": 50,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/15254868/pexels-photo-15254868.jpeg"
   },
@@ -215,7 +215,7 @@
     "descrizione": "Giacca denim da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità marrone.",
     "price": 79.99,
     "categories": "uomo",
-    "sale": 40,
+    "sale": 20,
     "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/giovane-maschio-ispanico-in-una-giacca-di-pelle-seduto-al-tavolo-e-bere-caffe_181624-46224.jpg"
   },
@@ -226,7 +226,7 @@
     "descrizione": "Felpa da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 59.99,
     "categories": "bambino",
-    "sale": 10,
+    "sale": 30,
     "newArrivals": false,
     "image": "https://plus.unsplash.com/premium_photo-1706036778750-fb7d62e5c60d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -237,8 +237,8 @@
     "descrizione": "Shorts da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità ecrù.",
     "price": 29.99,
     "categories": "uomo",
-    "sale": 35,
-    "newArrivals": true,
+    "sale": 40,
+    "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/uomini-in-abito-minimal-camicia-maniche-lunghe-beige_53876-96983.jpg"
   },
   {
@@ -248,8 +248,8 @@
     "descrizione": "T-shirt da bambina Love Topolino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano.",
     "price": 24.99,
     "categories": "bambina",
-    "sale": 15,
-    "newArrivals": true,
+    "sale": 50,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/33762595/pexels-photo-33762595.jpeg"
   },
   {
@@ -259,7 +259,7 @@
     "descrizione": "Maglione da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 44.99,
     "categories": "bambino",
-    "sale": 0,
+    "sale": 20,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/33720559/pexels-photo-33720559.jpeg"
   },
@@ -270,8 +270,8 @@
     "descrizione": "Giacca denim da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità crema.",
     "price": 79.99,
     "categories": "donna",
-    "sale": 50,
-    "newArrivals": true,
+    "sale": 30,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/4946396/pexels-photo-4946396.jpeg"
   },
   {
@@ -281,7 +281,7 @@
     "descrizione": "Giacca da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità beige.",
     "price": 44.99,
     "categories": "bambina",
-    "sale": 0,
+    "sale": 40,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/37478759/pexels-photo-37478759.jpeg"
   },
@@ -292,7 +292,7 @@
     "descrizione": "Felpa da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità bianco.",
     "price": 59.99,
     "categories": "uomo",
-    "sale": 10,
+    "sale": 50,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/8217308/pexels-photo-8217308.jpeg"
   },
@@ -303,8 +303,8 @@
     "descrizione": "Pantaloni sport da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità arancione.",
     "price": 29.99,
     "categories": "bambino",
-    "sale": 15,
-    "newArrivals": true,
+    "sale": 20,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/34272485/pexels-photo-34272485.jpeg"
   },
   {
@@ -314,8 +314,8 @@
     "descrizione": "Leggings da bambina realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità grigio.",
     "price": 19.99,
     "categories": "bambina",
-    "sale": 20,
-    "newArrivals": true,
+    "sale": 30,
+    "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/ragazza-seduta-sul-pavimento-in-cemento-stretching_23-2147654890.jpg"
   },
   {
@@ -326,7 +326,7 @@
     "price": 29.99,
     "categories": "bambino",
     "sale": 40,
-    "newArrivals": true,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/25158812/pexels-photo-25158812/free-photo-of-in-piedi-sorridente-ragazzo-interni.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
@@ -336,7 +336,7 @@
     "descrizione": "Polo da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 34.99,
     "categories": "bambino",
-    "sale": 30,
+    "sale": 0,
     "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/ritratto-di-un-ragazzo-carino-in-una-maglietta-gialla-su-sfondo-nero-in-posa-per-la-fotocamera_78492-3830.jpg"
   },
@@ -347,8 +347,8 @@
     "descrizione": "Felpa da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità grigio.",
     "price": 59.99,
     "categories": "donna",
-    "sale": 20,
-    "newArrivals": true,
+    "sale": 0,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/6311387/pexels-photo-6311387.jpeg"
   },
   {
@@ -358,8 +358,8 @@
     "descrizione": "Tuta da bambino realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità ecrù.",
     "price": 39.99,
     "categories": "bambino",
-    "sale": 35,
-    "newArrivals": true,
+    "sale": 0,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/14571334/pexels-photo-14571334.jpeg?auto=compress&w=1260&h=750&dpr=1"
   },
   {
@@ -369,7 +369,7 @@
     "descrizione": "Pantaloni chino da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità verde oliva.",
     "price": 54.99,
     "categories": "uomo",
-    "sale": 25,
+    "sale": 0,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/8377395/pexels-photo-8377395.jpeg"
   },
@@ -380,7 +380,7 @@
     "descrizione": "T-shirt da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità bianco.",
     "price": 24.99,
     "categories": "donna",
-    "sale": 10,
+    "sale": 0,
     "newArrivals": false,
     "image": "https://plus.unsplash.com/premium_photo-1690349404224-53f94f20df8f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -391,7 +391,7 @@
     "descrizione": "Pantaloni palazzo da donna realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare grazie alla tonalità ecrù.",
     "price": 59.99,
     "categories": "donna",
-    "sale": 35,
+    "sale": 0,
     "newArrivals": false,
     "image": "https://images.pexels.com/photos/18173600/pexels-photo-18173600.jpeg"
   },
@@ -403,7 +403,7 @@
     "price": 69.99,
     "categories": "donna",
     "sale": 0,
-    "newArrivals": true,
+    "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/giovane-all-aperto-bellezza-ondulate-carino_1139-827.jpg"
   },
   {
@@ -413,8 +413,8 @@
     "descrizione": "Jeans slim da uomo realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 69.99,
     "categories": "uomo",
-    "sale": 20,
-    "newArrivals": true,
+    "sale": 0,
+    "newArrivals": false,
     "image": "https://images.pexels.com/photos/30710244/pexels-photo-30710244.jpeg"
   },
   {
@@ -425,7 +425,7 @@
     "price": 44.99,
     "categories": "uomo",
     "sale": 0,
-    "newArrivals": true,
+    "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/uomo-serio-con-uno-sfondo-grigio-e-una-sciarpa_1139-679.jpg"
   },
   {
@@ -435,7 +435,7 @@
     "descrizione": "Gonna da bambina a pua realizzato con tessuti morbidi e resistenti, ideale per un utilizzo quotidiano e facile da abbinare.",
     "price": 39.99,
     "categories": "bambina",
-    "sale": 30,
+    "sale": 0,
     "newArrivals": false,
     "image": "https://img.magnific.com/foto-gratuito/ragazza-a-piedi-nudi-con-pecore-giocattolo_23-2147830554.jpg"
   }

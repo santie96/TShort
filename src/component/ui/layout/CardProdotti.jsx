@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 
-function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale }) {
+function CardProdotti({ id, image, title, subtitle, to, newArrivals, sale }) {
   const [isLargeScreen, setIsLargeScreen] = useState(() =>
     typeof window !== "undefined" ? window.innerWidth >= 1024 : false
   );
@@ -19,8 +19,8 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
   }, []);
 
   const badgeText = newArrivals ? "Novità" : sale > 0 ? "Saldi" : "";
-  const badgeColor = newArrivals || sale > 0 ? "bg-[#3F8AAC]" : "hidden";
-
+  const badgeColor = newArrivals ? "bg-[#3F8AAC]" : sale > 0 ? "bg-[#D33B36]" : "hidden";
+  
   return (
     <>
       <div className="flex flex-col">
@@ -39,9 +39,18 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
               </div>
             )}
 
-            <div className="absolute bottom-0 flex items-end p-5 md:p-5 lg:p-5 w-full h-full inset-0 bg-[#191101]/10 justify-between">
-              <div className="p-2.5 w-full lg:translate-y-3 lg:opacity-0 bg-[#23201D] text-[#F6F4F0] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:group-hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out">
-                <button className="cursor-pointer">Aggiungi al carrello</button>
+            <div className="absolute bottom-0 flex flex-1 items-end p-5 md:p-5 lg:p-5 w-full h-full inset-0 bg-[#191101]/10 justify-center">
+              <div className="py-2.5 w-full translate-y-3 opacity-0 bg-[#23201D] max-[1024px]:bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center transition-all group-hover:bg-[#C47048] group-hover:opacity-100 group-hover:translate-y-0 duration-500 ease-in-out text-base font-semibold">
+                <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
+                  {isLargeScreen ? (
+                    <span>+ Aggiungi al carrello</span>
+                  ) : (
+                    <>
+                      <MdOutlineAddShoppingCart className="text-lg" />
+                      <span>Aggiungi</span>
+                    </>
+                  )}
+                </button>
               </div>
             </div>
           </div>
@@ -49,7 +58,6 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
         <div className="text-black">
           <h2 className="text-base font-semibold font-title">{title}</h2>
           <p className="text-sm font-text">{subtitle}</p>
-          <span className="text-sm font-text">{price} €</span>
         </div>
       </div>
     </>
