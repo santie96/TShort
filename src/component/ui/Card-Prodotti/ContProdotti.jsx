@@ -6,8 +6,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 function ContProdotti() {
   return (
     <>
-      <div>
-        <div className="bg-[#F6F4F0] w-full px-4 sm:px-6 lg:px-50 py-4 md:py-6">
+      <div className="bg-[#F6F4F0]">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="flex flex-col justify-start items-start">
             <div className="w-full">
               <div>

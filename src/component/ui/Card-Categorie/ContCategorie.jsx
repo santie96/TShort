@@ -23,8 +23,8 @@ function ContCategorie() {
   ];
   return (
     <>
-      <div>
-        <div className="bg-[#F6F4F0] w-full px-4 sm:px-6 lg:px-50 py-4 md:py-6">
+      <div className="bg-[#F6F4F0]">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="flex flex-col justify-center items-center">
             <span className="uppercase text-sm font-text text-[#C47048] mt-8">Fai la tua scelta</span>
             <h2 className="font-title text-[#211D1A] font-semibold text-title-size text-center lg:text-[2.25rem]">
