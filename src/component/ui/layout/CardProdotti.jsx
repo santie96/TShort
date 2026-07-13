@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 
-function CardProdotti({ id, image, title, subtitle, to, newArrivals, sale }) {
+function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale }) {
   const [isLargeScreen, setIsLargeScreen] = useState(() =>
     typeof window !== "undefined" ? window.innerWidth >= 1024 : false
   );
@@ -20,7 +20,20 @@ function CardProdotti({ id, image, title, subtitle, to, newArrivals, sale }) {
 
   const badgeText = newArrivals ? "Novità" : sale > 0 ? "Saldi" : "";
   const badgeColor = newArrivals ? "bg-[#3F8AAC]" : sale > 0 ? "bg-[#D33B36]" : "hidden";
-  
+
+  const priceSale = price - ((price * sale) / 100);
+
+  const truncate = (num, decimals = 2) => {
+    const factor = 10 ** decimals; /* I due ** equivalgono a 10^10 (10 alla seconda) */
+    return Math.floor(num * factor) / factor;
+  };
+
+  const priceSale2 = truncate(priceSale, 2).toFixed(2); // tronca, poi forza 2 decimali per la visualizzazione
+
+  const priceTot = sale === 0 ? price : priceSale2;
+
+  const showSale = !newArrivals && sale > 0;
+
   return (
     <>
       <div className="flex flex-col">
@@ -33,14 +46,14 @@ function CardProdotti({ id, image, title, subtitle, to, newArrivals, sale }) {
             />
             {badgeText && (
               <div className="absolute top-0 p-3 md:p-5 lg:p-5 inset-0">
-                <span className={`text-[#F6F4F0] rounded-2xl px-1.5 py-[0.175rem] text-sm ${badgeColor}`}>
+                <span className={`text-[#F6F4F0] rounded-md px-1.5 py-[0.175rem] text-sm md:text-base ${badgeColor}`}>
                   {badgeText}
                 </span>
               </div>
             )}
 
             <div className="absolute bottom-0 flex flex-1 items-end p-5 md:p-5 lg:p-5 w-full h-full inset-0 bg-[#191101]/10 justify-center">
-              <div className="py-2.5 w-full translate-y-3 opacity-0 bg-[#23201D] max-[1024px]:bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center transition-all group-hover:bg-[#C47048] group-hover:opacity-100 group-hover:translate-y-0 duration-500 ease-in-out text-base font-semibold">
+              <div className="py-2.5 w-full lg:translate-y-3 lg:opacity-0 bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:group-hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out text-base  font-semibold">
                 <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                   {isLargeScreen ? (
                     <span>+ Aggiungi al carrello</span>
@@ -55,9 +68,28 @@ function CardProdotti({ id, image, title, subtitle, to, newArrivals, sale }) {
             </div>
           </div>
         </NavLink>
-        <div className="text-black">
-          <h2 className="text-base font-semibold font-title">{title}</h2>
+        <div className="text-black font-text flex flex-col gap-1">
+          <h2 className="text-base font-semibold font-title l">{title}</h2>
           <p className="text-sm font-text">{subtitle}</p>
+
+          {showSale ? (
+            <div className="flex gap-2 items-center font-text">
+
+              <span className="text-sm font-text line-through font-medium">{price}€</span>
+
+              <div className="flex gap-2 items-center bg-red-500/20 px-1">
+                <span className="text-red-600 font-medium">{`${priceTot}`}€</span>
+                <span className="text-red-600 text-sm font-medium">{sale}%</span>
+              </div>
+
+
+            </div>) : (
+            <>
+              <span className="font-text font-medium">{price}€</span>
+            </>
+          )}
+
+
         </div>
       </div>
     </>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import CardProdotti from "./Card-Prodotti/CardProdotti";
+import CardProdotti from "./layout/CardProdotti";
 import prodotti from "../../data/prodotti.json";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
