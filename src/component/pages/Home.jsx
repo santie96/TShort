@@ -5,6 +5,7 @@ import WidgetSaldi from "../ui/WidgetSaldi";
 
 
 
+
 function Home() {
   return (
     <>
@@ -12,7 +13,9 @@ function Home() {
       <WidgetCategorie />
       <WidgetNuoviArrivi />
       <WidgetSaldi />
-     
+   
+
+
     </>
   );
 }
