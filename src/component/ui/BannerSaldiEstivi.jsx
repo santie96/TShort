@@ -15,7 +15,7 @@ function BannerSaldiEstivi() {
                             <p className="text-sm mt-1 md:text-2xl lg:text-4xl lg:mt-3">Sui tuoi look preferiti</p>
                             <Link to="/saldi">
                                 <button type="button" className="bg-red-500 text-[#F6F4F0] p-1 rounded-md text-sm flex items-center gap-2 mt-2 md:mt-3 md:text-2xl lg:text-3xl lg:px-3 lg:py-2 lg:mt-7 cursor-pointer transition-transform lg:hover:scale-110 lg:hover:translate-x-4 duration-300 ease-in-out">
-                                    <p>Scopri i Saldi</p>
+                                    <p>Scopri di più</p>
                                     <HiArrowLongRight />
                                 </button>
                             </Link>
@@ -25,8 +25,11 @@ function BannerSaldiEstivi() {
 
                 </div>
             </div>
+
+            
         </>
     );
 }
 
 export default BannerSaldiEstivi;
+
