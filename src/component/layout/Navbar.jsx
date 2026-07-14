@@ -20,6 +20,7 @@ function Navbar() {
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [isSearchOpen, setSearchOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
+    const [isScrolled, setIsScrolled] = useState(false);
 
     const hasSearchText = searchQuery.trim().length > 0;
 
@@ -37,8 +38,18 @@ function Navbar() {
         };
     }, [isCartOpen]);
 
+    useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 0);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+    
+     
+
     return (
         <>
+
+       
 
             <section className="w-full text-center">
                 <div className="bg-[#211D1A] py-2">
@@ -47,7 +58,7 @@ function Navbar() {
             </section>
 
 
-            <header className="w-full z-20 bg-[#F6F4F0] flex items-center sticky top-0 ">
+            <header className={`w-full z-20 bg-[#F6F4F0]/96 flex items-center sticky top-0 ${isScrolled ? 'border-b border-[#DDDAD5]' : 'border-b border-transparent'}`}>
                 <div className="w-full h-full text-center">
                     <div className="flex items-center justify-between px-5 py-4 w-full">
 
