@@ -1,10 +1,9 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import imgHeroSaldi from "../../../img/hero/Saldi.webp"
 
 function HeroSaldi() {
-    return (
-        <>
-        
-        <section className="relative bg-[url('./src/img/hero/Saldi.webp')] max-[769px]:bg-bottom bg-cover bg-no-repeat min-h-[55vh] md:min-h-140">
+  return (
+    <section className={`relative max-[769px]:bg-bottom bg-cover bg-no-repeat min-h-[55vh] md:min-h-140`} style={{ backgroundImage: `url(${imgHeroSaldi})` }}>
             <div className="flex flex-col justify-center items-center absolute w-full h-full inset-0 bg-black/50">
                 <h2 className="text-[#F6F4F0] font-title text-6xl">SALDI</h2>
                 <h3 className="text-[#F6F4F0] font-text mt-3 text-2xl">fino al <span className="font-bold bg-[#F6F4F0] text-[#D33B36]">50%</span></h3>
@@ -19,9 +18,7 @@ function HeroSaldi() {
                 <p className="text-[#F6F4F0] text-sm mt-3">Saldi disponibili fino al 10/08.</p>
             </div>
             
-        </section>
-        </>
-        
+        </section>        
     )
 }
 

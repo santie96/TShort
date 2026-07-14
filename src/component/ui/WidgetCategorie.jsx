@@ -1,23 +1,26 @@
 import CardCategorie from "./layout/CardCategorie";
+import CatUomo from "../../img/categoria/men.webp"
+import CatDonna from "../../img/categoria/women.webp"
+import CatBambini from "../../img/categoria/kids.webp"
 
 function WidgetCategorie() {
   const categorie = [
     {
       title: "Donna",
       subtitle: "Silhouette morbide e tessuti naturali",
-      image: "./src/img/categoria/women.webp",
+      image: CatDonna,
       to: "/abbigliamento-donna",
     },
     {
       title: "Uomo",
       subtitle: "Essenziali e versatili per ogni giorno",
-      image: "./src/img/categoria/men.webp",
+      image: CatUomo,
       to: "/abbigliamento-uomo",
     },
     {
       title: "Bambini",
       subtitle: "Comfort e calore per i più piccoli",
-      image: "./src/img/categoria/kids.webp",
+      image: CatBambini,
       to: "/abbigliamento-bambini",
     },
   ];
