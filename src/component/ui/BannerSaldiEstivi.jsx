@@ -14,7 +14,7 @@ function BannerSaldiEstivi() {
                             <h2 className="font-title text-xl mt-2 md:mt-6 font-semibold md:text-4xl lg:text-7xl lg:mt-6">Fino al <span className="text-red-500 underline lg:text-8xl text-3xl md:text-6xl">50 %</span> <br /> di sconto</h2>
                             <p className="text-sm mt-1 md:text-2xl lg:text-4xl lg:mt-3">Sui tuoi look preferiti</p>
                             <Link to="/saldi">
-                                <button type="button" className="bg-red-500 text-[#F6F4F0] p-1 rounded-md text-sm flex items-center gap-2 mt-2 md:mt-3 md:text-xl lg:text-2xl lg:px-3 lg:py-2 lg:mt-7 cursor-pointer transition-transform lg:hover:scale-110 lg:hover:translate-x-4 duration-300 ease-in-out shadow">
+                                <button type="button" className="bg-red-500 text-[#F6F4F0] p-1 rounded-xl text-sm flex items-center gap-2 mt-2 md:mt-3 md:text-xl lg:text-2xl lg:px-3 lg:py-2 lg:mt-7 cursor-pointer transition-transform lg:hover:scale-105 lg:hover:translate-x-2 duration-300 ease-in-out shadow-md shadow-black/20">
                                     <p>Scopri di più</p>
                                     <HiArrowLongRight />
                                 </button>
