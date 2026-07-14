@@ -3,6 +3,7 @@ import WidgetCategorie from "../ui/WidgetCategorie";
 import WidgetNuoviArrivi from "../ui/WidgetNuoviArrivi";
 import BannerSaldiEstivi from "../ui/BannerSaldiEstivi";
 import WidgetSaldi from "../ui/WidgetSaldi";
+import WidgetRecensioni from "../ui/WidgetRecensioni";
 
 
 
@@ -15,9 +16,8 @@ function Home() {
       <WidgetNuoviArrivi />
       <BannerSaldiEstivi />
       <WidgetSaldi />
-   
 
-
+      <WidgetRecensioni />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import CardProdotti from "./layout/CardProdotti";
-import prodotti from "../../data/prodotti.json";
+import Prodotti from "../../data/prodotti.json";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function WidgetSaldi() {
@@ -28,7 +28,7 @@ function WidgetSaldi() {
             </div>
             <div className="mt-4">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-4">
-                {prodotti
+                {Prodotti
                   .filter((item) => item.sale > 0)
                   .slice(0, 4)
                   .map((item) => (
