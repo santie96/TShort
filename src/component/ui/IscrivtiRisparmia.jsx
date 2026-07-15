@@ -5,16 +5,19 @@ function IscrivitiRisparmia() {
     const [email, setEmail] = useState("")
     const [isSubmitted, setIsSubmitted] = useState(false)
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!email.trim()) return;
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        if (!email.trim())
+            console.log("Non puoi passare")
+        return;
+
 
         setIsSubmitted(true);
 
         setTimeout(() => {
             setIsSubmitted(false)
             setEmail("")
-        }, 5000)
+        }, 6000)
 
     }
 
@@ -32,6 +35,7 @@ function IscrivitiRisparmia() {
                         {isSubmitted ? (
 
                             <div className="w-full max-w-md mx-auto bg-[#C47048]/40 border border-[#C47048]/30 text-[#C47048] py-4 px-6 rounded-3xl text-center flex flex-col items-center gap-1.5 transition-all duration-300">
+
                                 <p className="font-semibold text-lg text-white">Iscrizione completata!</p>
                                 <p className="text-sm text-[#f0ede7]/80">Controlla la tua casella di posta per ricevere il codice sconto.</p>
                             </div>
