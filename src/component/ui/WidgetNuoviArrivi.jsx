@@ -7,7 +7,7 @@ function WidgetNuoviArrivi() {
   return (
     <>
       <div className="bg-[#F6F4F0]">
-        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-15">
+        <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8 lg:py-15">
           <div className="flex flex-col justify-start items-start">
             <div className="w-full">
               <div>
