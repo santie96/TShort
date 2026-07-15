@@ -5,7 +5,7 @@ import { CiInstagram } from "react-icons/ci";
 function Footer() {
   return (
     <>
-      <footer className="bg-[#F6F4F0] text-[#211D1A] text-size font-text p-7">
+      <footer className="bg-[#F6F4F0] text-[#211D1A] text-size font-text p-7 border-t border-[#DDDAD5]">
         {/* CONTIENE TUTTO */}
         <div className="flex items-center flex-col gap-6">
           {/* SECTION 1 */}
