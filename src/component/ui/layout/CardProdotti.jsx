@@ -19,7 +19,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
   }, []);
 
   const badgeText = newArrivals ? "Novità" : sale > 0 ? "Saldi" : "";
-  const badgeColor = newArrivals ? "bg-[#3F8AAC]" : sale > 0 ? "bg-[#D33B36]" : "hidden";
+  const badgeColor = newArrivals ? "bg-[#3F8AAC]" : sale > 0 ? "bg-red-600" : "hidden";
 
   const priceSale = price - ((price * sale) / 100);
 
