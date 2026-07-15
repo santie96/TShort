@@ -1,8 +1,7 @@
-function CardRecensioni( { id, Stars,  Description, Name, City }) {
+function CardRecensioni({ Stars, Description, Name, City }) {
     return (
-        <>
-            <div className="bg-[#F6F4F0] h-auto mt-4 border border-[#DDDAD5] rounded-2xl">
-                <div className="p-5 grid gap-3 font-text">
+        <article className="mt-4 h-auto rounded-2xl border border-[#DDDAD5] bg-[#F6F4F0]">
+            <div className="grid gap-3 p-5 font-text">
 
                     
                     <span>{Stars}</span>
@@ -17,11 +16,8 @@ function CardRecensioni( { id, Stars,  Description, Name, City }) {
                         <span>{City}</span>
                     </div>
                     
-                </div>
-                
-
             </div>
-        </>
+        </article>
     )
 }
 

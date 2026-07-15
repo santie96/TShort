@@ -17,11 +17,12 @@ function Home() {
       <WidgetNuoviArrivi />
       <BannerSaldiEstivi />
       <WidgetSaldi />
-      <IscrivitiRisparmia />
-   
-
-
       <WidgetRecensioni />
+      <IscrivitiRisparmia />
+
+
+
+
     </>
   );
 }
