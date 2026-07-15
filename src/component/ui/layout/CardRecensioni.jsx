@@ -1,10 +1,12 @@
-function CardRecensioni({ Stars, Description, Name, City }) {
+import Stars from "../../utilities/Stars";
+
+function CardRecensioni({ Stars: rating, Description, Name, City }) {
     return (
         <article className="mt-4 h-auto rounded-2xl border border-[#DDDAD5] bg-[#F6F4F0]">
             <div className="grid gap-3 p-5 font-text">
 
                     
-                    <span>{Stars}</span>
+                    <Stars rating={rating} />
 
                     <p>"{Description}"</p>
 

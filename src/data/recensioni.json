@@ -2,70 +2,70 @@
   {
     "id": 1,
     "Stars": 5,
-    "Description": "Ho acquistato una giacca e una camicia e sono rimasta davvero soddisfatta. I tessuti sono di ottima qualità, la vestibilità è perfetta e la spedizione è arrivata con un giorno di anticipo.",
+    "Description": "Giacca perfetta, tessuti ottimi, veste benissimo. Acquisto davvero consigliato. ",
     "Name": "Sara F.",
     "City": "Milano"
   },
   {
     "id": 2,
     "Stars": 5,
-    "Description": "Ho ordinato una felpa e un pantalone e sono rimasto piacevolmente sorpreso. I materiali sono resistenti, le finiture curate e la consegna è stata puntuale e senza alcun problema.",
+    "Description": "Felpa comodissima, materiali ottimi, finiture curate. Acquisto consigliatissimo.",
     "Name": "Marco R.",
     "City": "Roma"
   },
   {
     "id": 3,
     "Stars": 5,
-    "Description": "Le maglie acquistate vestono perfettamente e corrispondono esattamente alle foto del sito. Ottima qualità dei tessuti, ordine semplice e spedizione veloce. Sicuramente acquisterò ancora in futuro.",
+    "Description": "Maglie stupende, qualità elevata, spedizione rapida. Comprerò ancora presto.    ",
     "Name": "Giulia B.",
     "City": "Napoli"
   },
   {
     "id": 4,
     "Stars": 5,
-    "Description": "Esperienza di acquisto davvero positiva sotto ogni aspetto. Il prodotto è arrivato ben confezionato, la qualità è eccellente e il servizio clienti è stato molto disponibile e gentile.",
+    "Description": "Servizio impeccabile, qualità eccellente, prodotto perfetto. Tutto ottimo sempre",
     "Name": "Luca P.",
     "City": "Torino"
   },
   {
     "id": 5,
     "Stars": 5,
-    "Description": "Ho ricevuto il mio ordine in pochissimi giorni e sono rimasta molto contenta. I capi sono ben rifiniti, comodi da indossare e mantengono la forma anche dopo il lavaggio.",
+    "Description": "Ordine veloce, capi comodissimi, ottima qualità. Esperienza molto positiva.     ",
     "Name": "Chiara M.",
     "City": "Bologna"
   },
   {
     "id": 6,
     "Stars": 5,
-    "Description": "È già il terzo ordine che effettuo e la qualità continua a sorprendermi. Vestibilità impeccabile, tessuti piacevoli al tatto e spedizione sempre precisa e puntuale in ogni acquisto.",
+    "Description": "Terzo ordine perfetto, tessuti ottimi, spedizione precisa. Molto soddisfatto.   ",
     "Name": "Elena C.",
     "City": "Firenze"
   },
   {
     "id": 7,
     "Stars": 5,
-    "Description": "Sono molto soddisfatto dell'acquisto perché i capi sono esattamente come descritti. Ottima qualità dei materiali, vestibilità corretta e consegna rapida con un imballaggio davvero curato.",
+    "Description": "Capi eccellenti, vestibilità perfetta, consegna rapida. Imballo molto curato.   ",
     "Name": "Davide G.",
     "City": "Genova"
   },
   {
     "id": 8,
     "Stars": 4.5,
-    "Description": "I prodotti sono di ottima qualità e la vestibilità è davvero comoda. Avrei preferito trovare qualche colore in più, ma nel complesso l'esperienza è stata molto positiva.",
+    "Description": "Ottima qualità, capi comodi, più colori sarebbero graditi. Consigliatissimo.!!!!",
     "Name": "Martina L.",
     "City": "Venezia"
   },
   {
     "id": 9,
     "Stars": 4.5,
-    "Description": "Sono rimasto soddisfatto del mio ordine perché i capi rispettano le aspettative. Solo il tracking della spedizione è stato aggiornato con un po' di ritardo rispetto al previsto.",
+    "Description": "Prodotti validi, tracking lento, esperienza positiva. Acquisto soddisfacente.!!!",
     "Name": "Alessandro T.",
     "City": "Palermo"
   },
   {
     "id": 10,
     "Stars": 4,
-    "Description": "La qualità dei prodotti è buona e la vestibilità rispecchia la guida alle taglie. La consegna ha richiesto qualche giorno in più, ma nel complesso sono soddisfatto dell'acquisto.",
+    "Description": "Buona qualità, taglie corrette, consegna lenta. Rimango comunque soddisfatto.!!!",
     "Name": "Francesca D.",
     "City": "Bari"
   }
