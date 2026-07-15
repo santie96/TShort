@@ -1,17 +1,50 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import Recensioni from "../../data/recensioni.json";
 import CardRecensioni from "./layout/CardRecensioni";
 
-const REVIEWS_PER_PAGE = 3;
+const REVIEWS_PER_PAGE_Large = 3;
+const REVIEWS_PER_PAGE_Medium = 2;
+const REVIEWS_PER_PAGE_Small = 1;
+
+const getReviewsPerPage = () => {
+  if (window.innerWidth < 768) return REVIEWS_PER_PAGE_Small;
+  if (window.innerWidth < 1024) return REVIEWS_PER_PAGE_Medium;
+  return REVIEWS_PER_PAGE_Large;
+};
 
 function WidgetRecensioni() {
   const [slideReview, setSlideReview] = useState(0);
-  const lastStartIndex = Math.max(0, Recensioni.length - REVIEWS_PER_PAGE);
+  const [reviewsPerPage, setReviewsPerPage] = useState(
+    REVIEWS_PER_PAGE_Large
+  );
+
+  useEffect(() => {
+    const updateReviewsPerPage = () => {
+      setReviewsPerPage(getReviewsPerPage());
+    };
+
+    updateReviewsPerPage();
+    window.addEventListener("resize", updateReviewsPerPage);
+
+    return () => window.removeEventListener("resize", updateReviewsPerPage);
+  }, []);
+
+  const lastStartIndex = Math.max(
+    0,
+    Recensioni.length - reviewsPerPage
+  );
+
+  useEffect(() => {
+    setSlideReview((current) => Math.min(current, lastStartIndex));
+  }, [lastStartIndex]);
+
   const visibleReviews = Recensioni.slice(
     slideReview,
-    slideReview + REVIEWS_PER_PAGE,
+    slideReview + reviewsPerPage
   );
+
+
 
   const next = () => {
     setSlideReview((current) => Math.min(current + 1, lastStartIndex));
@@ -20,6 +53,7 @@ function WidgetRecensioni() {
   const back = () => {
     setSlideReview((current) => Math.max(current - 1, 0));
   };
+
 
   return (
     <section className="bg-[#FDFCF9]">
