@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 
 function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale }) {
@@ -37,7 +37,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
   return (
     <>
       <div className="flex flex-col">
-        <NavLink to={to} className="relative overflow-hidden rounded-xl">
+        <Link to={`/prodotto/${id}`} className="relative overflow-hidden rounded-xl">
           <div className="relative group aspect-3/4 sm:aspect-4/5 ">
             <img
               src={image}
@@ -67,7 +67,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
               </div>
             </div>
           </div>
-        </NavLink>
+        </Link>
         <div className="text-black font-text flex flex-col gap-1">
           <h2 className="text-base font-semibold font-title l">{title}</h2>
           <p className="text-sm font-text">{subtitle}</p>

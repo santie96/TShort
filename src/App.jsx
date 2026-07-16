@@ -15,6 +15,7 @@ import Privacy from "./component/pages/Privacy";
 import TerminiCondizioni from "./component/pages/TerminiCondizioni";
 import Preferiti from "./component/pages/Preferiti";
 import Utente from "./component/pages/Utente";
+import Prodotto from "./component/pages/Layout/ProdottoDettagli"
 
 import { Routes, Route } from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="catalogo" element={<Catalogo />} />
+        <Route path="prodotto/:id" element={<Prodotto />} />
         <Route path="abbigliamento-bambini" element={<ABambini />} />
         <Route path="abbigliamento-uomo" element={<AUomo />} />
         <Route path="abbigliamento-donna" element={<ADonna />} />
