@@ -8,7 +8,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Blu navy",
         "hex": "#22304A"
@@ -35,7 +35,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Beige",
         "hex": "#D8C3A5"
@@ -66,7 +66,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Marrone",
         "hex": "#7B4B2A"
@@ -102,7 +102,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Ecrù",
         "hex": "#F5F5DC"
@@ -129,7 +129,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Rosso",
         "hex": "#C62828"
@@ -157,7 +157,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Blu",
         "hex": "#2F5D9F"
@@ -189,7 +189,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Grigio",
         "hex": "#808080"
@@ -221,7 +221,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Verde oliva",
         "hex": "#556B2F"
@@ -257,7 +257,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Antracite",
         "hex": "#36454F"
@@ -293,7 +293,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Nero",
         "hex": "#211D1A"
@@ -324,7 +324,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Grigio",
         "hex": "#808080"
@@ -356,7 +356,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Marrone",
         "hex": "#7B4B2A"
@@ -387,7 +387,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Crema",
         "hex": "#F5F1E8"
@@ -414,7 +414,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Antracite",
         "hex": "#36454F"
@@ -446,7 +446,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": true,
-    "color": [
+    "colors": [
       {
         "nome": "Crema",
         "hex": "#F5F1E8"
@@ -482,7 +482,7 @@
     "categories": "uomo",
     "sale": 20,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Blu navy",
         "hex": "#22304A"
@@ -509,7 +509,7 @@
     "categories": "donna",
     "sale": 30,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Antracite",
         "hex": "#36454F"
@@ -536,7 +536,7 @@
     "categories": "bambina",
     "sale": 40,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Bianco",
         "hex": "#FFFFFF"
@@ -564,7 +564,7 @@
     "categories": "donna",
     "sale": 50,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Verde oliva",
         "hex": "#556B2F"
@@ -599,7 +599,7 @@
     "categories": "uomo",
     "sale": 20,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Marrone",
         "hex": "#7B4B2A"
@@ -630,7 +630,7 @@
     "categories": "bambino",
     "sale": 30,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Marrone",
         "hex": "#7B4B2A"
@@ -666,7 +666,7 @@
     "categories": "uomo",
     "sale": 40,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Ecrù",
         "hex": "#F5F5DC"
@@ -697,7 +697,7 @@
     "categories": "bambina",
     "sale": 50,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Beige",
         "hex": "#D8C3A5"
@@ -725,7 +725,7 @@
     "categories": "bambino",
     "sale": 20,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Rosso",
         "hex": "#C62828"
@@ -761,7 +761,7 @@
     "categories": "donna",
     "sale": 30,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Crema",
         "hex": "#F5F1E8"
@@ -796,7 +796,7 @@
     "categories": "bambina",
     "sale": 40,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Beige",
         "hex": "#D8C3A5"
@@ -832,7 +832,7 @@
     "categories": "uomo",
     "sale": 50,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Bianco",
         "hex": "#FFFFFF"
@@ -863,7 +863,7 @@
     "categories": "bambino",
     "sale": 20,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Rosso",
         "hex": "#C62828"
@@ -891,7 +891,7 @@
     "categories": "bambina",
     "sale": 30,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Grigio",
         "hex": "#808080"
@@ -927,7 +927,7 @@
     "categories": "bambino",
     "sale": 40,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Nero",
         "hex": "#211D1A"
@@ -955,7 +955,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Blu navy",
         "hex": "#22304A"
@@ -987,7 +987,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Grigio",
         "hex": "#808080"
@@ -1022,7 +1022,7 @@
     "categories": "bambino",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Ecrù",
         "hex": "#F5F5DC"
@@ -1050,7 +1050,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Verde oliva",
         "hex": "#556B2F"
@@ -1081,7 +1081,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Bianco",
         "hex": "#FFFFFF"
@@ -1108,7 +1108,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Ecrù",
         "hex": "#F5F5DC"
@@ -1143,7 +1143,7 @@
     "categories": "donna",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Nero",
         "hex": "#211D1A"
@@ -1174,7 +1174,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Blu",
         "hex": "#2F5D9F"
@@ -1205,7 +1205,7 @@
     "categories": "uomo",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Antracite",
         "hex": "#36454F"
@@ -1240,7 +1240,7 @@
     "categories": "bambina",
     "sale": 0,
     "newArrivals": false,
-    "color": [
+    "colors": [
       {
         "nome": "Verde oliva",
         "hex": "#556B2F"

@@ -15,10 +15,9 @@ import Privacy from "./component/pages/Privacy";
 import TerminiCondizioni from "./component/pages/TerminiCondizioni";
 import Preferiti from "./component/pages/Preferiti";
 import Utente from "./component/pages/Utente";
-import Prodotto from "./component/pages/Layout/ProdottoDettagli"
+import Prodotto from "./component/pages/Layout/Prodotto"
 
 import { Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -46,3 +45,5 @@ function App() {
 }
 
 export default App;
+
+
