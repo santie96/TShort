@@ -24,7 +24,7 @@
       "L"
     ],
     "disponibilita": 9,
-    "image": "https://images.pexels.com/photos/33083401/pexels-photo-33083401.jpeg"
+    "image": "/img/webP/prodotto-15.webp"
   },
   {
     "id": 4,
@@ -55,7 +55,7 @@
       "L"
     ],
     "disponibilita": 13,
-    "image": "https://images.pexels.com/photos/17251204/pexels-photo-17251204.jpeg"
+    "image": "/img/webP/prodotto-4.webp"
   },
   {
     "id": 40,
@@ -91,7 +91,7 @@
       "10Y"
     ],
     "disponibilita": 4,
-    "image": "https://images.pexels.com/photos/4048795/pexels-photo-4048795.jpeg"
+    "image": "/img/webP/prodotto-40.webp"
   },
   {
     "id": 14,
@@ -118,7 +118,7 @@
       "L"
     ],
     "disponibilita": 28,
-    "image": "https://images.pexels.com/photos/17720422/pexels-photo-17720422.jpeg"
+    "image": "/img/webP/prodotto-14.webp"
   },
   {
     "id": 32,
@@ -146,7 +146,7 @@
       "10Y"
     ],
     "disponibilita": 18,
-    "image": "https://images.pexels.com/photos/30683030/pexels-photo-30683030.jpeg"
+    "image": "/img/webP/prodotto-32.webp"
   },
   {
     "id": 30,
@@ -178,7 +178,7 @@
       "10Y"
     ],
     "disponibilita": 5,
-    "image": "https://img.magnific.com/free-photo/medium-shot-cute-modern-boy-posing_23-2148423275.jpg"
+    "image": "/img/webP/prodotto-30.webp"
   },
   {
     "id": 31,
@@ -210,7 +210,7 @@
       "10Y"
     ],
     "disponibilita": 21,
-    "image": "https://img.magnific.com/foto-gratuito/una-bambina-carina-che-balla-a-casa_1157-19732.jpg"
+    "image": "/img/webP/prodotto-31.webp"
   },
   {
     "id": 26,
@@ -246,7 +246,7 @@
       "10Y"
     ],
     "disponibilita": 16,
-    "image": "https://images.pexels.com/photos/19179192/pexels-photo-19179192/free-photo-of-giacca-foglie-in-piedi-autunno.jpeg?auto=compress&w=1260&h=750&dpr=1"
+    "image": "/img/webP/prodotto-26.webp"
   },
   {
     "id": 21,
@@ -282,7 +282,7 @@
       "10Y"
     ],
     "disponibilita": 48,
-    "image": "https://img.magnific.com/foto-gratuito/studio-shot-di-bello-atletico-dalla-pelle-scura-ragazzino-in-posa-isolato-in-maglietta-nera-mantenendo-le-mani-sulla-sua-vita-formazione-al-chiuso_343059-2241.jpg"
+    "image": "/img/webP/prodotto-21.webp"
   },
   {
     "id": 1,
@@ -313,7 +313,7 @@
       "L"
     ],
     "disponibilita": 46,
-    "image": "https://images.pexels.com/photos/12154469/pexels-photo-12154469.jpeg"
+    "image": "/img/webP/prodotto-1.webp"
   },
   {
     "id": 23,
@@ -345,7 +345,7 @@
       "10Y"
     ],
     "disponibilita": 7,
-    "image": "https://plus.unsplash.com/premium_photo-1723809808474-d4f3488faf1d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "/img/webP/prodotto-23.webp"
   },
   {
     "id": 17,
@@ -376,7 +376,7 @@
       "L"
     ],
     "disponibilita": 45,
-    "image": "https://images.pexels.com/photos/9814509/pexels-photo-9814509.jpeg"
+    "image": "/img/webP/prodotto-17.webp"
   },
   {
     "id": 10,
@@ -403,7 +403,7 @@
       "L"
     ],
     "disponibilita": 26,
-    "image": "https://img.magnific.com/foto-gratuito/ritratto-del-modello-sorridente-bello-dell-uomo-d-affari-dei-pantaloni-a-vita-bassa-che-indossa-vestito-beige-casuale_158538-891.jpg"
+    "image": "/img/webP/prodotto-10.webp"
   },
   {
     "id": 37,
@@ -435,7 +435,7 @@
       "10Y"
     ],
     "disponibilita": 13,
-    "image": "https://img.magnific.com/foto-gratuito/ragazza-del-colpo-pieno-in-studio-con-lo-skateboard_23-2149853381.jpg"
+    "image": "/img/webP/prodotto-37.webp"
   },
   {
     "id": 39,
@@ -471,7 +471,7 @@
       "10Y"
     ],
     "disponibilita": 43,
-    "image": "https://images.pexels.com/photos/18863554/pexels-photo-18863554.jpeg"
+    "image": "/img/webP/prodotto-39.webp"
   },
   {
     "id": 5,
@@ -498,7 +498,7 @@
       "L"
     ],
     "disponibilita": 46,
-    "image": "https://images.unsplash.com/photo-1625910513399-c9fcba54338c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "/img/webP/prodotto-5.webp"
   },
   {
     "id": 18,
@@ -525,7 +525,7 @@
       "L"
     ],
     "disponibilita": 20,
-    "image": "https://img.magnific.com/foto-gratuito/bella-donna-alla-moda-che-posa-con-un-vestito-elegante_1328-3290.jpg"
+    "image": "/img/webP/prodotto-18.webp"
   },
   {
     "id": 36,
@@ -553,7 +553,7 @@
       "10Y"
     ],
     "disponibilita": 11,
-    "image": "https://images.pexels.com/photos/5561136/pexels-photo-5561136.jpeg"
+    "image": "/img/webP/prodotto-36.webp"
   },
   {
     "id": 16,
@@ -588,7 +588,7 @@
       "L"
     ],
     "disponibilita": 48,
-    "image": "https://images.pexels.com/photos/15254868/pexels-photo-15254868.jpeg"
+    "image": "/img/webP/prodotto-16.webp"
   },
   {
     "id": 7,
@@ -619,7 +619,7 @@
       "L"
     ],
     "disponibilita": 34,
-    "image": "https://img.magnific.com/foto-gratuito/giovane-maschio-ispanico-in-una-giacca-di-pelle-seduto-al-tavolo-e-bere-caffe_181624-46224.jpg"
+    "image": "/img/webP/prodotto-7.webp"
   },
   {
     "id": 22,
@@ -655,7 +655,7 @@
       "10Y"
     ],
     "disponibilita": 15,
-    "image": "https://plus.unsplash.com/premium_photo-1706036778750-fb7d62e5c60d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "/img/webP/prodotto-22.webp"
   },
   {
     "id": 9,
@@ -686,7 +686,7 @@
       "L"
     ],
     "disponibilita": 4,
-    "image": "https://img.magnific.com/foto-gratuito/uomini-in-abito-minimal-camicia-maniche-lunghe-beige_53876-96983.jpg"
+    "image": "/img/webP/prodotto-9.webp"
   },
   {
     "id": 35,
@@ -714,7 +714,7 @@
       "10Y"
     ],
     "disponibilita": 18,
-    "image": "https://images.pexels.com/photos/33762595/pexels-photo-33762595.jpeg"
+    "image": "/img/webP/prodotto-35.webp"
   },
   {
     "id": 28,
@@ -750,7 +750,7 @@
       "10Y"
     ],
     "disponibilita": 41,
-    "image": "https://images.pexels.com/photos/33720559/pexels-photo-33720559.jpeg"
+    "image": "/img/webP/prodotto-28.webp"
   },
   {
     "id": 20,
@@ -785,7 +785,7 @@
       "L"
     ],
     "disponibilita": 44,
-    "image": "https://images.pexels.com/photos/4946396/pexels-photo-4946396.jpeg"
+    "image": "/img/webP/prodotto-20.webp"
   },
   {
     "id": 38,
@@ -821,7 +821,7 @@
       "10Y"
     ],
     "disponibilita": 34,
-    "image": "https://images.pexels.com/photos/37478759/pexels-photo-37478759.jpeg"
+    "image": "/img/webP/prodotto-38.webp"
   },
   {
     "id": 2,
@@ -852,7 +852,7 @@
       "L"
     ],
     "disponibilita": 18,
-    "image": "https://images.pexels.com/photos/8217308/pexels-photo-8217308.jpeg"
+    "image": "/img/webP/prodotto-2.webp"
   },
   {
     "id": 25,
@@ -880,7 +880,7 @@
       "10Y"
     ],
     "disponibilita": 39,
-    "image": "https://images.pexels.com/photos/34272485/pexels-photo-34272485.jpeg"
+    "image": "/img/webP/prodotto-25.webp"
   },
   {
     "id": 33,
@@ -916,7 +916,7 @@
       "10Y"
     ],
     "disponibilita": 41,
-    "image": "https://img.magnific.com/foto-gratuito/ragazza-seduta-sul-pavimento-in-cemento-stretching_23-2147654890.jpg"
+    "image": "/img/webP/prodotto-33.webp"
   },
   {
     "id": 27,
@@ -944,7 +944,7 @@
       "10Y"
     ],
     "disponibilita": 17,
-    "image": "https://images.pexels.com/photos/25158812/pexels-photo-25158812/free-photo-of-in-piedi-sorridente-ragazzo-interni.jpeg?auto=compress&w=1260&h=750&dpr=1"
+    "image": "/img/webP/prodotto-27.webp"
   },
   {
     "id": 24,
@@ -976,7 +976,7 @@
       "10Y"
     ],
     "disponibilita": 21,
-    "image": "https://img.magnific.com/foto-gratuito/ritratto-di-un-ragazzo-carino-in-una-maglietta-gialla-su-sfondo-nero-in-posa-per-la-fotocamera_78492-3830.jpg"
+    "image": "/img/webP/prodotto-24.webp"
   },
   {
     "id": 13,
@@ -1011,7 +1011,7 @@
       "L"
     ],
     "disponibilita": 15,
-    "image": "https://images.pexels.com/photos/6311387/pexels-photo-6311387.jpeg"
+    "image": "/img/webP/prodotto-13.webp"
   },
   {
     "id": 29,
@@ -1039,7 +1039,7 @@
       "10Y"
     ],
     "disponibilita": 29,
-    "image": "https://images.pexels.com/photos/14571334/pexels-photo-14571334.jpeg?auto=compress&w=1260&h=750&dpr=1"
+    "image": "/img/webP/prodotto-29.webp"
   },
   {
     "id": 6,
@@ -1070,7 +1070,7 @@
       "L"
     ],
     "disponibilita": 3,
-    "image": "https://images.pexels.com/photos/8377395/pexels-photo-8377395.jpeg"
+    "image": "/img/webP/prodotto-6.webp"
   },
   {
     "id": 12,
@@ -1097,7 +1097,7 @@
       "L"
     ],
     "disponibilita": 46,
-    "image": "https://plus.unsplash.com/premium_photo-1690349404224-53f94f20df8f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "/img/webP/prodotto-12.webp"
   },
   {
     "id": 19,
@@ -1132,7 +1132,7 @@
       "L"
     ],
     "disponibilita": 40,
-    "image": "https://images.pexels.com/photos/18173600/pexels-photo-18173600.jpeg"
+    "image": "/img/webP/prodotto-19.webp"
   },
   {
     "id": 11,
@@ -1163,7 +1163,7 @@
       "L"
     ],
     "disponibilita": 45,
-    "image": "https://img.magnific.com/foto-gratuito/giovane-all-aperto-bellezza-ondulate-carino_1139-827.jpg"
+    "image": "/img/webP/prodotto-11.webp"
   },
   {
     "id": 3,
@@ -1194,7 +1194,7 @@
       "L"
     ],
     "disponibilita": 32,
-    "image": "https://images.pexels.com/photos/30710244/pexels-photo-30710244.jpeg"
+    "image": "/img/webP/prodotto-3.webp"
   },
   {
     "id": 8,
@@ -1229,7 +1229,7 @@
       "L"
     ],
     "disponibilita": 25,
-    "image": "https://img.magnific.com/foto-gratuito/uomo-serio-con-uno-sfondo-grigio-e-una-sciarpa_1139-679.jpg"
+    "image": "/img/webP/prodotto-8.webp"
   },
   {
     "id": 34,
@@ -1261,6 +1261,6 @@
       "10Y"
     ],
     "disponibilita": 41,
-    "image": "https://img.magnific.com/foto-gratuito/ragazza-a-piedi-nudi-con-pecore-giocattolo_23-2147830554.jpg"
+    "image": "/img/webP/prodotto-34.webp"
   }
 ]
