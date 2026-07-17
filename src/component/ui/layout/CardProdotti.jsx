@@ -24,7 +24,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
   const priceSale = price - ((price * sale) / 100);
 
   const truncate = (num, decimals = 2) => {
-    const factor = 10 ** decimals; 
+    const factor = 10 ** decimals;
     return Math.floor(num * factor) / factor;
   };
 
