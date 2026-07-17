@@ -23,7 +23,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 9,
+    "stock": 9,
     "image": "/img/webP/prodotto-15.webp"
   },
   {
@@ -54,7 +54,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 13,
+    "stock": 13,
     "image": "/img/webP/prodotto-4.webp"
   },
   {
@@ -90,7 +90,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 4,
+    "stock": 4,
     "image": "/img/webP/prodotto-40.webp"
   },
   {
@@ -117,7 +117,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 28,
+    "stock": 28,
     "image": "/img/webP/prodotto-14.webp"
   },
   {
@@ -145,7 +145,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 18,
+    "stock": 18,
     "image": "/img/webP/prodotto-32.webp"
   },
   {
@@ -177,7 +177,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 5,
+    "stock": 5,
     "image": "/img/webP/prodotto-30.webp"
   },
   {
@@ -209,7 +209,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 21,
+    "stock": 21,
     "image": "/img/webP/prodotto-31.webp"
   },
   {
@@ -245,7 +245,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 16,
+    "stock": 16,
     "image": "/img/webP/prodotto-26.webp"
   },
   {
@@ -281,7 +281,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 48,
+    "stock": 48,
     "image": "/img/webP/prodotto-21.webp"
   },
   {
@@ -312,7 +312,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 46,
+    "stock": 46,
     "image": "/img/webP/prodotto-1.webp"
   },
   {
@@ -344,7 +344,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 7,
+    "stock": 7,
     "image": "/img/webP/prodotto-23.webp"
   },
   {
@@ -375,7 +375,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 45,
+    "stock": 45,
     "image": "/img/webP/prodotto-17.webp"
   },
   {
@@ -402,7 +402,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 26,
+    "stock": 26,
     "image": "/img/webP/prodotto-10.webp"
   },
   {
@@ -434,7 +434,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 13,
+    "stock": 13,
     "image": "/img/webP/prodotto-37.webp"
   },
   {
@@ -470,7 +470,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 43,
+    "stock": 43,
     "image": "/img/webP/prodotto-39.webp"
   },
   {
@@ -497,7 +497,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 46,
+    "stock": 46,
     "image": "/img/webP/prodotto-5.webp"
   },
   {
@@ -524,7 +524,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 20,
+    "stock": 20,
     "image": "/img/webP/prodotto-18.webp"
   },
   {
@@ -552,7 +552,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 11,
+    "stock": 11,
     "image": "/img/webP/prodotto-36.webp"
   },
   {
@@ -587,7 +587,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 48,
+    "stock": 48,
     "image": "/img/webP/prodotto-16.webp"
   },
   {
@@ -618,7 +618,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 34,
+    "stock": 34,
     "image": "/img/webP/prodotto-7.webp"
   },
   {
@@ -654,7 +654,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 15,
+    "stock": 15,
     "image": "/img/webP/prodotto-22.webp"
   },
   {
@@ -685,7 +685,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 4,
+    "stock": 4,
     "image": "/img/webP/prodotto-9.webp"
   },
   {
@@ -713,7 +713,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 18,
+    "stock": 18,
     "image": "/img/webP/prodotto-35.webp"
   },
   {
@@ -749,7 +749,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 41,
+    "stock": 41,
     "image": "/img/webP/prodotto-28.webp"
   },
   {
@@ -784,7 +784,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 44,
+    "stock": 44,
     "image": "/img/webP/prodotto-20.webp"
   },
   {
@@ -820,7 +820,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 34,
+    "stock": 34,
     "image": "/img/webP/prodotto-38.webp"
   },
   {
@@ -851,7 +851,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 18,
+    "stock": 18,
     "image": "/img/webP/prodotto-2.webp"
   },
   {
@@ -879,7 +879,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 39,
+    "stock": 39,
     "image": "/img/webP/prodotto-25.webp"
   },
   {
@@ -915,7 +915,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 41,
+    "stock": 41,
     "image": "/img/webP/prodotto-33.webp"
   },
   {
@@ -943,7 +943,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 17,
+    "stock": 17,
     "image": "/img/webP/prodotto-27.webp"
   },
   {
@@ -975,7 +975,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 21,
+    "stock": 21,
     "image": "/img/webP/prodotto-24.webp"
   },
   {
@@ -1010,7 +1010,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 15,
+    "stock": 15,
     "image": "/img/webP/prodotto-13.webp"
   },
   {
@@ -1038,7 +1038,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 29,
+    "stock": 29,
     "image": "/img/webP/prodotto-29.webp"
   },
   {
@@ -1069,7 +1069,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 3,
+    "stock": 3,
     "image": "/img/webP/prodotto-6.webp"
   },
   {
@@ -1096,7 +1096,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 46,
+    "stock": 46,
     "image": "/img/webP/prodotto-12.webp"
   },
   {
@@ -1131,7 +1131,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 40,
+    "stock": 40,
     "image": "/img/webP/prodotto-19.webp"
   },
   {
@@ -1162,7 +1162,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 45,
+    "stock": 45,
     "image": "/img/webP/prodotto-11.webp"
   },
   {
@@ -1193,7 +1193,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 32,
+    "stock": 32,
     "image": "/img/webP/prodotto-3.webp"
   },
   {
@@ -1228,7 +1228,7 @@
       "M",
       "L"
     ],
-    "disponibilita": 25,
+    "stock": 25,
     "image": "/img/webP/prodotto-8.webp"
   },
   {
@@ -1260,7 +1260,7 @@
       "8Y",
       "10Y"
     ],
-    "disponibilita": 41,
+    "stock": 41,
     "image": "/img/webP/prodotto-34.webp"
   }
 ]

@@ -7,16 +7,13 @@ export default function TermsConditions() {
 
   return (
     <>
-      <div className="text-center bg-[#FDFCF9] min-h-screen">
-        <div className="max-w-4xl mx-auto px-6 py-16 space-y-12">
+      <div className=" bg-[#FDFCF9] min-h-screen">
+        <div className="max-w-4xl mx-auto px-6 lg:px-0 py-10 md:py-16 space-y-8 md:space-y-12">
           <header className="space-y-4">
-            <h1 className="--font-title text-[#211D1A] text-4xl md:text-5xl">Termini e Condizioni</h1>
-            <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Ultimo aggiornamento: 03 luglio 2026 {/* {lastUpdated} */}
-            </p>
+            <h1 className="--font-title font-semibold text-[#211D1A] text-4xl md:text-5xl">Termini e Condizioni</h1>
           </header>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Introduzione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I presenti Termini e Condizioni ("Termini") disciplinano l'accesso e l'utilizzo della piattaforma TSHORT,
@@ -26,7 +23,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Oggetto del servizio</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               TSHORT fornisce agli utenti uno strumento per trasformare URL lunghi in link brevi, personalizzabili e
@@ -37,7 +34,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Registrazione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Per accedere ad alcune funzionalità di TSHORT è necessario creare un account, fornendo informazioni
@@ -48,7 +45,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Utilizzo consentito</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               L'utente si impegna a utilizzare TSHORT esclusivamente per finalità lecite e conformi ai presenti Termini.
@@ -59,7 +56,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Responsabilità dell'utente</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               L'utente è l'unico responsabile dei contenuti a cui rimandano i link brevi creati tramite il proprio
@@ -70,7 +67,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">
               Limitazione di responsabilità
             </h2>
@@ -84,7 +81,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Proprietà intellettuale</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Tutti i contenuti presenti sulla piattaforma TSHORT, inclusi a titolo esemplificativo il marchio, il logo,
@@ -95,7 +92,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Modifiche ai termini</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               TSHORT si riserva il diritto di modificare i presenti Termini in qualsiasi momento, per adeguarli a
@@ -105,7 +102,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Legge applicabile</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I presenti Termini sono disciplinati dalla legge italiana. Per qualsiasi controversia derivante
@@ -115,7 +112,7 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2"md:space-y-4>
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Contatti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Per qualsiasi domanda relativa ai presenti Termini e Condizioni, è possibile contattare TSHORT scrivendo
