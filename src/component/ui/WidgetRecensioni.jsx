@@ -1,9 +1,10 @@
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import CardRecensioni from "./layout/CardRecensioni";
 import { useRecensioniCarousel } from "../utilities/Logic-JS/recensioniService";
+import recensioniData from "../../data/recensioni.json";
 
 function WidgetRecensioni() {
-  const { slideReview, visibleReviews, next, back, lastStartIndex } = useRecensioniCarousel();
+  const { slideReview, visibleReviews, next, back, lastStartIndex } = useRecensioniCarousel(recensioniData);
 
   return (
     <section className="bg-[#FDFCF9]">

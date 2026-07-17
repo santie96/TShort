@@ -1,38 +1,19 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
+import { calcoloPrezzoScontato } from "../../utilities/Logic-JS/prezzoService";
+import { screenSize } from "../../utilities/Logic-JS/screenSizeService";
+
 
 function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale }) {
-  const [isLargeScreen, setIsLargeScreen] = useState(() =>
-    typeof window !== "undefined" ? window.innerWidth >= 1024 : false
-  );
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLargeScreen(window.innerWidth >= 1024);
-    };
+  const isLargeScreen = screenSize()
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   const badgeText = newArrivals ? "Novità" : sale > 0 ? "Saldi" : "";
   const badgeColor = newArrivals ? "bg-[#3F8AAC]" : sale > 0 ? "bg-red-600" : "hidden";
 
-  const priceSale = price - ((price * sale) / 100);
-
-  const truncate = (num, decimals = 2) => {
-    const factor = 10 ** decimals;
-    return Math.floor(num * factor) / factor;
-  };
-
-  const priceSale2 = truncate(priceSale, 2).toFixed(2);
-
-  const priceTot = sale === 0 ? price : priceSale2;
-
-  const showSale = !newArrivals && sale > 0;
+  const { OriginalPrice, priceTot, showSale } = calcoloPrezzoScontato(price, sale, newArrivals)
 
   return (
     <>
@@ -53,7 +34,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
             )}
 
             <div className="absolute bottom-0 flex flex-1 items-end p-5 md:p-5 lg:p-5 w-full h-full inset-0 bg-[#191101]/10 justify-center">
-              <div className="py-2.5 w-full lg:translate-y-3 lg:opacity-0 bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:group-hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out text-base  font-semibold">
+              <div className="py-2.5 w-full bg-[#C47048] lg:translate-y-3 lg:opacity-0 lg:bg-[#23201D] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out text-base font-semibold">
                 <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                   {isLargeScreen ? (
                     <span>+ Aggiungi al carrello</span>
@@ -75,7 +56,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
           {showSale ? (
             <div className="flex gap-2 items-center font-text">
 
-              <span className="text-sm font-text line-through font-medium">{price}€</span>
+              <span className="text-sm font-text line-through font-medium">{OriginalPrice}€</span>
 
               <div className="flex gap-2 items-center bg-red-500/20 px-1">
                 <span className="text-red-600 font-medium">{`${priceTot}`}€</span>
@@ -85,7 +66,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
 
             </div>) : (
             <>
-              <span className="font-text font-medium">{price}€</span>
+              <span className="font-text font-medium">{OriginalPrice}€</span>
             </>
           )}
 

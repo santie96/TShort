@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import recensioniData from "../../../data/recensioniProdotti.json";
+import recensioniWidgetData from "../../../data/recensioni.json";
 
+const MAX_REVIEWS = 10;
 const REVIEWS_PER_PAGE_Large = 3;
 const REVIEWS_PER_PAGE_Medium = 2;
 const REVIEWS_PER_PAGE_Small = 1;
@@ -12,9 +13,12 @@ const getReviewsPerPage = () => {
   return REVIEWS_PER_PAGE_Large;
 };
 
-export function useRecensioniCarousel() {
+export function useRecensioniCarousel(reviewsData = recensioniWidgetData, maxReviews = MAX_REVIEWS) {
   const [slideReview, setSlideReview] = useState(0);
   const [reviewsPerPage, setReviewsPerPage] = useState(REVIEWS_PER_PAGE_Large);
+
+  const safeReviews = Array.isArray(reviewsData) ? reviewsData : [];
+  const limitedReviews = safeReviews.slice(0, maxReviews);
 
   useEffect(() => {
     const updateReviewsPerPage = () => {
@@ -27,13 +31,13 @@ export function useRecensioniCarousel() {
     return () => window.removeEventListener("resize", updateReviewsPerPage);
   }, []);
 
-  const lastStartIndex = Math.max(0, recensioniData.length - reviewsPerPage);
+  const lastStartIndex = Math.max(0, limitedReviews.length - reviewsPerPage);
 
   useEffect(() => {
     setSlideReview((current) => Math.min(current, lastStartIndex));
   }, [lastStartIndex]);
 
-  const visibleReviews = recensioniData.slice(slideReview, slideReview + reviewsPerPage);
+  const visibleReviews = limitedReviews.slice(slideReview, slideReview + reviewsPerPage);
 
   const next = () => {
     setSlideReview((current) => Math.min(current + 1, lastStartIndex));
@@ -50,6 +54,7 @@ export function useRecensioniCarousel() {
     next,
     back,
     lastStartIndex,
+    totalReviews: limitedReviews.length,
   };
 }
 

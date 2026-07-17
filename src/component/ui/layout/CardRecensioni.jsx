@@ -5,19 +5,19 @@ function CardRecensioni({ Stars: rating, Description, Name, City }) {
         <article className="mt-4 h-auto rounded-2xl border border-[#DDDAD5] bg-[#F6F4F0]">
             <div className="grid gap-3 p-5 font-text">
 
-                    
-                    <Stars rating={rating} />
 
-                    <p>"{Description}"</p>
+                <Stars rating={rating} />
 
-                    <hr className="text-[#DDDAD5] mt-4" />
+                <p className="h-15">"{Description}"</p>
 
-                    <div className="flex gap-2">
-                        <span className="font-semibold">{Name}</span>
-                        <span>·</span>
-                        <span>{City}</span>
-                    </div>
-                    
+                <hr className="text-[#DDDAD5]" />
+
+                <div className="flex gap-2">
+                    <span className="font-semibold">{Name}</span>
+                    <span>·</span>
+                    <span>{City}</span>
+                </div>
+
             </div>
         </article>
     )
