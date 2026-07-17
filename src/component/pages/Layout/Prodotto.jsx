@@ -67,19 +67,25 @@ function Prodotto() {
                             </div>
 
 
-                            {prodotto.sizes.map((size) => (
-                                <div className="flex">
-                                    <button type="button" key={size}>{size} </button>
-                                </div>
-                            ))
-                            }
 
-                            {prodotto.colors.map((color) => (
-                                <div>
-                                    <button type="button" key={color.hex} className={`bg-[${color.hex}] p-10`}></button>
-                                </div>
-                            ))
-                            }
+                            <div className="flex">
+                                {prodotto.sizes.map((size) => (
+                                    <button type="button" key={size}>{size} </button>
+                                
+                            ))}
+                            </div>
+
+                            <div className="flex flex-wrap gap-2 group">
+                                {prodotto.colors.map((color) => (
+                                    <button
+                                        key={color.hex}
+                                        type="button"
+                                        className="p-10 rounded-full cursor-pointer"
+                                        style={{ backgroundColor: color.hex }}
+                                        aria-label={color.name}
+                                    />
+                                ))}
+                            </div>
                         </div>
 
 
