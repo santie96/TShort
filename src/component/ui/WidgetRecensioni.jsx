@@ -1,59 +1,9 @@
-import { useState, useEffect } from "react";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
-import Recensioni from "../../data/recensioni.json";
 import CardRecensioni from "./layout/CardRecensioni";
-
-const REVIEWS_PER_PAGE_Large = 3;
-const REVIEWS_PER_PAGE_Medium = 2;
-const REVIEWS_PER_PAGE_Small = 1;
-
-const getReviewsPerPage = () => {
-  if (window.innerWidth < 768) return REVIEWS_PER_PAGE_Small;
-  if (window.innerWidth < 1024) return REVIEWS_PER_PAGE_Medium;
-  return REVIEWS_PER_PAGE_Large;
-};
+import { useRecensioniCarousel } from "../utilities/Logic-JS/recensioniService";
 
 function WidgetRecensioni() {
-  const [slideReview, setSlideReview] = useState(0);
-  const [reviewsPerPage, setReviewsPerPage] = useState(
-    REVIEWS_PER_PAGE_Large
-  );
-
-  useEffect(() => {
-    const updateReviewsPerPage = () => {
-      setReviewsPerPage(getReviewsPerPage());
-    };
-
-    updateReviewsPerPage();
-    window.addEventListener("resize", updateReviewsPerPage);
-
-    return () => window.removeEventListener("resize", updateReviewsPerPage);
-  }, []);
-
-  const lastStartIndex = Math.max(
-    0,
-    Recensioni.length - reviewsPerPage
-  );
-
-  useEffect(() => {
-    setSlideReview((current) => Math.min(current, lastStartIndex));
-  }, [lastStartIndex]);
-
-  const visibleReviews = Recensioni.slice(
-    slideReview,
-    slideReview + reviewsPerPage
-  );
-
-
-
-  const next = () => {
-    setSlideReview((current) => Math.min(current + 1, lastStartIndex));
-  };
-
-  const back = () => {
-    setSlideReview((current) => Math.max(current - 1, 0));
-  };
-
+  const { slideReview, visibleReviews, next, back, lastStartIndex } = useRecensioniCarousel();
 
   return (
     <section className="bg-[#FDFCF9]">
@@ -61,7 +11,7 @@ function WidgetRecensioni() {
         <span className="mt-8 font-text text-sm uppercase text-[#C47048]">
           Recensioni
         </span>
-        <h2 className="font-title text-title-size text-center font-semibold text-[#211D1A] lg:text-[2.25rem]">
+        <h2 className="font-title text-title-size font-semibold text-[#211D1A] lg:text-[2.25rem]">
           Amati dai nostri clienti
         </h2>
 

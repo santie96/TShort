@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
-import { getProductById } from "../../../data/prodottiService";
-import { Link } from "react-router-dom";
-import prodotti from "../../../data/prodotti.json"
+import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { getProductById } from "../../utilities/Logic-JS/prodottiService";
+import WidgetRecensioni from "../../ui/WidgetRecensioni"
 
 
 
@@ -48,33 +47,36 @@ function Prodotto() {
             <div className="bg-[#FDFCF9]">
                 <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8 lg:py-15">
                     <div className="grid grid-cols-1 md:grid-cols-2">
-
-                        {/* immagine */}
-                        <img src={prodotto.image} alt={prodotto.title} />
-
+                        <div className="mt-3 aspect-4/5 md:aspect-3/4">
+                            {/* immagine */}
+                            <img src={prodotto.image} alt={prodotto.title} className="rounded-xl w-full h-full object-cover block" />
+                        </div>
 
                         {/* Descrzione, prezzo */}
                         <div>
-                            <div>
+                            <div className="flex w-full justify-between items-center">
                                 <h2>{prodotto.title}</h2>
                                 <span>{prodotto.price}</span>
                             </div>
 
-                            <div>
+                            <div className="flex w-full justify-between items-center">
+
                                 <p>{prodotto.description}</p>
+
+                                <span>Recensioni</span>
                             </div>
-                            <span>Recensioni</span>
+
 
                             {prodotto.sizes.map((size) => (
-                                <div>
-                                    <button type="button" key={size}>{size}</button>
+                                <div className="flex">
+                                    <button type="button" key={size}>{size} </button>
                                 </div>
                             ))
                             }
 
                             {prodotto.colors.map((color) => (
-                                < div >
-                                    <button type="button" key={color.hex}>{color.nome}</button>
+                                <div>
+                                    <button type="button" key={color.hex} className={`bg-[${color.hex}] p-10`}></button>
                                 </div>
                             ))
                             }
@@ -91,8 +93,8 @@ function Prodotto() {
                         </div>
 
                         {/* Recensioni */}
-                        <div className="row-end-3">
-                            Carosello Recensioni
+                        <div className="">
+                            <WidgetRecensioni />
                         </div>
 
 
