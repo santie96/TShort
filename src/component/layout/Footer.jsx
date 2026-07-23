@@ -14,7 +14,7 @@ function Footer() {
             <div className="flex flex-col items-center gap-2 text-center  md:items-center md:text-center">
               <NavLink to="/">
                 {/* LOGO */}
-                <h2 className="text-logo-size font-title font-semibold">TSHORT</h2>
+                <h2 className="text-logo-size font-title font-semibold">VESTA</h2>
               </NavLink>
               <p className="text-balance max-w-70">
                 Abbigliamento moderno per uomo, donna e bambino. Qualità curata, design essenziale, prezzi accessibili.
@@ -157,7 +157,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex justify-center md:order-1">
-              <p className="text-xs tracking-wide">&copy; 2026 TShort. Tutti i diritti riservati.</p>
+              <p className="text-xs tracking-wide">&copy; 2026 VESTA. Tutti i diritti riservati.</p>
             </div>
           </section>
         </div>

@@ -19,7 +19,7 @@ function Privacy() {
           <section className="space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Introduzione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              TSHORT ("noi", "il Servizio" o "la Piattaforma") rispetta la riservatezza dei propri utenti e si impegna a
+              VESTA ("noi", "il Servizio" o "la Piattaforma") rispetta la riservatezza dei propri utenti e si impegna a
               proteggere i dati personali trattati in occasione dell'utilizzo del servizio di creazione e gestione di
               link brevi. La presente Privacy Policy illustra le modalità di raccolta, utilizzo, conservazione e
               protezione dei dati personali degli utenti, in conformità al Regolamento (UE) 2016/679 (GDPR) e alla
@@ -30,9 +30,9 @@ function Privacy() {
           <section className="space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Titolare del trattamento</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Il Titolare del trattamento dei dati personali raccolti tramite TSHORT è la società che gestisce la
+              Il Titolare del trattamento dei dati personali raccolti tramite VESTA è la società che gestisce la
               piattaforma, con sede legale in Italia. Per qualsiasi richiesta relativa al trattamento dei dati
-              personali, l'utente può contattare il Titolare scrivendo all'indirizzo email privacy@tshort.io, indicando
+              personali, l'utente può contattare il Titolare scrivendo all'indirizzo email privacy@vesta.io, indicando
               in modo chiaro l'oggetto della richiesta.
             </p>
           </section>
@@ -40,7 +40,7 @@ function Privacy() {
           <section className="space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Dati raccolti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Nell'ambito dell'erogazione del servizio, TSHORT può raccogliere diverse categorie di dati personali, tra
+              Nell'ambito dell'erogazione del servizio, VESTA può raccogliere diverse categorie di dati personali, tra
               cui: dati identificativi e di contatto forniti in fase di registrazione (nome, cognome, indirizzo email);
               dati relativi all'account, come nome utente e password (memorizzata in forma crittografata); dati di
               navigazione e di utilizzo del servizio, tra cui gli URL accorciati creati, il numero di click ricevuti e
@@ -103,7 +103,7 @@ function Privacy() {
           <section className="space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Sicurezza</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              TSHORT adotta misure tecniche e organizzative adeguate a garantire un livello di sicurezza idoneo rispetto
+              VESTA adotta misure tecniche e organizzative adeguate a garantire un livello di sicurezza idoneo rispetto
               ai rischi connessi al trattamento dei dati personali, tra cui la crittografia delle password, l'utilizzo
               di connessioni protette e il controllo degli accessi ai sistemi. Tali misure sono costantemente riviste e
               aggiornate per far fronte all'evoluzione delle minacce alla sicurezza informatica e per assicurare la
@@ -117,7 +117,7 @@ function Privacy() {
               Per qualsiasi domanda relativa alla presente Privacy Policy o per esercitare i propri diritti in materia
               di protezione dei dati personali, l'utente può contattare il Titolare del trattamento all'indirizzo email{" "}
               <a href="" className="font-bold hover:text-[#C47048]">
-                info@tshort.it
+                info@vesta.it
               </a>
               .
             </p>

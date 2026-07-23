@@ -20,10 +20,10 @@ function Info() {
             <div>
               <h4 className="text-stitle-size font-semibold">Scrivici una email</h4>
               <a
-                href="mailto:info@tshort.it"
+                href="mailto:info@vesta.it"
                 className="underline decoration-transparent hover:decoration-[#C47048] transition-colors duration-300"
               >
-                info@tshort.it
+                info@vesta.it
               </a>
             </div>
           </li>
