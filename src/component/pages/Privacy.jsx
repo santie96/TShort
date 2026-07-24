@@ -7,16 +7,13 @@ function Privacy() {
 
   return (
     <>
-      <div className="bg-[#FDFCF9] min-h-screen text-center">
-        <div className="max-w-4xl mx-auto px-6 py-16 space-y-12">
+      <div className=" bg-[#FDFCF9] min-h-screen">
+        <div className="max-w-4xl mx-auto px-6 lg:px-0 py-10 md:py-16 space-y-8 md:space-y-12">
           <header className="space-y-4">
-            <h1 className="--font-title text-[#211D1A] text-4xl md:text-5xl">Privacy Policy</h1>
-            <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Ultimo aggiornamento: 03 luglio 2026{/* {lastUpdated} */}
-            </p>
+            <h1 className="--font-title font-semibold text-[#211D1A] text-4xl md:text-5xl">Privacy Policy</h1>
           </header>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Introduzione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               TSHORT ("noi", "il Servizio" o "la Piattaforma") rispetta la riservatezza dei propri utenti e si impegna a
@@ -27,7 +24,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Titolare del trattamento</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Il Titolare del trattamento dei dati personali raccolti tramite TSHORT è la società che gestisce la
@@ -37,7 +34,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Dati raccolti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Nell'ambito dell'erogazione del servizio, TSHORT può raccogliere diverse categorie di dati personali, tra
@@ -51,7 +48,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Finalità del trattamento</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I dati personali raccolti sono trattati per le seguenti finalità: erogazione del servizio di creazione e
@@ -63,7 +60,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Base giuridica</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Il trattamento dei dati personali si fonda, a seconda dei casi, sulle seguenti basi giuridiche:
@@ -75,7 +72,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Conservazione dei dati</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I dati personali sono conservati per il tempo strettamente necessario al conseguimento delle finalità per
@@ -87,7 +84,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Diritti dell'utente</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               In qualità di interessato, l'utente ha il diritto di ottenere dal Titolare l'accesso ai propri dati
@@ -100,7 +97,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Sicurezza</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               TSHORT adotta misure tecniche e organizzative adeguate a garantire un livello di sicurezza idoneo rispetto
@@ -111,7 +108,7 @@ function Privacy() {
             </p>
           </section>
 
-          <section className="space-y-4">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Contatti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Per qualsiasi domanda relativa alla presente Privacy Policy o per esercitare i propri diritti in materia

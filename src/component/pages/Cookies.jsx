@@ -6,16 +6,13 @@ function Cookies() {
   }); */
   return (
     <>
-      <div className="bg-[#FDFCF9] min-h-screen">
-        <div className="max-w-4xl mx-auto px-6 py-16 space-y-12 text-center md:px-8 lg:px-10">
-          <header className="space-y-4 text-center">
-            <h1 className="--font-title text-[#211D1A] text-4xl md:text-5xl">Cookie Policy</h1>
-            <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Ultimo aggiornamento: 3 luglio 2026{/*  {lastUpdated} */}
-            </p>
+      <div className=" bg-[#FDFCF9] min-h-screen">
+        <div className="max-w-4xl mx-auto px-6 lg:px-0 py-10 md:py-16 space-y-8 md:space-y-12">
+          <header className="space-y-4">
+            <h1 className="--font-title font-semibold text-[#211D1A] text-4xl md:text-5xl">Cookie Policy</h1>
           </header>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Introduzione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               La presente Cookie Policy descrive in che modo TSHORT, piattaforma web dedicata alla creazione,
@@ -25,7 +22,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cosa sono i cookie</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I cookie sono piccoli file di testo che i siti web visitati inviano al dispositivo dell'utente (computer,
@@ -37,7 +34,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie tecnici</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               I cookie tecnici sono indispensabili per il corretto funzionamento di TSHORT e per consentire all'utente
@@ -49,7 +46,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie analitici</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               TSHORT utilizza cookie analitici per raccogliere informazioni aggregate e anonime sul numero di utenti che
@@ -61,7 +58,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie di terze parti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Durante la navigazione su TSHORT, l'utente potrebbe ricevere sul proprio dispositivo cookie inviati da
@@ -73,7 +70,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Gestione dei cookie</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               L'utente può gestire le proprie preferenze relative ai cookie direttamente dal browser utilizzato,
@@ -84,7 +81,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Come modificare il consenso</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               In qualsiasi momento, l'utente può modificare le proprie preferenze relative ai cookie non tecnici
@@ -94,7 +91,7 @@ function Cookies() {
             </p>
           </section>
 
-          <section className="space-y-4 text-center">
+          <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Contatti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
               Per qualsiasi domanda o richiesta relativa alla presente Cookie Policy, è possibile contattare TSHORT
