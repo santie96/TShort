@@ -21,7 +21,7 @@ function SideBarMenu({ isOpen, onClose }) {
                         className="font-semibold text-[#211D1A] font-title text-logo-size"
                         to="/"
                         onClick={onClose} 
-                        >TSHORT</NavLink>
+                        >VESTA</NavLink>
                     </div>
                     <div className="flex gap-3 text-icon-size">
                         <button

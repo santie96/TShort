@@ -78,7 +78,7 @@ function Navbar() {
                         {/* Logo - ALL Breack Point */}
                         <div>
                             <NavLink to="/" className="flex items-center gap-3 text-slate-100">
-                                <h2 className="text-logo-size font-semibold text-[#211D1A] font-title">TSHORT</h2>
+                                <h2 className="text-logo-size font-semibold text-[#211D1A] font-title">VESTA</h2>
                             </NavLink>
                         </div>
 

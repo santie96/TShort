@@ -15,7 +15,7 @@ function Cookies() {
           <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Introduzione</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              La presente Cookie Policy descrive in che modo TSHORT, piattaforma web dedicata alla creazione,
+              La presente Cookie Policy descrive in che modo VESTA, piattaforma web dedicata alla creazione,
               personalizzazione e gestione di link brevi, utilizza i cookie e tecnologie simili durante la navigazione
               sul sito. Consultando questa pagina, l'utente potrà comprendere quali tipologie di cookie vengono
               impiegate, per quali finalità e come è possibile gestire le proprie preferenze in materia di privacy.
@@ -37,7 +37,7 @@ function Cookies() {
           <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie tecnici</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              I cookie tecnici sono indispensabili per il corretto funzionamento di TSHORT e per consentire all'utente
+              I cookie tecnici sono indispensabili per il corretto funzionamento di VESTA e per consentire all'utente
               di utilizzare le funzionalità principali della piattaforma, come la creazione di link brevi, l'accesso
               all'area personale e la gestione del proprio account. Questi cookie non richiedono il consenso preventivo
               dell'utente in quanto strettamente necessari all'erogazione del servizio richiesto. Tra questi rientrano,
@@ -49,7 +49,7 @@ function Cookies() {
           <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie analitici</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              TSHORT utilizza cookie analitici per raccogliere informazioni aggregate e anonime sul numero di utenti che
+              VESTA utilizza cookie analitici per raccogliere informazioni aggregate e anonime sul numero di utenti che
               visitano il sito e sulle modalità di utilizzo dello stesso, ad esempio le pagine più visitate o il tempo
               medio di permanenza. Tali dati sono trattati in forma statistica e ci consentono di migliorare
               costantemente la struttura del sito, le funzionalità offerte e l'esperienza complessiva degli utenti. Ove
@@ -61,10 +61,10 @@ function Cookies() {
           <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Cookie di terze parti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Durante la navigazione su TSHORT, l'utente potrebbe ricevere sul proprio dispositivo cookie inviati da
-              siti o web server diversi da quello di TSHORT, sui quali possono risiedere alcuni elementi presenti nella
+              Durante la navigazione su VESTA, l'utente potrebbe ricevere sul proprio dispositivo cookie inviati da
+              siti o web server diversi da quello di VESTA, sui quali possono risiedere alcuni elementi presenti nella
               pagina che si sta visitando, come ad esempio componenti per la condivisione sui social network o servizi
-              di analisi del traffico forniti da soggetti terzi. TSHORT non ha controllo diretto su questi cookie e
+              di analisi del traffico forniti da soggetti terzi. VESTA non ha controllo diretto su questi cookie e
               invita gli utenti a consultare le informative privacy e cookie dei rispettivi fornitori terzi per
               conoscere le modalità di trattamento dei dati raccolti.
             </p>
@@ -77,7 +77,7 @@ function Cookies() {
               impostando il blocco totale o parziale dei cookie, oppure configurando la cancellazione automatica degli
               stessi alla chiusura del browser. La maggior parte dei browser consente inoltre di visualizzare quali
               cookie sono stati salvati e di eliminarli singolarmente. Si segnala che la disabilitazione dei cookie
-              tecnici potrebbe compromettere il corretto funzionamento di alcune funzionalità della piattaforma TSHORT.
+              tecnici potrebbe compromettere il corretto funzionamento di alcune funzionalità della piattaforma VESTA.
             </p>
           </section>
 
@@ -94,10 +94,10 @@ function Cookies() {
           <section className="space-y-2 md:space-y-4">
             <h2 className="--font-title text-[#211D1A] text-2xl md:text-3xl pt-4 pb-2">Contatti</h2>
             <p className="--font-text text-[#211D1A] text-[0.875rem] leading-7">
-              Per qualsiasi domanda o richiesta relativa alla presente Cookie Policy, è possibile contattare TSHORT
+              Per qualsiasi domanda o richiesta relativa alla presente Cookie Policy, è possibile contattare VESTA
               scrivendo all'indirizzo email{" "}
               <a href="" className="font-bold hover:text-[rgb(196,112,72)]">
-                info@tshort.it
+                info@vesta.it
               </a>
               . Il nostro team risponderà nel più breve tempo possibile per fornire tutti i chiarimenti necessari.
             </p>
