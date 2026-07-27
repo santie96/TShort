@@ -50,7 +50,7 @@ function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale
           </div>
         </Link>
         <div className="text-black font-text flex flex-col gap-1">
-          <h2 className="text-base font-semibold font-title l">{title}</h2>
+          <h2 className="text-base font-semibold font-title mt-1">{title}</h2>
           <p className="text-sm font-text">{subtitle}</p>
 
           {showSale ? (

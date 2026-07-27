@@ -9,12 +9,13 @@ import { MdOutlineAddShoppingCart, MdCreditScore, MdArrowBackIos, MdArrowForward
 import { TbTruckDelivery } from "react-icons/tb";
 import { BiPackage } from "react-icons/bi";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Stars from "../../utilities/Stars";
 
 
 
 
 
-function Prodotto() {
+function Prodotto( { Stars: rating } ) {
 
     const isLargeScreen = screenSize()
 
@@ -102,7 +103,7 @@ function Prodotto() {
 
                                         <p className="text-[0.9rem] lg:text-xl text-balance">{prodotto.description}</p>
 
-                                        <span>Recensioni</span>
+                                        <Stars rating={rating} />
                                     </div>
                                 </div>
 
