@@ -77,30 +77,32 @@ function Prodotto() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
 
                         {/* immagine */}
-                        <div className="mt-3 aspect-4/5 md:aspect-3/4">
+
+                        <div className="mt-3 aspect-4/5 md:aspect-3/4 lg:max-w-md lg:mx-auto">
 
                             <img src={prodotto.image} alt={prodotto.title} className="rounded-xl w-full h-full object-cover block" />
                         </div>
 
 
+
                         <div className="flex flex-col gap-4 p-2 lg:mt-3">
 
 
-                            <div className="flex flex-col gap-2 lg:gap-5">
-                                <div className="flex flex-col gap-4">
+                            <div className="flex flex-col gap-2 lg:gap-4">
+                                <div className="flex flex-col gap-4 lg:gap-2">
                                     {/* titolo, prezzo */}
                                     <div className="flex w-full justify-between items-center">
-                                        <h2 className="text-2xl lg:text-6xl font-title font-semibold">{prodotto.title}</h2>
+                                        <h2 className="text-2xl lg:text-3xl font-title font-semibold">{prodotto.title}</h2>
                                         {showSale ? (
                                             <div className="flex items-center gap-2 lg:gap-5 font-text">
-                                                <span className="font-medium line-through text-black  lg:text-xl">{OriginalPrice}€</span>
+                                                <span className="font-medium line-through text-black  lg:text-sm">{OriginalPrice}€</span>
                                                 <div className="flex items-center gap-2 rounded bg-red-500/20 px-2 py-1">
-                                                    <span className="font-medium text-xl lg:text-2xl text-red-600">{priceTot}€</span>
-                                                    <span className="font-medium text-red-600 lg:text-xl">-{prodotto.sale}%</span>
+                                                    <span className="font-medium text-xl lg:text-base text-red-600">{priceTot}€</span>
+                                                    <span className="font-medium text-red-600 lg:text-sm">-{prodotto.sale}%</span>
                                                 </div>
                                             </div>
                                         ) : (
-                                            <span className="font-medium lg:text-2xl lg:font-semibold">{OriginalPrice}€</span>
+                                            <span className="font-medium lg:text-base lg:font-semibold">{OriginalPrice}€</span>
                                         )}
                                     </div>
 
@@ -108,35 +110,37 @@ function Prodotto() {
                                     {/* descirizione, recensioni */}
                                     <div className="flex w-full justify-between items-center">
 
-                                        <p className="text-[0.9rem] lg:text-xl text-balance">{prodotto.description}</p>
+                                        <p className="text-[0.9rem] lg:text-base text-balance lg:max-w-sm">{prodotto.description}</p>
 
                                         {totalReviews > 0 ? (
-                                            <div className="flex shrink-0 flex-col items-end gap-1">
-                                                <Stars rating={roundedRating} />
-                                                <a href="#custom-reviews">
-                                                    <span className="text-sm text-gray-600">
+                                            <a href="#custom-reviews">
+                                                <div className="flex group shrink-0 flex-col items-end gap-1">
+                                                    <Stars rating={roundedRating} />
+
+                                                    <span className="text-sm text-black font-semibold  transition-all  md:group-hover:border-b md:group-hover:border-b-black">
                                                         {averageRating.toFixed(1).replace(".", ",")} / 5
                                                     </span>
-                                                </a>
-                                            </div>
+
+                                                </div>
+                                            </a>
                                         ) : (
                                             <span className="text-sm text-gray-600">Nessuna recensione</span>
                                         )}
                                     </div>
                                 </div>
 
-                                <hr className="text-[#DDDAD5] my-1 border-dashed" />
+                                <hr className="text-[#DDDAD5] my-1 md:my-0 border" />
 
-                                <div className="flex flex-col gap-4 font-text">
+                                <div className="flex flex-col gap-4 lg:gap-3 font-text">
                                     {/* taglie */}
-                                    <div className="flex flex-col gap-2">
-                                        <h2 className="font-semibold text-xl">Taglie</h2>
+                                    <div className="flex flex-col gap-2 lg:gap-1">
+                                        <h2 className="font-semibold text-xl lg:text-base">Taglie</h2>
                                         <div className="flex flex-wrap gap-2 py-1">
                                             {sizes.map((size) => (
                                                 <button
                                                     type="button"
                                                     key={size}
-                                                    className="h-8 w-13 font-text text-base font-semibold border-2 cursor-pointer border-black rounded-3xl hover:bg-gray-600 transition-all duration-300"
+                                                    className="h-8 lg:h-6 w-13 lg:w-10 font-text text-base lg:text-sm font-semibold border-2 cursor-pointer border-black rounded-3xl hover:bg-gray-600 transition-all duration-300"
                                                 >
                                                     {size}
                                                 </button>
@@ -148,13 +152,13 @@ function Prodotto() {
 
                                     {/* colori */}
                                     <div className="flex flex-col gap-1">
-                                        <h2 className="font-semibold text-xl">Colori</h2>
+                                        <h2 className="font-semibold text-xl lg:text-base">Colori</h2>
                                         <div className="flex flex-wrap gap-2 py-1">
                                             {colors.map((color) => (
                                                 <button
                                                     key={color.hex}
                                                     type="button"
-                                                    className="group cursor-pointer relative h-10 w-10 rounded-full border-2 border-[#FDFCF9] bg-transparent transition-transform duration-200 hover:scale-105"
+                                                    className="group cursor-pointer relative h-10 lg:h-8 w-10 lg:w-8 rounded-full border-2 border-[#FDFCF9] bg-transparent transition-transform duration-200 hover:scale-105"
                                                     aria-label={color.name}
                                                 >
                                                     <span
@@ -167,10 +171,10 @@ function Prodotto() {
                                         </div>
                                     </div>
 
-                                    <div className="flex gap-3 items-center">
-                                        <h2 className="font-semibold text-xl">Disponibilità</h2>
-                                        <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-3 rounded-3xl">
-                                            <span className="text-black font-semibold">{prodotto.stock}</span>
+                                    <div className="flex gap-3 lg:gap-2 items-center">
+                                        <h2 className="font-semibold text-xl lg:text-base">Disponibilità</h2>
+                                        <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-2 rounded-full">
+                                            <span className="text-black lg:text-sm font-semibold">{prodotto.stock}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +231,7 @@ function Prodotto() {
                         </div>
 
 
-                    
+
 
                         {/* Recensioni */}
                         <div className="p-4 md:col-span-2 scroll-mt-80" id="custom-reviews">
