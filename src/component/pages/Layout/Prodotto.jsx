@@ -85,7 +85,7 @@ function Prodotto() {
 
 
 
-                        <div className="flex flex-col gap-4 lg:gap-2 p-2 lg:mt-3">
+                        <div className="flex flex-col gap-4 md:gap-2 lg:gap-7 p-2 lg:mt-3">
 
 
                             <div className="flex flex-col gap-2 lg:gap-4">
@@ -171,8 +171,8 @@ function Prodotto() {
                                         </div>
                                     </div>
 
-                                    <div className="flex items-center justify-between w-full md:pb-5">
-                                        <div className="flex gap-3 lg:gap-2 items-center">
+                                    <div className="flex items-center justify-between w-full">
+                                        <div className="flex gap-3 items-center">
                                             <h2 className="font-semibold text-xl lg:text-base">Disponibilità</h2>
                                             <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-2 rounded-full">
                                                 <span className=" lg:text-sm font-semibold">{prodotto.stock}</span>
@@ -180,10 +180,10 @@ function Prodotto() {
                                         </div>
 
                                         {/* pulsante */}
-                                        <div className=" flex items-end max-md:hidden w-full lg:w-70 justify-end">
+                                        <div className=" flex items-end max-lg:hidden w-full lg:w-70 justify-end">
 
                                             <div className="w-full 
-                               md:max-w-40 lg:max-w-60  h-12 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
+                                lg:max-w-60  h-12 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
                                                 <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                                                     {isLargeScreen ? (
                                                         <span>+ Aggiungi al carrello</span>
@@ -205,7 +205,7 @@ function Prodotto() {
                             </div>
 
                             {/* pulsante */}
-                            <div className=" flex items-end md:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
+                            <div className=" flex items-end lg:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
 
                                 <div className="w-full 
                                 py-2 lg:py-3 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
