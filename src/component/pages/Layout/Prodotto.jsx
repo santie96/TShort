@@ -113,9 +113,11 @@ function Prodotto() {
                                         {totalReviews > 0 ? (
                                             <div className="flex shrink-0 flex-col items-end gap-1">
                                                 <Stars rating={roundedRating} />
-                                                <span className="text-sm text-gray-600">
-                                                    {averageRating.toFixed(1).replace(".", ",")} / 5
-                                                </span>
+                                                <a href="#custom-reviews">
+                                                    <span className="text-sm text-gray-600">
+                                                        {averageRating.toFixed(1).replace(".", ",")} / 5
+                                                    </span>
+                                                </a>
                                             </div>
                                         ) : (
                                             <span className="text-sm text-gray-600">Nessuna recensione</span>
@@ -225,10 +227,10 @@ function Prodotto() {
                         </div>
 
 
-
+                    
 
                         {/* Recensioni */}
-                        <div className="p-4 md:col-span-2">
+                        <div className="p-4 md:col-span-2 scroll-mt-80" id="custom-reviews">
                             <div className="flex items-center justify-between gap-3">
                                 <h3 className="font-title text-lg font-semibold">Recensioni del prodotto</h3>
                                 <div className="flex items-center gap-2">
