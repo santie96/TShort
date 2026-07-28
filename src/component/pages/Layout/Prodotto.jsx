@@ -72,7 +72,7 @@ function Prodotto() {
 
     return (
         <>
-            <div className="bg-[#FDFCF9] font-text ">
+            <div className="bg-[#FDFCF9] font-text text-[#211D1A] ">
                 <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8 lg:py-15">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
 
@@ -95,7 +95,7 @@ function Prodotto() {
                                         <h2 className="text-2xl lg:text-3xl font-title font-semibold">{prodotto.title}</h2>
                                         {showSale ? (
                                             <div className="flex items-center gap-2 lg:gap-5 font-text">
-                                                <span className="font-medium line-through text-black  lg:text-sm">{OriginalPrice}€</span>
+                                                <span className="font-medium line-through   lg:text-sm">{OriginalPrice}€</span>
                                                 <div className="flex items-center gap-2 rounded bg-red-500/20 px-2 py-1">
                                                     <span className="font-medium text-xl lg:text-base text-red-600">{priceTot}€</span>
                                                     <span className="font-medium text-red-600 lg:text-sm">-{prodotto.sale}%</span>
@@ -117,7 +117,7 @@ function Prodotto() {
                                                 <div className="flex group shrink-0 flex-col items-end gap-1">
                                                     <Stars rating={roundedRating} />
 
-                                                    <span className="text-sm text-black font-semibold  transition-all  md:group-hover:border-b md:group-hover:border-b-black">
+                                                    <span className="text-sm  font-semibold  transition-all  md:group-hover:border-b md:group-hover:border-b-[#211D1A]">
                                                         {averageRating.toFixed(1).replace(".", ",")} / 5
                                                     </span>
 
@@ -134,15 +134,15 @@ function Prodotto() {
                                 <div className="flex flex-col gap-4 lg:gap-3 font-text">
                                     {/* taglie */}
                                     <div className="flex flex-col gap-2 lg:gap-1">
-                                        <h2 className="font-semibold text-xl lg:text-base">Taglie</h2>
-                                        <div className="flex flex-wrap gap-2 py-1">
+                                        <h2 className="font-semibold text-xl lg:text-lg">Taglie</h2>
+                                        <div className="flex flex-wrap gap-4 py-1">
                                             {sizes.map((size) => (
                                                 <button
                                                     type="button"
                                                     key={size}
-                                                    className="h-8 lg:h-6 w-13 lg:w-10 font-text text-base lg:text-sm font-semibold border-2 cursor-pointer border-black rounded-3xl hover:bg-gray-600 transition-all duration-300"
+                                                    className="flex items-center justify-center h-8 lg:h-7 w-13 lg:w-12 font-text text-base lg:text-base font-semibold ring-2 cursor-pointer border-[#211D1A] rounded-3xl hover:bg-[#C47048] hover:text-white hover:ring-0 hover:scale-125 outline-none transition-all duration-300"
                                                 >
-                                                    {size}
+                                                    <p>{size}</p>
                                                 </button>
 
                                             ))}
@@ -152,7 +152,7 @@ function Prodotto() {
 
                                     {/* colori */}
                                     <div className="flex flex-col gap-1">
-                                        <h2 className="font-semibold text-xl lg:text-base">Colori</h2>
+                                        <h2 className="font-semibold text-xl lg:text-lg">Colori</h2>
                                         <div className="flex flex-wrap gap-2 py-1">
                                             {colors.map((color) => (
                                                 <button
@@ -162,7 +162,7 @@ function Prodotto() {
                                                     aria-label={color.name}
                                                 >
                                                     <span
-                                                        className="absolute inset-0 rounded-full border-4 border-[#FDFCF9] transition-all duration-200 group-hover:outline-2 group-hover:outline-black"
+                                                        className="absolute inset-0 rounded-full border-4 border-[#FDFCF9] transition-all duration-200 group-hover:outline-2 group-hover:outline-[#211D1A]"
                                                         style={{ backgroundColor: color.hex }}
                                                     />
 
@@ -171,19 +171,41 @@ function Prodotto() {
                                         </div>
                                     </div>
 
-                                    <div className="flex gap-3 lg:gap-2 items-center">
-                                        <h2 className="font-semibold text-xl lg:text-base">Disponibilità</h2>
-                                        <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-2 rounded-full">
-                                            <span className="text-black lg:text-sm font-semibold">{prodotto.stock}</span>
+                                    <div className="flex items-center justify-between w-full md:pb-5">
+                                        <div className="flex gap-3 lg:gap-2 items-center">
+                                            <h2 className="font-semibold text-xl lg:text-base">Disponibilità</h2>
+                                            <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-2 rounded-full">
+                                                <span className=" lg:text-sm font-semibold">{prodotto.stock}</span>
+                                            </div>
                                         </div>
+
+                                        {/* pulsante */}
+                                        <div className=" flex items-end max-md:hidden w-full lg:w-70 justify-end">
+
+                                            <div className="w-full 
+                               md:max-w-40 lg:max-w-60  h-12 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
+                                                <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
+                                                    {isLargeScreen ? (
+                                                        <span>+ Aggiungi al carrello</span>
+                                                    ) : (
+                                                        <>
+                                                            <MdOutlineAddShoppingCart className="text-lg" />
+                                                            <span>Aggiungi</span>
+                                                        </>
+                                                    )}
+                                                </button>
+                                            </div>
+                                        </div>
+
                                     </div>
+
+
                                 </div>
 
                             </div>
 
-
                             {/* pulsante */}
-                            <div className=" flex items-end md:p-5 lg:p-5 w-full justify-center">
+                            <div className=" flex items-end md:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
 
                                 <div className="w-full 
                                 py-2 lg:py-3 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
@@ -199,6 +221,8 @@ function Prodotto() {
                                     </button>
                                 </div>
                             </div>
+
+
 
                             {/* Info spedizioni */}
                             <div className="h-auto rounded-2xl border border-[#DDDAD5] bg-[#F6F4F0] font-text">
