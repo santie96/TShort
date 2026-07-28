@@ -18,7 +18,7 @@ function WidgetSaldi() {
                   I nostri sconti estivi
                 </h2>
                 <Link
-                  to="/nuovi-arrivi"
+                  to="/saldi"
                   className="flex items-center transition-all hover:text-[#C47048] duration-300 hover:underline"
                 >
                   <p>Vedi tutti</p>
