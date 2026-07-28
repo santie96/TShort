@@ -9,6 +9,7 @@ import { MdOutlineAddShoppingCart, MdCreditScore, MdArrowBackIos, MdArrowForward
 import { TbTruckDelivery } from "react-icons/tb";
 import { BiPackage } from "react-icons/bi";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Stars from "../../utilities/Stars";
 
 
 
@@ -62,6 +63,13 @@ function Prodotto() {
     const sizes = Array.isArray(prodotto.sizes) ? prodotto.sizes : [];
     const colors = Array.isArray(prodotto.colors) ? prodotto.colors : [];
 
+    const totalReviews = productReviews.length;
+    const averageRating = totalReviews
+        ? productReviews.reduce((sum, review) => sum + review.Stars, 0) / totalReviews
+        : 0;
+
+    const roundedRating = Math.round(averageRating * 2) / 2;
+
     return (
         <>
             <div className="bg-[#FDFCF9] font-text ">
@@ -102,7 +110,16 @@ function Prodotto() {
 
                                         <p className="text-[0.9rem] lg:text-xl text-balance">{prodotto.description}</p>
 
-                                        
+                                        {totalReviews > 0 ? (
+                                            <div className="flex shrink-0 flex-col items-end gap-1">
+                                                <Stars rating={roundedRating} />
+                                                <span className="text-sm text-gray-600">
+                                                    {averageRating.toFixed(1).replace(".", ",")} / 5
+                                                </span>
+                                            </div>
+                                        ) : (
+                                            <span className="text-sm text-gray-600">Nessuna recensione</span>
+                                        )}
                                     </div>
                                 </div>
 
