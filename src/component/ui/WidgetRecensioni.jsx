@@ -1,6 +1,6 @@
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import CardRecensioni from "./layout/CardRecensioni";
-import { useRecensioniCarousel } from "../utilities/Logic-JS/recensioniService";
+import { useRecensioniCarousel } from "../utilities/Custom-Hook/RecensioniService";
 import recensioniData from "../../data/recensioni.json";
 
 function WidgetRecensioni() {

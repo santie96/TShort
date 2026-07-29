@@ -1,4 +1,4 @@
-import Stars from "../../utilities/Stars";
+import Stars from "./Stars";
 
 function CardRecensioni({ Stars: rating, Description, Name, City }) {
     return (
