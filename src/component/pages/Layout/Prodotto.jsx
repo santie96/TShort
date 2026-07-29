@@ -208,7 +208,7 @@ function Prodotto() {
                             <div className=" flex items-end lg:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
 
                                 <div className="w-full 
-                                py-2 lg:py-3 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
+                                py-2 lg:py-3 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-lg lg:text-base  font-semibold">
                                     <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                                         {isLargeScreen ? (
                                             <span>+ Aggiungi al carrello</span>
