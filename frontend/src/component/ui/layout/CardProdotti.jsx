@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
-import { calcoloPrezzoScontato } from "../../utilities/Logic-JS/prezzoService";
-import { screenSize } from "../../utilities/Logic-JS/screenSizeService";
+import { calcoloPrezzoScontato } from "../../utilities/function-utilities/prezzoService";
+import { screenSize } from "../../utilities/Custom-Hook/ScreenSizeService";
 
 
 function CardProdotti({ id, image, title, subtitle, price, to, newArrivals, sale }) {

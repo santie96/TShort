@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getProductById } from "../../utilities/Logic-JS/prodottiService";
-import { calcoloPrezzoScontato } from "../../utilities/Logic-JS/prezzoService";
-import { screenSize } from "../../utilities/Logic-JS/screenSizeService";
-import { useRecensioniCarousel } from "../../utilities/Logic-JS/recensioniService";
+import { getProductById } from "../../utilities/function-utilities/prodottiService";
+import { calcoloPrezzoScontato } from "../../utilities/function-utilities/prezzoService";
+import { screenSize } from "../../utilities/Custom-Hook/ScreenSizeService";
+import { useRecensioniCarousel } from "../../utilities/Custom-Hook/RecensioniService";
 import CardRecensioni from "../../ui/layout/CardRecensioni";
 import { MdOutlineAddShoppingCart, MdCreditScore, MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
 import { BiPackage } from "react-icons/bi";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Stars from "../../utilities/Stars";
+import Stars from "../../ui/layout/Stars";
 
 
 
