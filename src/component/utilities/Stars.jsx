@@ -14,7 +14,7 @@ function Stars({ rating }) {
   }
 
   return (
-    <div className="flex items-center gap-1 text-yellow-500 text-xs">
+    <div className="flex items-center gap-1 text-yellow-500 text-sm">
       {stars}
     </div>
   );

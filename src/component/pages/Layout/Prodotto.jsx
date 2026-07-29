@@ -102,7 +102,7 @@ function Prodotto() {
                                                 </div>
                                             </div>
                                         ) : (
-                                            <span className="font-medium lg:text-base lg:font-semibold">{OriginalPrice}€</span>
+                                            <span className="font-medium text-xl lg:text-base lg:font-semibold">{OriginalPrice}€</span>
                                         )}
                                     </div>
 
@@ -110,14 +110,14 @@ function Prodotto() {
                                     {/* descirizione, recensioni */}
                                     <div className="flex w-full justify-between items-center">
 
-                                        <p className="text-[0.9rem] lg:text-base text-balance lg:max-w-sm">{prodotto.description}</p>
+                                        <p className="text-base text-balance lg:max-w-sm">{prodotto.description}</p>
 
                                         {totalReviews > 0 ? (
                                             <a href="#custom-reviews">
                                                 <div className="flex group shrink-0 flex-col items-end gap-1">
                                                     <Stars rating={roundedRating} />
 
-                                                    <span className="text-sm  font-semibold  transition-all  md:group-hover:border-b md:group-hover:border-b-[#211D1A]">
+                                                    <span className="text-base  font-semibold  transition-all  md:group-hover:border-b md:group-hover:border-b-[#211D1A]">
                                                         {averageRating.toFixed(1).replace(".", ",")} / 5
                                                     </span>
 
@@ -208,7 +208,7 @@ function Prodotto() {
                             <div className=" flex items-end lg:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
 
                                 <div className="w-full 
-                                py-2 lg:py-3 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-lg lg:text-base  font-semibold">
+                                py-2 lg:py-3 bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center  font-semibold">
                                     <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
                                         {isLargeScreen ? (
                                             <span>+ Aggiungi al carrello</span>
