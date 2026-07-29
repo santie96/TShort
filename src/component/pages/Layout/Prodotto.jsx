@@ -78,24 +78,24 @@ function Prodotto() {
 
                         {/* immagine */}
 
-                        <div className="mt-3 aspect-4/5 md:aspect-3/4 lg:max-w-md lg:mx-auto">
+                        <div className="mt-3 aspect-4/5 md:aspect-3/4 lg:max-w-md lg:mx-auto ">
 
                             <img src={prodotto.image} alt={prodotto.title} className="rounded-xl w-full h-full object-cover block" />
                         </div>
 
 
 
-                        <div className="flex flex-col gap-4 md:gap-2 lg:gap-7 p-2 lg:mt-3">
+                        <div className="flex flex-col gap-4 md:gap-2 lg:gap-7 p-2 md:mt-10 lg:mt-3">
 
 
                             <div className="flex flex-col gap-2 lg:gap-4">
-                                <div className="flex flex-col gap-4 lg:gap-2">
+                                <div className="flex flex-col gap-2 lg:gap-2">
                                     {/* titolo, prezzo */}
                                     <div className="flex w-full justify-between items-center">
                                         <h2 className="text-2xl lg:text-3xl font-title font-semibold">{prodotto.title}</h2>
                                         {showSale ? (
                                             <div className="flex items-center gap-2 lg:gap-5 font-text">
-                                                <span className="font-medium line-through   lg:text-sm">{OriginalPrice}€</span>
+                                                <span className="font-medium line-through lg:text-sm">{OriginalPrice}€</span>
                                                 <div className="flex items-center gap-2 rounded bg-red-500/20 px-2 py-1">
                                                     <span className="font-medium text-xl lg:text-base text-red-600">{priceTot}€</span>
                                                     <span className="font-medium text-red-600 lg:text-sm">-{prodotto.sale}%</span>
@@ -175,7 +175,7 @@ function Prodotto() {
                                         <div className="flex gap-3 items-center">
                                             <h2 className="font-semibold text-xl lg:text-base">Disponibilità</h2>
                                             <div className="border border-[#DDDAD5] bg-[#F6F4F0] py-1 px-2 rounded-full">
-                                                <span className=" lg:text-sm font-semibold">{prodotto.stock}</span>
+                                                <span className=" lg:text-sm font-semibold cursor-default">{prodotto.stock}</span>
                                             </div>
                                         </div>
 
@@ -205,7 +205,7 @@ function Prodotto() {
                             </div>
 
                             {/* pulsante */}
-                            <div className=" flex items-end lg:hidden md:p-5 lg:p-5 w-full lg:w-70 justify-center">
+                            <div className=" flex items-end lg:hidden md:py-5 w-full lg:w-70 justify-center">
 
                                 <div className="w-full 
                                 py-2 lg:py-3 bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center  font-semibold">
@@ -225,11 +225,11 @@ function Prodotto() {
 
 
                             {/* Info spedizioni */}
-                            <div className="h-auto rounded-2xl border border-[#DDDAD5] bg-[#F6F4F0] font-text">
+                            <div className="h-auto rounded-2xl max-lg:hidden border border-[#DDDAD5] bg-[#F6F4F0] font-text my-7">
                                 <div className="flex flex-col gap-3 p-4 ">
 
 
-                                    <Link className="flex items-center justify-between">
+                                    <Link to="/spedizioni" className="flex items-center justify-between">
                                         <p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><TbTruckDelivery /> {`Spedizione Gratuita`} <span className="lg:text-base text-[0.9rem]  font-normal">{`(per ordini > 40€)`}</span></p>
 
                                         <IoIosArrowRoundForward className="text-xl" />
@@ -237,13 +237,13 @@ function Prodotto() {
 
                                     <hr className="text-[#DDDAD5] my-1" />
 
-                                    <Link className="flex items-center justify-between"><p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><BiPackage /> {`Resi gratuiti entro 30 giorni`}</p>
+                                    <Link to="/resi-e-cambi" className="flex items-center justify-between"><p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><BiPackage /> {`Resi gratuiti entro 30 giorni`}</p>
                                         <IoIosArrowRoundForward className="text-xl" />
                                     </Link>
 
                                     <hr className="text-[#DDDAD5] my-2" />
 
-                                    <Link className="flex items-center justify-between">
+                                    <Link to="/privacy" className="flex items-center justify-between">
                                         <p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><MdCreditScore /> Pagamenti sicuri - Tutela della privacy</p>
                                         <IoIosArrowRoundForward className="text-xl" />
                                     </Link>
@@ -255,10 +255,39 @@ function Prodotto() {
                         </div>
 
 
+                        {/* Info spedizioni */}
+                        <div className="h-auto rounded-2xl md:col-span-2 border border-[#DDDAD5] bg-[#F6F4F0] font-text my-7">
+                            <div className="flex flex-col gap-3 p-4 ">
+
+
+                                <Link to="/spedizioni" className="flex items-center justify-between">
+                                    <p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><TbTruckDelivery /> {`Spedizione Gratuita`} <span className="lg:text-base text-[0.9rem]  font-normal">{`(per ordini > 40€)`}</span></p>
+
+                                    <IoIosArrowRoundForward className="text-xl" />
+                                </Link>
+
+                                <hr className="text-[#DDDAD5] my-1" />
+
+                                <Link to="/resi-e-cambi" className="flex items-center justify-between"><p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><BiPackage /> {`Resi gratuiti entro 30 giorni`}</p>
+                                    <IoIosArrowRoundForward className="text-xl" />
+                                </Link>
+
+                                <hr className="text-[#DDDAD5] my-2" />
+
+                                <Link to="/privacy" className="flex items-center justify-between">
+                                    <p className="font-semibold flex items-center gap-1 lg:gap-3 lg:text-[1.125rem]"><MdCreditScore /> Pagamenti sicuri - Tutela della privacy</p>
+                                    <IoIosArrowRoundForward className="text-xl" />
+                                </Link>
+
+
+                            </div>
+                        </div>
+
+
 
 
                         {/* Recensioni */}
-                        <div className="p-4 md:col-span-2 scroll-mt-80" id="custom-reviews">
+                        <div className="p-4 md:col-span-2 scroll-mt-52" id="custom-reviews">
                             <div className="flex items-center justify-between gap-3">
                                 <h3 className="font-title text-lg font-semibold">Recensioni del prodotto</h3>
                                 <div className="flex items-center gap-2">

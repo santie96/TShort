@@ -16,6 +16,8 @@ import TerminiCondizioni from "./component/pages/TerminiCondizioni";
 import Preferiti from "./component/pages/Preferiti";
 import Utente from "./component/pages/Utente";
 import Prodotto from "./component/pages/Layout/Prodotto"
+import Spedizioni from "./component/pages/Spedizioni"
+import Resi from "./component/pages/Resi-e-cambi"
 
 import { Routes, Route } from "react-router-dom";
 
@@ -39,6 +41,8 @@ function App() {
         <Route path="termini-condizioni" element={<TerminiCondizioni />} />
         <Route path="preferiti" element={<Preferiti />} />
         <Route path="utente" element={<Utente />} />
+        <Route path="spedizioni" element={<Spedizioni />} />
+        <Route path="resi-e-cambi" element={<Resi />} />
       </Route>
     </Routes>
   );
