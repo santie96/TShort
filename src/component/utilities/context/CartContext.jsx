@@ -1,5 +1,7 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 import { addToCart, decreaseQuantity, increaseQuantity, removeFromCart } from "../function-utilities/cartService";
+
+
 
 const CartContext = createContext();
 
@@ -7,7 +9,9 @@ const CartContext = createContext();
 
 function CartProvider({ children }) {
 
-    const [cart, setCart] = useState([]);
+    const [cart, setCart] = useState(() => { const saved = localStorage.getItem("cart"); return saved ? JSON.parse(saved) : []; });
+
+    useEffect(() => { localStorage.setItem("cart", JSON.stringify(cart)); }, [cart]);
 
 
     const totalItems = cart.reduce(
@@ -25,13 +29,17 @@ function CartProvider({ children }) {
         0
     );
 
+    function handleAddToCart(product) {
+        addToCart(product, cart, setCart);
+    }
+
     return (
         <>
             <CartContext.Provider value={{
                 cart,
                 totalItems,
                 totalPrice,
-                addToCart,
+                addToCart: handleAddToCart,
                 removeFromCart,
                 decreaseQuantity,
                 increaseQuantity

@@ -1,7 +1,7 @@
 
 
 // Aggiunge oggetto al carrello {#e24,24}
-export function addToCart(product) {
+export function addToCart(product, cart, setCart) {
     const existingProduct = cart.find((item) => item.id === product.id);
     if (existingProduct) {
         setCart(
@@ -28,7 +28,7 @@ export function addToCart(product) {
 
 
 // Remuove oggetto dal carrello {#06d,7}
-export function removeFromCart(product) {
+export function removeFromCart(product, cart, setCart) {
     setCart(
         cart.filter((item) =>
             item.id !== product.id
@@ -38,11 +38,11 @@ export function removeFromCart(product) {
 
 
 // Decrementa oggetto dal carrello {#da0,19}
-export function decreaseQuantity(product) {
+export function decreaseQuantity(product, cart, setCart) {
     const existingProduct = cart.find((item) => item.id === product.id);
 
     if (existingProduct.quantity === 1) {
-        removeFromCart(product);
+        removeFromCart(product, cart, setCart);
         return;
     }
 
@@ -60,7 +60,7 @@ export function decreaseQuantity(product) {
 
 
 // Incrementare oggetto nel carrello {#4f8,14}
-export function increaseQuantity(product) {
+export function increaseQuantity(product, cart, setCart) {
     const existingProduct = cart.find((item) => item.id === product.id);
 
     setCart(
@@ -74,25 +74,6 @@ export function increaseQuantity(product) {
         )
     );
 }
-
-
-
-
-
-const cart = [
-  {
-    id: 1,
-    name: "Maglietta",
-    price: 20,
-    quantity: 2,
-  },
-  {
-    id: 2,
-    name: "Jeans",
-    price: 50,
-    quantity: 1,
-  },
-];
 
 
 

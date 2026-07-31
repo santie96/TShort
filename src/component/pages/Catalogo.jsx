@@ -18,7 +18,7 @@ function Catalogo() {
                         <div className="mt-4">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
                                 {prodottiOrdinati.map((item) => (
-                                        <CardProdotti key={item.title} {...item} />
+                                        <CardProdotti key={item.id} product={item} />
                                     ))}
                             </div>
                         </div>

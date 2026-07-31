@@ -32,7 +32,7 @@ function WidgetNuoviArrivi() {
                   .filter((item) => item.newArrivals)
                   .slice(0, 4)
                   .map((item) => (
-                    <CardProdotti key={item.title} {...item} />
+                    <CardProdotti key={item.id} product={item} />
                   ))}
               </div>
             </div>

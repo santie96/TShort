@@ -12,7 +12,7 @@ function ADonna() {
                         <div className="mt-4">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-4">
                                 {Prodotti.filter((item) => item.categories === "donna").map((item) => (
-                                        <CardProdotti key={item.title} {...item} />
+                                        <CardProdotti key={item.id} product={item} />
                                     ))}
                             </div>
                         </div>

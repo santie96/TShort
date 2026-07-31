@@ -10,6 +10,7 @@ import { MdOutlineDeleteSweep } from "react-icons/md";
 import SideBarMenu from "./Navbar-Components/SideBarMenu";
 import SideBarCart from "./Navbar-Components/SideBarCart";
 import SearchBar from "./Navbar-Components/SearchBar";
+import { Link } from "react-router-dom";
 
 
 
@@ -39,17 +40,17 @@ function Navbar() {
     }, [isCartOpen]);
 
     useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 0);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-    
-     
+        const handleScroll = () => setIsScrolled(window.scrollY > 0);
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
 
     return (
         <>
 
-       
+
 
             <section className="w-full text-center">
                 <div className="bg-[#211D1A] py-2">
@@ -141,6 +142,14 @@ function Navbar() {
 
                         {/* Icone: Search e Carrello - ALL Breack Point */}
                         <div className="flex gap-1 text-icon-size">
+                            <Link to="/carrello">
+                                <button
+                                    type="button"
+                                >
+                                    Carrello
+                                </button>
+                            </Link>
+
                             <button className="p-2 hover:bg-[#EAE7E2] duration-300 rounded-full cursor-pointer" onClick={() => setSearchOpen(valore => !valore)}>
                                 <IoSearch className="text-[#211D1A]" />
                             </button>
