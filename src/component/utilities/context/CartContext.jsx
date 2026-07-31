@@ -32,6 +32,15 @@ function CartProvider({ children }) {
     function handleAddToCart(product) {
         addToCart(product, cart, setCart);
     }
+    function handleremoveFromCart(product) {
+        addToCart(product, cart, setCart);
+    }
+    function handledecreaseQuantity(product) {
+        addToCart(product, cart, setCart);
+    }
+    function handleincreaseQuantity(product) {
+        addToCart(product, cart, setCart);
+    }
 
     return (
         <>
@@ -40,9 +49,9 @@ function CartProvider({ children }) {
                 totalItems,
                 totalPrice,
                 addToCart: handleAddToCart,
-                removeFromCart,
-                decreaseQuantity,
-                increaseQuantity
+                removeFromCart: handleremoveFromCart,
+                decreaseQuantity: handledecreaseQuantity,
+                increaseQuantity : handleincreaseQuantity
             }}>
                 {children}
             </CartContext.Provider>

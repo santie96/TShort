@@ -1,8 +1,9 @@
 import { useContext } from "react";
 import { CartContext } from "../utilities/context/CartContext";
+import CartCardProdotti from "../ui/layout/CartCardProdotti";
 
 function Carrello() {
-  const { cart, decreaseQuantity, increaseQuantity } = useContext(CartContext);
+  const { cart } = useContext(CartContext);
 
   console.log("Carrello:", cart);
 
@@ -14,11 +15,11 @@ function Carrello() {
         <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8  md:pt-2 md:pb-15">
           <div className="flex flex-col justify-start items-start">
             <h1>Carrello</h1>
-            {cart.map((item) => (
-              <p key={item.id}>
-                {item.title} - {item.quantity}
-              </p>
-            ))}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-4">
+              {cart.map((item) => (
+                <CartCardProdotti key={item.id} product={item} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
