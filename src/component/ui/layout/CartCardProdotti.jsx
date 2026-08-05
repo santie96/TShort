@@ -8,7 +8,7 @@ import { useContext } from "react";
 
 function CartCardProdotti({ product }) {
 
-  const { decreaseQuantity, increaseQuantity } = useContext(CartContext);
+  const { cart, decreaseQuantity, increaseQuantity, removeFromCart } = useContext(CartContext);
 
   const isLargeScreen = screenSize()
 
@@ -20,31 +20,23 @@ function CartCardProdotti({ product }) {
 
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex items-center gap-5">
         <div className="relative overflow-hidden rounded-xl">
 
-          <div className="relative group aspect-3/4 sm:aspect-4/5 ">
+          <div className="relative group aspect-3/4 sm:aspect-4/5">
             <Link to={`/prodotto/${product.id}`} className="block h-full">
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-full h-full object-cover block transition-all group-hover:scale-105 duration-500 ease-in-out"
+                className="w-20 object-cover block transition-all group-hover:scale-105 duration-500 ease-in-out"
               />
             </Link>
-
-            {badgeText && (
-              <div className="pointer-events-none absolute inset-0 z-10 p-3 md:p-5">
-                <span className={`text-[#F6F4F0] rounded-md px-1.5 py-[0.175rem] text-sm md:text-base ${badgeColor}`}>
-                  {badgeText}
-                </span>
-              </div>
-            )}
-
           </div>
 
         </div>
 
         <div className="text-black font-text flex flex-col gap-1">
+
           <h2 className="text-base font-semibold font-title mt-1">{product.title}</h2>
           <p className="text-sm font-text">{product.subtitle}</p>
 
@@ -65,19 +57,29 @@ function CartCardProdotti({ product }) {
             </>
           )}
 
-          <div>
+          <div className="flex gap-3 items-center">
             <button
-              className="cursor-pointer"
+              className="cursor-pointer border rounded-full border-black select-none h-6 w-6 grid place-items-center"
               type="button"
               onClick={() => decreaseQuantity(product)}>
-              <span>-</span>
+              -
             </button>
 
+            <span className="w-4 flex justify-center select-none">{product.quantity}</span>
+
             <button
-              className="cursor-pointer"
+              className="cursor-pointer border rounded-full border-black select-none h-6 w-6 grid place-items-center"
               type="button"
               onClick={() => increaseQuantity(product)}>
-              <span>+</span>
+              +
+            </button>
+
+
+            <button
+              className="cursor-pointer border rounded-full border-black select-none h-8 w-24"
+              type="button"
+              onClick={() => removeFromCart(product)}>
+              Rimouvi
             </button>
           </div>
 

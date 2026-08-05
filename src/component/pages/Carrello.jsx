@@ -3,7 +3,7 @@ import { CartContext } from "../utilities/context/CartContext";
 import CartCardProdotti from "../ui/layout/CartCardProdotti";
 
 function Carrello() {
-  const { cart } = useContext(CartContext);
+  const { cart, totalItems, totalPrice } = useContext(CartContext);
 
   console.log("Carrello:", cart);
 
@@ -12,15 +12,33 @@ function Carrello() {
   return (
     <>
       <div className="bg-[#FDFCF9]">
-        <div className="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8  md:pt-2 md:pb-15">
-          <div className="flex flex-col justify-start items-start">
-            <h1>Carrello</h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-4">
-              {cart.map((item) => (
-                <CartCardProdotti key={item.id} product={item} />
-              ))}
+        <div>
+          <h1>Carrello</h1>
+        </div>
+        <div className="grid grid-cols-1 gap-8 p-8">
+
+          <div className="">
+            <div className="flex flex-col justify-start items-start">
+              <div className="grid grid-cols-1 gap-6 md:gap-4">
+                {cart.map((item) => (
+                  <CartCardProdotti key={item.id} product={item} />
+                ))}
+              </div>
             </div>
           </div>
+
+          <div className="bg-gray-400 mx-auto w-full p-6 space-y-2">
+            <div className="flex gap-2">
+              <h6>Tot:</h6>
+              <span>{totalItems}</span>
+            </div>
+
+            <div className="flex gap-2">
+              <h6>Prezzo tot:</h6>
+              <span>{`${totalPrice} €`}</span>
+            </div>
+          </div>
+
         </div>
       </div>
     </>

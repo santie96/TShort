@@ -44,7 +44,7 @@ function CardProdotti({ product }) {
 
             <div className="pointer-events-none absolute inset-0 z-20 flex h-full w-full items-end justify-center bg-[#191101]/10 p-5">
               <div className="pointer-events-auto py-2.5 w-full bg-[#C47048] lg:translate-y-3 lg:opacity-0 lg:bg-[#23201D] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center lg:transition-all lg:hover:bg-[#C47048] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:duration-500 lg:ease-in-out text-base font-semibold">
-                <button type="button" className="w-full flex items-center justify-center gap-2 cursor-pointer" onClick={() => addToCart(product)}>
+                <button type="button" className="w-full flex items-center justify-center gap-2 cursor-pointer">
                   {isLargeScreen ? (
                     <span>+ Aggiungi al carrello</span>
                   ) : (

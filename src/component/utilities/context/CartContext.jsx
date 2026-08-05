@@ -24,22 +24,26 @@ function CartProvider({ children }) {
 
     const totalPrice = cart.reduce(
         (accumulator, item) => {
+            if (item.sale > 0) {
+                return accumulator + item.quantity * (item.price - ((item.price * item.sale) /100) )
+            }
+            
             return accumulator + item.quantity * item.price;
         },
         0
-    );
+    ).toFixed(2);
 
     function handleAddToCart(product) {
         addToCart(product, cart, setCart);
     }
     function handleremoveFromCart(product) {
-        addToCart(product, cart, setCart);
+        removeFromCart(product, cart, setCart);
     }
     function handledecreaseQuantity(product) {
-        addToCart(product, cart, setCart);
+        decreaseQuantity(product, cart, setCart);
     }
     function handleincreaseQuantity(product) {
-        addToCart(product, cart, setCart);
+        increaseQuantity(product, cart, setCart);
     }
 
     return (

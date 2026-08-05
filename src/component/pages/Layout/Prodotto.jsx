@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import { CartContext } from "../../utilities/context/CartContext";
 import { useParams, Link } from "react-router-dom";
 import { getProductById } from "../../utilities/function-utilities/prodottiService";
 import { calcoloPrezzoScontato } from "../../utilities/function-utilities/prezzoService";
@@ -69,6 +70,8 @@ function Prodotto() {
         : 0;
 
     const roundedRating = Math.round(averageRating * 2) / 2;
+
+    const { addToCart } = useContext(CartContext);
 
     return (
         <>
@@ -184,7 +187,10 @@ function Prodotto() {
 
                                             <div className="w-full 
                                 lg:max-w-60  h-12 bg-[#C47048] lg:bg-[#23201D] lg:hover:bg-[#C47048] lg:transition-colors lg:hover:duration-300 text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center text-xl lg:text-base  font-semibold">
-                                                <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
+                                                <button
+                                                    type="button"
+                                                    className="cursor-pointer flex items-center justify-center gap-2"
+                                                    onClick={() => addToCart(prodotto)}>
                                                     {isLargeScreen ? (
                                                         <span>+ Aggiungi al carrello</span>
                                                     ) : (
@@ -209,7 +215,10 @@ function Prodotto() {
 
                                 <div className="w-full 
                                 py-2 lg:py-3 bg-[#C47048] text-[#FDFCF8] rounded-full cursor-pointer flex justify-center items-center  font-semibold">
-                                    <button type="button" className="cursor-pointer flex items-center justify-center gap-2">
+                                    <button
+                                        type="button"
+                                        className="cursor-pointer flex items-center justify-center gap-2"
+                                        onClick={() => addToCart(prodotto)}>
                                         {isLargeScreen ? (
                                             <span>+ Aggiungi al carrello</span>
                                         ) : (
