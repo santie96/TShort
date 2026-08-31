@@ -1,0 +1,62 @@
+# containers 
+services:    
+
+  # service name
+  backend:
+
+    # build image from Dockerfile 
+    build: ./backend
+    
+    # PC Port: Container Port
+    # if not specified, it's not reachable from outside (es. localhost)
+    ports:
+      - "8000:8000"
+
+    # mounts backend folder (local) in app folder (container)
+    volumes:
+      - ./backend:/app
+
+    # run uvicorn with --host 0.0.0.0 to allow outside access
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+    
+    # specify environment variables location
+    env_file:
+      - ./backend/.env.docker
+
+    # wait for db to be ready before starting backend container
+    depends_on:
+      db:
+        # make sure db is ready to use
+        condition: service_healthy
+  
+  db:
+    # use postgres image 
+    # https://hub.docker.com/_/postgres
+    image: postgres:18
+
+    # hot relaod, stop only if container is manually stopped (docker compose stop)
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env.docker
+
+    # expose port to allow outside access (es. VSC extensions)
+    ports:
+      - "5432:5432"
+
+    # mounts postgres_data value where Postgres 18 stores data
+    # prevent data loss on container restart (docker compose down, docker compose up)
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+    # test if db is reachable
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s # check every 5 seconds
+      timeout: 5s  # wait max 5 seconds
+      retries: 5   # try 5 times (marked as unhealthy if failed all times)
+
+# declaration of volumes used by containers
+volumes: 
+  postgres_data:
+
+  
