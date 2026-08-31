@@ -1,0 +1,644 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt nero",
+      "target": "uomo",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Manica corta",
+        "slug": "t-shirt-manica-corta",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 2,
+      "title": "Felpa bianco",
+      "target": "uomo",
+      "category": {
+        "id": 2,
+        "name": "Felpe",
+        "slug": "felpe"
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Con cappuccio",
+        "slug": "felpe-con-cappuccio",
+        "category_id": 2
+      }
+    },
+    {
+      "id": 3,
+      "title": "Jeans slim",
+      "target": "uomo",
+      "category": {
+        "id": 3,
+        "name": "Jeans",
+        "slug": "jeans"
+      },
+      "subcategory": {
+        "id": 3,
+        "name": "Slim",
+        "slug": "jeans-slim",
+        "category_id": 3
+      }
+    },
+    {
+      "id": 4,
+      "title": "Camicia beige",
+      "target": "uomo",
+      "category": {
+        "id": 4,
+        "name": "Camicie",
+        "slug": "camicie"
+      },
+      "subcategory": {
+        "id": 4,
+        "name": "Manica lunga",
+        "slug": "camicie-manica-lunga",
+        "category_id": 4
+      }
+    },
+    {
+      "id": 5,
+      "title": "Polo blu navy",
+      "target": "uomo",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 5,
+        "name": "Polo",
+        "slug": "t-shirt-polo",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 6,
+      "title": "Pantaloni chino verde oliva",
+      "target": "uomo",
+      "category": {
+        "id": 5,
+        "name": "Pantaloni",
+        "slug": "pantaloni"
+      },
+      "subcategory": {
+        "id": 6,
+        "name": "Chino",
+        "slug": "pantaloni-chino",
+        "category_id": 5
+      }
+    },
+    {
+      "id": 7,
+      "title": "Giacca denim marrone",
+      "target": "uomo",
+      "category": {
+        "id": 6,
+        "name": "Giacche",
+        "slug": "giacche"
+      },
+      "subcategory": {
+        "id": 7,
+        "name": "Denim",
+        "slug": "giacche-denim",
+        "category_id": 6
+      }
+    },
+    {
+      "id": 8,
+      "title": "Maglione antracite",
+      "target": "uomo",
+      "category": {
+        "id": 7,
+        "name": "Maglieria",
+        "slug": "maglieria"
+      },
+      "subcategory": {
+        "id": 8,
+        "name": "Maglioni",
+        "slug": "maglieria-maglioni",
+        "category_id": 7
+      }
+    },
+    {
+      "id": 9,
+      "title": "Shorts ecrù",
+      "target": "uomo",
+      "category": {
+        "id": 8,
+        "name": "Shorts",
+        "slug": "shorts"
+      },
+      "subcategory": {
+        "id": 9,
+        "name": "Casual",
+        "slug": "shorts-casual",
+        "category_id": 8
+      }
+    },
+    {
+      "id": 10,
+      "title": "Blazer crema",
+      "target": "uomo",
+      "category": {
+        "id": 6,
+        "name": "Giacche",
+        "slug": "giacche"
+      },
+      "subcategory": {
+        "id": 10,
+        "name": "Blazer",
+        "slug": "giacche-blazer",
+        "category_id": 6
+      }
+    },
+    {
+      "id": 11,
+      "title": "Abito nero",
+      "target": "donna",
+      "category": {
+        "id": 9,
+        "name": "Vestiti",
+        "slug": "vestiti"
+      },
+      "subcategory": {
+        "id": 11,
+        "name": "Midi",
+        "slug": "vestiti-midi",
+        "category_id": 9
+      }
+    },
+    {
+      "id": 12,
+      "title": "T-shirt bianco",
+      "target": "donna",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Manica corta",
+        "slug": "t-shirt-manica-corta",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 13,
+      "title": "Felpa grigio",
+      "target": "donna",
+      "category": {
+        "id": 2,
+        "name": "Felpe",
+        "slug": "felpe"
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Con cappuccio",
+        "slug": "felpe-con-cappuccio",
+        "category_id": 2
+      }
+    },
+    {
+      "id": 14,
+      "title": "Jeans skinny",
+      "target": "donna",
+      "category": {
+        "id": 3,
+        "name": "Jeans",
+        "slug": "jeans"
+      },
+      "subcategory": {
+        "id": 12,
+        "name": "Skinny",
+        "slug": "jeans-skinny",
+        "category_id": 3
+      }
+    },
+    {
+      "id": 15,
+      "title": "Top blu navy",
+      "target": "donna",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 13,
+        "name": "Top",
+        "slug": "t-shirt-top",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 16,
+      "title": "Cardigan verde oliva",
+      "target": "donna",
+      "category": {
+        "id": 7,
+        "name": "Maglieria",
+        "slug": "maglieria"
+      },
+      "subcategory": {
+        "id": 14,
+        "name": "Cardigan",
+        "slug": "maglieria-cardigan",
+        "category_id": 7
+      }
+    },
+    {
+      "id": 17,
+      "title": "Gonna marrone",
+      "target": "donna",
+      "category": {
+        "id": 10,
+        "name": "Gonne",
+        "slug": "gonne"
+      },
+      "subcategory": {
+        "id": 15,
+        "name": "Midi",
+        "slug": "gonne-midi",
+        "category_id": 10
+      }
+    },
+    {
+      "id": 18,
+      "title": "Blazer antracite",
+      "target": "donna",
+      "category": {
+        "id": 6,
+        "name": "Giacche",
+        "slug": "giacche"
+      },
+      "subcategory": {
+        "id": 10,
+        "name": "Blazer",
+        "slug": "giacche-blazer",
+        "category_id": 6
+      }
+    },
+    {
+      "id": 19,
+      "title": "Pantaloni palazzo ecrù",
+      "target": "donna",
+      "category": {
+        "id": 5,
+        "name": "Pantaloni",
+        "slug": "pantaloni"
+      },
+      "subcategory": {
+        "id": 16,
+        "name": "Palazzo",
+        "slug": "pantaloni-palazzo",
+        "category_id": 5
+      }
+    },
+    {
+      "id": 20,
+      "title": "Giacca denim crema",
+      "target": "donna",
+      "category": {
+        "id": 6,
+        "name": "Giacche",
+        "slug": "giacche"
+      },
+      "subcategory": {
+        "id": 7,
+        "name": "Denim",
+        "slug": "giacche-denim",
+        "category_id": 6
+      }
+    },
+    {
+      "id": 21,
+      "title": "T-shirt nera",
+      "target": "bambino",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Manica corta",
+        "slug": "t-shirt-manica-corta",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 22,
+      "title": "Felpa bianca",
+      "target": "bambino",
+      "category": {
+        "id": 2,
+        "name": "Felpe",
+        "slug": "felpe"
+      },
+      "subcategory": {
+        "id": 2,
+        "name": "Con cappuccio",
+        "slug": "felpe-con-cappuccio",
+        "category_id": 2
+      }
+    },
+    {
+      "id": 23,
+      "title": "Jeans classici",
+      "target": "bambino",
+      "category": {
+        "id": 3,
+        "name": "Jeans",
+        "slug": "jeans"
+      },
+      "subcategory": {
+        "id": 17,
+        "name": "Straight",
+        "slug": "jeans-straight",
+        "category_id": 3
+      }
+    },
+    {
+      "id": 24,
+      "title": "Polo gialla",
+      "target": "bambino",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 5,
+        "name": "Polo",
+        "slug": "t-shirt-polo",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 25,
+      "title": "Pantaloni sport arancioni",
+      "target": "bambino",
+      "category": {
+        "id": 11,
+        "name": "Sport",
+        "slug": "sport"
+      },
+      "subcategory": {
+        "id": 18,
+        "name": "Pantaloni",
+        "slug": "sport-pantaloni",
+        "category_id": 11
+      }
+    },
+    {
+      "id": 26,
+      "title": "Giubbotto verde oliva",
+      "target": "bambino",
+      "category": {
+        "id": 12,
+        "name": "Cappotti e giubbotti",
+        "slug": "cappotti-e-giubbotti"
+      },
+      "subcategory": {
+        "id": 19,
+        "name": "Giubbotti",
+        "slug": "cappotti-e-giubbotti-giubbotti",
+        "category_id": 12
+      }
+    },
+    {
+      "id": 27,
+      "title": "Shorts marroni",
+      "target": "bambino",
+      "category": {
+        "id": 8,
+        "name": "Shorts",
+        "slug": "shorts"
+      },
+      "subcategory": {
+        "id": 9,
+        "name": "Casual",
+        "slug": "shorts-casual",
+        "category_id": 8
+      }
+    },
+    {
+      "id": 28,
+      "title": "Maglione rosso",
+      "target": "bambino",
+      "category": {
+        "id": 7,
+        "name": "Maglieria",
+        "slug": "maglieria"
+      },
+      "subcategory": {
+        "id": 8,
+        "name": "Maglioni",
+        "slug": "maglieria-maglioni",
+        "category_id": 7
+      }
+    },
+    {
+      "id": 29,
+      "title": "Tuta bambino grigia",
+      "target": "bambino",
+      "category": {
+        "id": 11,
+        "name": "Sport",
+        "slug": "sport"
+      },
+      "subcategory": {
+        "id": 20,
+        "name": "Completi sportivi",
+        "slug": "sport-completi-sportivi",
+        "category_id": 11
+      }
+    },
+    {
+      "id": 30,
+      "title": "Camicia blu",
+      "target": "bambino",
+      "category": {
+        "id": 4,
+        "name": "Camicie",
+        "slug": "camicie"
+      },
+      "subcategory": {
+        "id": 4,
+        "name": "Manica lunga",
+        "slug": "camicie-manica-lunga",
+        "category_id": 4
+      }
+    },
+    {
+      "id": 31,
+      "title": "Vestito ballerina",
+      "target": "bambina",
+      "category": {
+        "id": 9,
+        "name": "Vestiti",
+        "slug": "vestiti"
+      },
+      "subcategory": {
+        "id": 21,
+        "name": "Corti",
+        "slug": "vestiti-corti",
+        "category_id": 9
+      }
+    },
+    {
+      "id": 32,
+      "title": "Felpa Rabbit",
+      "target": "bambina",
+      "category": {
+        "id": 2,
+        "name": "Felpe",
+        "slug": "felpe"
+      },
+      "subcategory": {
+        "id": 22,
+        "name": "Con zip",
+        "slug": "felpe-con-zip",
+        "category_id": 2
+      }
+    },
+    {
+      "id": 33,
+      "title": "Leggings bambina grigio",
+      "target": "bambina",
+      "category": {
+        "id": 11,
+        "name": "Sport",
+        "slug": "sport"
+      },
+      "subcategory": {
+        "id": 18,
+        "name": "Pantaloni",
+        "slug": "sport-pantaloni",
+        "category_id": 11
+      }
+    },
+    {
+      "id": 34,
+      "title": "Gonna bambina beige",
+      "target": "bambina",
+      "category": {
+        "id": 10,
+        "name": "Gonne",
+        "slug": "gonne"
+      },
+      "subcategory": {
+        "id": 15,
+        "name": "Midi",
+        "slug": "gonne-midi",
+        "category_id": 10
+      }
+    },
+    {
+      "id": 35,
+      "title": "T-shirt Love Topolino",
+      "target": "bambina",
+      "category": {
+        "id": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt"
+      },
+      "subcategory": {
+        "id": 1,
+        "name": "Manica corta",
+        "slug": "t-shirt-manica-corta",
+        "category_id": 1
+      }
+    },
+    {
+      "id": 36,
+      "title": "Cardigan panna",
+      "target": "bambina",
+      "category": {
+        "id": 7,
+        "name": "Maglieria",
+        "slug": "maglieria"
+      },
+      "subcategory": {
+        "id": 14,
+        "name": "Cardigan",
+        "slug": "maglieria-cardigan",
+        "category_id": 7
+      }
+    },
+    {
+      "id": 37,
+      "title": "Jeans chiari",
+      "target": "bambina",
+      "category": {
+        "id": 3,
+        "name": "Jeans",
+        "slug": "jeans"
+      },
+      "subcategory": {
+        "id": 17,
+        "name": "Straight",
+        "slug": "jeans-straight",
+        "category_id": 3
+      }
+    },
+    {
+      "id": 38,
+      "title": "Giacca beige",
+      "target": "bambina",
+      "category": {
+        "id": 6,
+        "name": "Giacche",
+        "slug": "giacche"
+      },
+      "subcategory": {
+        "id": 23,
+        "name": "Giacche leggere",
+        "slug": "giacche-giacche-leggere",
+        "category_id": 6
+      }
+    },
+    {
+      "id": 39,
+      "title": "Pigiama animali",
+      "target": "bambina",
+      "category": {
+        "id": 13,
+        "name": "Homewear",
+        "slug": "homewear"
+      },
+      "subcategory": {
+        "id": 24,
+        "name": "Pigiami",
+        "slug": "homewear-pigiami",
+        "category_id": 13
+      }
+    },
+    {
+      "id": 40,
+      "title": "Shorts",
+      "target": "bambina",
+      "category": {
+        "id": 8,
+        "name": "Shorts",
+        "slug": "shorts"
+      },
+      "subcategory": {
+        "id": 9,
+        "name": "Casual",
+        "slug": "shorts-casual",
+        "category_id": 8
+      }
+    }
+  ]
+}

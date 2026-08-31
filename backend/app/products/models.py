@@ -55,7 +55,7 @@ class SubCategory(Base):
         "Category", back_populates="sub_categories")
 
     products: Mapped[list["Product"]] = relationship(
-        "Product", back_populates="category", cascade="all, delete-orphan"
+        "Product", back_populates="sub_category", cascade="all, delete-orphan"
     )
 
 
@@ -72,7 +72,7 @@ class Product(Base):
     # genera sequenza per url
     slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
 
-    prince_cents: Mapped[int] = mapped_column(
+    price_cents: Mapped[int] = mapped_column(
         Integer,
         nullable=False
     )
@@ -111,7 +111,7 @@ class Product(Base):
         ForeignKey("categories.id"), nullable=False
     )
 
-    subcategory_id: Mapped[int] = mapped_column(
+    sub_category_id: Mapped[int] = mapped_column(
         ForeignKey("sub_categories.id"), nullable=False
     )
 
@@ -122,7 +122,7 @@ class Product(Base):
         "Category", back_populates="products"
     )
 
-    subcategory: Mapped["SubCategory"] = relationship(
+    sub_category: Mapped["SubCategory"] = relationship(
         "SubCategory", back_populates="products"
     )
 

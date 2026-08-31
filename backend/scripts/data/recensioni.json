@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "Stars": 5,
+    "Description": "Giacca perfetta, tessuti ottimi, veste benissimo. Acquisto davvero consigliato. ",
+    "Name": "Sara F.",
+    "City": "Milano"
+  },
+  {
+    "id": 2,
+    "Stars": 5,
+    "Description": "Felpa comodissima, materiali ottimi, finiture curate. Acquisto consigliatissimo.",
+    "Name": "Marco R.",
+    "City": "Roma"
+  },
+  {
+    "id": 3,
+    "Stars": 5,
+    "Description": "Maglie stupende, qualità elevata, spedizione rapida. Comprerò ancora presto.    ",
+    "Name": "Giulia B.",
+    "City": "Napoli"
+  },
+  {
+    "id": 4,
+    "Stars": 5,
+    "Description": "Servizio impeccabile, qualità eccellente, prodotto perfetto. Tutto ottimo sempre",
+    "Name": "Luca P.",
+    "City": "Torino"
+  },
+  {
+    "id": 5,
+    "Stars": 5,
+    "Description": "Ordine veloce, capi comodissimi, ottima qualità. Esperienza molto positiva.     ",
+    "Name": "Chiara M.",
+    "City": "Bologna"
+  },
+  {
+    "id": 6,
+    "Stars": 5,
+    "Description": "Terzo ordine perfetto, tessuti ottimi, spedizione precisa. Molto soddisfatto.   ",
+    "Name": "Elena C.",
+    "City": "Firenze"
+  },
+  {
+    "id": 7,
+    "Stars": 5,
+    "Description": "Capi eccellenti, vestibilità perfetta, consegna rapida. Imballo molto curato.   ",
+    "Name": "Davide G.",
+    "City": "Genova"
+  },
+  {
+    "id": 8,
+    "Stars": 4.5,
+    "Description": "Ottima qualità, capi comodi, più colori sarebbero graditi. Consigliatissimo.!!!!",
+    "Name": "Martina L.",
+    "City": "Venezia"
+  },
+  {
+    "id": 9,
+    "Stars": 4.5,
+    "Description": "Prodotti validi, tracking lento, esperienza positiva. Acquisto soddisfacente.!!!",
+    "Name": "Alessandro T.",
+    "City": "Palermo"
+  },
+  {
+    "id": 10,
+    "Stars": 4,
+    "Description": "Buona qualità, taglie corrette, consegna lenta. Rimango comunque soddisfatto.!!!",
+    "Name": "Francesca D.",
+    "City": "Bari"
+  }
+]

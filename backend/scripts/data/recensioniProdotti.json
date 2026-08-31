@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "productId": 15,
+    "Stars": 4,
+    "Description": "Molto comodo da indossare",
+    "Name": "Alice G.",
+    "City": "Genova"
+  },
+  {
+    "id": 2,
+    "productId": 15,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Marco D.",
+    "City": "Torino"
+  },
+  {
+    "id": 3,
+    "productId": 15,
+    "Stars": 4.5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Luca M.",
+    "City": "Milano"
+  },
+  {
+    "id": 4,
+    "productId": 15,
+    "Stars": 4,
+    "Description": "Colore identico alle foto",
+    "Name": "Davide S.",
+    "City": "Milano"
+  },
+  {
+    "id": 5,
+    "productId": 15,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Laura Z.",
+    "City": "Genova"
+  },
+  {
+    "id": 6,
+    "productId": 4,
+    "Stars": 5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Alice G.",
+    "City": "Milano"
+  },
+  {
+    "id": 7,
+    "productId": 4,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Laura Z.",
+    "City": "Parma"
+  },
+  {
+    "id": 8,
+    "productId": 4,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Chiara B.",
+    "City": "Parma"
+  },
+  {
+    "id": 9,
+    "productId": 4,
+    "Stars": 4,
+    "Description": "Molto comodo da indossare",
+    "Name": "Simone N.",
+    "City": "Bologna"
+  },
+  {
+    "id": 10,
+    "productId": 4,
+    "Stars": 4.5,
+    "Description": "Elegante e molto comodo",
+    "Name": "Alice G.",
+    "City": "Roma"
+  },
+  {
+    "id": 11,
+    "productId": 40,
+    "Stars": 5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Marco D.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 12,
+    "productId": 40,
+    "Stars": 5,
+    "Description": "Colore identico alle foto",
+    "Name": "Francesca T.",
+    "City": "Pisa"
+  },
+  {
+    "id": 13,
+    "productId": 40,
+    "Stars": 4,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Giulia R.",
+    "City": "Roma"
+  },
+  {
+    "id": 14,
+    "productId": 40,
+    "Stars": 4.5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Giulia R.",
+    "City": "Genova"
+  },
+  {
+    "id": 15,
+    "productId": 40,
+    "Stars": 4.5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Alice G.",
+    "City": "Trieste"
+  },
+  {
+    "id": 16,
+    "productId": 14,
+    "Stars": 4,
+    "Description": "Elegante e molto comodo",
+    "Name": "Martina V.",
+    "City": "Pisa"
+  },
+  {
+    "id": 17,
+    "productId": 14,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Alice G.",
+    "City": "Torino"
+  },
+  {
+    "id": 18,
+    "productId": 14,
+    "Stars": 5,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Matteo P.",
+    "City": "Genova"
+  },
+  {
+    "id": 19,
+    "productId": 14,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Simone N.",
+    "City": "Bari"
+  },
+  {
+    "id": 20,
+    "productId": 14,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Andrea L.",
+    "City": "Roma"
+  },
+  {
+    "id": 21,
+    "productId": 32,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Andrea L.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 22,
+    "productId": 32,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Chiara B.",
+    "City": "Parma"
+  },
+  {
+    "id": 23,
+    "productId": 32,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Federico C.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 24,
+    "productId": 32,
+    "Stars": 4,
+    "Description": "Sta benissimo addosso",
+    "Name": "Alice G.",
+    "City": "Firenze"
+  },
+  {
+    "id": 25,
+    "productId": 32,
+    "Stars": 5,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Alice G.",
+    "City": "Perugia"
+  },
+  {
+    "id": 26,
+    "productId": 30,
+    "Stars": 4.5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Martina V.",
+    "City": "Genova"
+  },
+  {
+    "id": 27,
+    "productId": 30,
+    "Stars": 5,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Federico C.",
+    "City": "Torino"
+  },
+  {
+    "id": 28,
+    "productId": 30,
+    "Stars": 4,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Elena C.",
+    "City": "Napoli"
+  },
+  {
+    "id": 29,
+    "productId": 30,
+    "Stars": 5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Giulia R.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 30,
+    "productId": 30,
+    "Stars": 5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Giorgia P.",
+    "City": "Bari"
+  },
+  {
+    "id": 31,
+    "productId": 31,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Marco D.",
+    "City": "Bari"
+  },
+  {
+    "id": 32,
+    "productId": 31,
+    "Stars": 4,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Francesca T.",
+    "City": "Perugia"
+  },
+  {
+    "id": 33,
+    "productId": 31,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Sara F.",
+    "City": "Bari"
+  },
+  {
+    "id": 34,
+    "productId": 31,
+    "Stars": 4,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Marco D.",
+    "City": "Padova"
+  },
+  {
+    "id": 35,
+    "productId": 31,
+    "Stars": 4,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Elena C.",
+    "City": "Pisa"
+  },
+  {
+    "id": 36,
+    "productId": 26,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Sara F.",
+    "City": "Parma"
+  },
+  {
+    "id": 37,
+    "productId": 26,
+    "Stars": 4,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Marco D.",
+    "City": "Pisa"
+  },
+  {
+    "id": 38,
+    "productId": 26,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Luca M.",
+    "City": "Genova"
+  },
+  {
+    "id": 39,
+    "productId": 26,
+    "Stars": 4,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Giulia R.",
+    "City": "Modena"
+  },
+  {
+    "id": 40,
+    "productId": 26,
+    "Stars": 5,
+    "Description": "Colore identico alle foto",
+    "Name": "Elena C.",
+    "City": "Firenze"
+  },
+  {
+    "id": 41,
+    "productId": 21,
+    "Stars": 5,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Matteo P.",
+    "City": "Bari"
+  },
+  {
+    "id": 42,
+    "productId": 21,
+    "Stars": 5,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Laura Z.",
+    "City": "Verona"
+  },
+  {
+    "id": 43,
+    "productId": 21,
+    "Stars": 5,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Chiara B.",
+    "City": "Padova"
+  },
+  {
+    "id": 44,
+    "productId": 21,
+    "Stars": 5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Martina V.",
+    "City": "Trieste"
+  },
+  {
+    "id": 45,
+    "productId": 21,
+    "Stars": 4,
+    "Description": "Sta benissimo addosso",
+    "Name": "Davide S.",
+    "City": "Genova"
+  },
+  {
+    "id": 46,
+    "productId": 1,
+    "Stars": 4.5,
+    "Description": "Colore identico alle foto",
+    "Name": "Sara F.",
+    "City": "Genova"
+  },
+  {
+    "id": 47,
+    "productId": 1,
+    "Stars": 4,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Sara F.",
+    "City": "Torino"
+  },
+  {
+    "id": 48,
+    "productId": 1,
+    "Stars": 4,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Giulia R.",
+    "City": "Roma"
+  },
+  {
+    "id": 49,
+    "productId": 1,
+    "Stars": 4,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Davide S.",
+    "City": "Bari"
+  },
+  {
+    "id": 50,
+    "productId": 1,
+    "Stars": 4,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Elena C.",
+    "City": "Modena"
+  },
+  {
+    "id": 51,
+    "productId": 23,
+    "Stars": 4.5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Laura Z.",
+    "City": "Verona"
+  },
+  {
+    "id": 52,
+    "productId": 23,
+    "Stars": 4,
+    "Description": "Molto comodo da indossare",
+    "Name": "Laura Z.",
+    "City": "Pisa"
+  },
+  {
+    "id": 53,
+    "productId": 23,
+    "Stars": 4.5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Giorgia P.",
+    "City": "Roma"
+  },
+  {
+    "id": 54,
+    "productId": 23,
+    "Stars": 4.5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Andrea L.",
+    "City": "Bologna"
+  },
+  {
+    "id": 55,
+    "productId": 23,
+    "Stars": 4,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Giorgia P.",
+    "City": "Firenze"
+  },
+  {
+    "id": 56,
+    "productId": 17,
+    "Stars": 4,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Alice G.",
+    "City": "Trieste"
+  },
+  {
+    "id": 57,
+    "productId": 17,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Giorgia P.",
+    "City": "Bologna"
+  },
+  {
+    "id": 58,
+    "productId": 17,
+    "Stars": 5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Sara F.",
+    "City": "Torino"
+  },
+  {
+    "id": 59,
+    "productId": 17,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Federico C.",
+    "City": "Modena"
+  },
+  {
+    "id": 60,
+    "productId": 17,
+    "Stars": 4.5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Luca M.",
+    "City": "Napoli"
+  },
+  {
+    "id": 61,
+    "productId": 10,
+    "Stars": 4,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Simone N.",
+    "City": "Bari"
+  },
+  {
+    "id": 62,
+    "productId": 10,
+    "Stars": 4.5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Laura Z.",
+    "City": "Modena"
+  },
+  {
+    "id": 63,
+    "productId": 10,
+    "Stars": 4,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Francesca T.",
+    "City": "Verona"
+  },
+  {
+    "id": 64,
+    "productId": 10,
+    "Stars": 5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Luca M.",
+    "City": "Parma"
+  },
+  {
+    "id": 65,
+    "productId": 10,
+    "Stars": 4.5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Matteo P.",
+    "City": "Roma"
+  },
+  {
+    "id": 66,
+    "productId": 37,
+    "Stars": 4,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Matteo P.",
+    "City": "Torino"
+  },
+  {
+    "id": 67,
+    "productId": 37,
+    "Stars": 4,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Davide S.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 68,
+    "productId": 37,
+    "Stars": 5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Davide S.",
+    "City": "Roma"
+  },
+  {
+    "id": 69,
+    "productId": 37,
+    "Stars": 4.5,
+    "Description": "Colore identico alle foto",
+    "Name": "Andrea L.",
+    "City": "Bari"
+  },
+  {
+    "id": 70,
+    "productId": 37,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Andrea L.",
+    "City": "Genova"
+  },
+  {
+    "id": 71,
+    "productId": 39,
+    "Stars": 4.5,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Elena C.",
+    "City": "Padova"
+  },
+  {
+    "id": 72,
+    "productId": 39,
+    "Stars": 4.5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Giulia R.",
+    "City": "Milano"
+  },
+  {
+    "id": 73,
+    "productId": 39,
+    "Stars": 5,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Marco D.",
+    "City": "Torino"
+  },
+  {
+    "id": 74,
+    "productId": 39,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Alice G.",
+    "City": "Firenze"
+  },
+  {
+    "id": 75,
+    "productId": 39,
+    "Stars": 4,
+    "Description": "Elegante e molto comodo",
+    "Name": "Davide S.",
+    "City": "Pisa"
+  },
+  {
+    "id": 76,
+    "productId": 5,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Giorgia P.",
+    "City": "Padova"
+  },
+  {
+    "id": 77,
+    "productId": 5,
+    "Stars": 5,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Sara F.",
+    "City": "Padova"
+  },
+  {
+    "id": 78,
+    "productId": 5,
+    "Stars": 4,
+    "Description": "Molto comodo da indossare",
+    "Name": "Alice G.",
+    "City": "Bologna"
+  },
+  {
+    "id": 79,
+    "productId": 5,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Alice G.",
+    "City": "Padova"
+  },
+  {
+    "id": 80,
+    "productId": 5,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Andrea L.",
+    "City": "Verona"
+  },
+  {
+    "id": 81,
+    "productId": 18,
+    "Stars": 5,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Federico C.",
+    "City": "Bari"
+  },
+  {
+    "id": 82,
+    "productId": 18,
+    "Stars": 4,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Laura Z.",
+    "City": "Bari"
+  },
+  {
+    "id": 83,
+    "productId": 18,
+    "Stars": 4.5,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Elena C.",
+    "City": "Bari"
+  },
+  {
+    "id": 84,
+    "productId": 18,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Giorgia P.",
+    "City": "Perugia"
+  },
+  {
+    "id": 85,
+    "productId": 18,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Marco D.",
+    "City": "Torino"
+  },
+  {
+    "id": 86,
+    "productId": 36,
+    "Stars": 5,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Luca M.",
+    "City": "Pisa"
+  },
+  {
+    "id": 87,
+    "productId": 36,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Elena C.",
+    "City": "Perugia"
+  },
+  {
+    "id": 88,
+    "productId": 36,
+    "Stars": 4.5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Martina V.",
+    "City": "Roma"
+  },
+  {
+    "id": 89,
+    "productId": 36,
+    "Stars": 4,
+    "Description": "Elegante e molto comodo",
+    "Name": "Davide S.",
+    "City": "Bologna"
+  },
+  {
+    "id": 90,
+    "productId": 36,
+    "Stars": 4.5,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Elena C.",
+    "City": "Genova"
+  },
+  {
+    "id": 91,
+    "productId": 16,
+    "Stars": 4,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Laura Z.",
+    "City": "Milano"
+  },
+  {
+    "id": 92,
+    "productId": 16,
+    "Stars": 4.5,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Davide S.",
+    "City": "Bari"
+  },
+  {
+    "id": 93,
+    "productId": 16,
+    "Stars": 4.5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Luca M.",
+    "City": "Modena"
+  },
+  {
+    "id": 94,
+    "productId": 16,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Giorgia P.",
+    "City": "Pisa"
+  },
+  {
+    "id": 95,
+    "productId": 16,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Davide S.",
+    "City": "Milano"
+  },
+  {
+    "id": 96,
+    "productId": 7,
+    "Stars": 4.5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Andrea L.",
+    "City": "Bari"
+  },
+  {
+    "id": 97,
+    "productId": 7,
+    "Stars": 4.5,
+    "Description": "Colore identico alle foto",
+    "Name": "Martina V.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 98,
+    "productId": 7,
+    "Stars": 4.5,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Sara F.",
+    "City": "Bologna"
+  },
+  {
+    "id": 99,
+    "productId": 7,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Alice G.",
+    "City": "Roma"
+  },
+  {
+    "id": 100,
+    "productId": 7,
+    "Stars": 5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Laura Z.",
+    "City": "Pisa"
+  },
+  {
+    "id": 101,
+    "productId": 22,
+    "Stars": 4.5,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Marco D.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 102,
+    "productId": 22,
+    "Stars": 4,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Alice G.",
+    "City": "Roma"
+  },
+  {
+    "id": 103,
+    "productId": 22,
+    "Stars": 4,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Chiara B.",
+    "City": "Pisa"
+  },
+  {
+    "id": 104,
+    "productId": 22,
+    "Stars": 5,
+    "Description": "Colore identico alle foto",
+    "Name": "Andrea L.",
+    "City": "Parma"
+  },
+  {
+    "id": 105,
+    "productId": 22,
+    "Stars": 5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Francesca T.",
+    "City": "Padova"
+  },
+  {
+    "id": 106,
+    "productId": 9,
+    "Stars": 4.5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Simone N.",
+    "City": "Padova"
+  },
+  {
+    "id": 107,
+    "productId": 9,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Chiara B.",
+    "City": "Perugia"
+  },
+  {
+    "id": 108,
+    "productId": 9,
+    "Stars": 5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Matteo P.",
+    "City": "Padova"
+  },
+  {
+    "id": 109,
+    "productId": 9,
+    "Stars": 4.5,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Francesca T.",
+    "City": "Verona"
+  },
+  {
+    "id": 110,
+    "productId": 9,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Andrea L.",
+    "City": "Trieste"
+  },
+  {
+    "id": 111,
+    "productId": 35,
+    "Stars": 4.5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Chiara B.",
+    "City": "Modena"
+  },
+  {
+    "id": 112,
+    "productId": 35,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Giulia R.",
+    "City": "Padova"
+  },
+  {
+    "id": 113,
+    "productId": 35,
+    "Stars": 5,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Andrea L.",
+    "City": "Torino"
+  },
+  {
+    "id": 114,
+    "productId": 35,
+    "Stars": 5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Francesca T.",
+    "City": "Genova"
+  },
+  {
+    "id": 115,
+    "productId": 35,
+    "Stars": 4,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Sara F.",
+    "City": "Roma"
+  },
+  {
+    "id": 116,
+    "productId": 28,
+    "Stars": 4.5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Giulia R.",
+    "City": "Trieste"
+  },
+  {
+    "id": 117,
+    "productId": 28,
+    "Stars": 5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Chiara B.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 118,
+    "productId": 28,
+    "Stars": 4.5,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Davide S.",
+    "City": "Firenze"
+  },
+  {
+    "id": 119,
+    "productId": 28,
+    "Stars": 4,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Laura Z.",
+    "City": "Genova"
+  },
+  {
+    "id": 120,
+    "productId": 28,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Giorgia P.",
+    "City": "Roma"
+  },
+  {
+    "id": 121,
+    "productId": 20,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Marco D.",
+    "City": "Trieste"
+  },
+  {
+    "id": 122,
+    "productId": 20,
+    "Stars": 4.5,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Andrea L.",
+    "City": "Trieste"
+  },
+  {
+    "id": 123,
+    "productId": 20,
+    "Stars": 5,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Laura Z.",
+    "City": "Trieste"
+  },
+  {
+    "id": 124,
+    "productId": 20,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Federico C.",
+    "City": "Trieste"
+  },
+  {
+    "id": 125,
+    "productId": 20,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Alice G.",
+    "City": "Modena"
+  },
+  {
+    "id": 126,
+    "productId": 38,
+    "Stars": 4.5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Giorgia P.",
+    "City": "Torino"
+  },
+  {
+    "id": 127,
+    "productId": 38,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Alice G.",
+    "City": "Parma"
+  },
+  {
+    "id": 128,
+    "productId": 38,
+    "Stars": 5,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Giulia R.",
+    "City": "Firenze"
+  },
+  {
+    "id": 129,
+    "productId": 38,
+    "Stars": 4,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Simone N.",
+    "City": "Firenze"
+  },
+  {
+    "id": 130,
+    "productId": 38,
+    "Stars": 4,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Laura Z.",
+    "City": "Perugia"
+  },
+  {
+    "id": 131,
+    "productId": 2,
+    "Stars": 5,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Giorgia P.",
+    "City": "Perugia"
+  },
+  {
+    "id": 132,
+    "productId": 2,
+    "Stars": 4,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Laura Z.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 133,
+    "productId": 2,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Sara F.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 134,
+    "productId": 2,
+    "Stars": 4,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Martina V.",
+    "City": "Padova"
+  },
+  {
+    "id": 135,
+    "productId": 2,
+    "Stars": 4.5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Davide S.",
+    "City": "Modena"
+  },
+  {
+    "id": 136,
+    "productId": 25,
+    "Stars": 4.5,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Laura Z.",
+    "City": "Modena"
+  },
+  {
+    "id": 137,
+    "productId": 25,
+    "Stars": 4.5,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Andrea L.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 138,
+    "productId": 25,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Elena C.",
+    "City": "Milano"
+  },
+  {
+    "id": 139,
+    "productId": 25,
+    "Stars": 5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Sara F.",
+    "City": "Torino"
+  },
+  {
+    "id": 140,
+    "productId": 25,
+    "Stars": 4,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Giorgia P.",
+    "City": "Napoli"
+  },
+  {
+    "id": 141,
+    "productId": 33,
+    "Stars": 4.5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Simone N.",
+    "City": "Parma"
+  },
+  {
+    "id": 142,
+    "productId": 33,
+    "Stars": 4.5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Andrea L.",
+    "City": "Parma"
+  },
+  {
+    "id": 143,
+    "productId": 33,
+    "Stars": 4.5,
+    "Description": "Qualità prezzo eccellente",
+    "Name": "Laura Z.",
+    "City": "Bari"
+  },
+  {
+    "id": 144,
+    "productId": 33,
+    "Stars": 4.5,
+    "Description": "Colore identico alle foto",
+    "Name": "Sara F.",
+    "City": "Roma"
+  },
+  {
+    "id": 145,
+    "productId": 33,
+    "Stars": 4,
+    "Description": "Elegante e molto comodo",
+    "Name": "Giulia R.",
+    "City": "Roma"
+  },
+  {
+    "id": 146,
+    "productId": 27,
+    "Stars": 4,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Chiara B.",
+    "City": "Milano"
+  },
+  {
+    "id": 147,
+    "productId": 27,
+    "Stars": 4,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Davide S.",
+    "City": "Firenze"
+  },
+  {
+    "id": 148,
+    "productId": 27,
+    "Stars": 5,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Marco D.",
+    "City": "Verona"
+  },
+  {
+    "id": 149,
+    "productId": 27,
+    "Stars": 5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Alice G.",
+    "City": "Pisa"
+  },
+  {
+    "id": 150,
+    "productId": 27,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Marco D.",
+    "City": "Napoli"
+  },
+  {
+    "id": 151,
+    "productId": 24,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Sara F.",
+    "City": "Padova"
+  },
+  {
+    "id": 152,
+    "productId": 24,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Simone N.",
+    "City": "Cagliari"
+  },
+  {
+    "id": 153,
+    "productId": 24,
+    "Stars": 4,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Davide S.",
+    "City": "Bologna"
+  },
+  {
+    "id": 154,
+    "productId": 24,
+    "Stars": 4,
+    "Description": "Ottimo acquisto consigliatissimo",
+    "Name": "Luca M.",
+    "City": "Pisa"
+  },
+  {
+    "id": 155,
+    "productId": 24,
+    "Stars": 4.5,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Martina V.",
+    "City": "Torino"
+  },
+  {
+    "id": 156,
+    "productId": 13,
+    "Stars": 5,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Andrea L.",
+    "City": "Milano"
+  },
+  {
+    "id": 157,
+    "productId": 13,
+    "Stars": 4.5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Marco D.",
+    "City": "Perugia"
+  },
+  {
+    "id": 158,
+    "productId": 13,
+    "Stars": 5,
+    "Description": "Elegante e molto comodo",
+    "Name": "Giorgia P.",
+    "City": "Firenze"
+  },
+  {
+    "id": 159,
+    "productId": 13,
+    "Stars": 5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Alice G.",
+    "City": "Modena"
+  },
+  {
+    "id": 160,
+    "productId": 13,
+    "Stars": 4.5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Alice G.",
+    "City": "Parma"
+  },
+  {
+    "id": 161,
+    "productId": 29,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Alice G.",
+    "City": "Trieste"
+  },
+  {
+    "id": 162,
+    "productId": 29,
+    "Stars": 5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Simone N.",
+    "City": "Parma"
+  },
+  {
+    "id": 163,
+    "productId": 29,
+    "Stars": 4.5,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Andrea L.",
+    "City": "Napoli"
+  },
+  {
+    "id": 164,
+    "productId": 29,
+    "Stars": 4,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Martina V.",
+    "City": "Bari"
+  },
+  {
+    "id": 165,
+    "productId": 29,
+    "Stars": 4.5,
+    "Description": "Lo ricomprerei sicuramente",
+    "Name": "Alice G.",
+    "City": "Milano"
+  },
+  {
+    "id": 166,
+    "productId": 6,
+    "Stars": 4,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Giulia R.",
+    "City": "Genova"
+  },
+  {
+    "id": 167,
+    "productId": 6,
+    "Stars": 4.5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Davide S.",
+    "City": "Modena"
+  },
+  {
+    "id": 168,
+    "productId": 6,
+    "Stars": 4.5,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Sara F.",
+    "City": "Torino"
+  },
+  {
+    "id": 169,
+    "productId": 6,
+    "Stars": 4,
+    "Description": "Supera le aspettative",
+    "Name": "Simone N.",
+    "City": "Genova"
+  },
+  {
+    "id": 170,
+    "productId": 6,
+    "Stars": 4.5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Federico C.",
+    "City": "Pisa"
+  },
+  {
+    "id": 171,
+    "productId": 12,
+    "Stars": 5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Andrea L.",
+    "City": "Pisa"
+  },
+  {
+    "id": 172,
+    "productId": 12,
+    "Stars": 4.5,
+    "Description": "Sta benissimo addosso",
+    "Name": "Francesca T.",
+    "City": "Bari"
+  },
+  {
+    "id": 173,
+    "productId": 12,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Chiara B.",
+    "City": "Parma"
+  },
+  {
+    "id": 174,
+    "productId": 12,
+    "Stars": 5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Matteo P.",
+    "City": "Verona"
+  },
+  {
+    "id": 175,
+    "productId": 12,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Federico C.",
+    "City": "Bari"
+  },
+  {
+    "id": 176,
+    "productId": 19,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Francesca T.",
+    "City": "Bologna"
+  },
+  {
+    "id": 177,
+    "productId": 19,
+    "Stars": 4.5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Davide S.",
+    "City": "Pisa"
+  },
+  {
+    "id": 178,
+    "productId": 19,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Sara F.",
+    "City": "Firenze"
+  },
+  {
+    "id": 179,
+    "productId": 19,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Luca M.",
+    "City": "Padova"
+  },
+  {
+    "id": 180,
+    "productId": 19,
+    "Stars": 5,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Federico C.",
+    "City": "Bologna"
+  },
+  {
+    "id": 181,
+    "productId": 11,
+    "Stars": 5,
+    "Description": "Vestibilità perfetta e comodissima",
+    "Name": "Francesca T.",
+    "City": "Modena"
+  },
+  {
+    "id": 182,
+    "productId": 11,
+    "Stars": 4.5,
+    "Description": "Spedizione veloce tutto perfetto",
+    "Name": "Andrea L.",
+    "City": "Napoli"
+  },
+  {
+    "id": 183,
+    "productId": 11,
+    "Stars": 4.5,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Federico C.",
+    "City": "Bologna"
+  },
+  {
+    "id": 184,
+    "productId": 11,
+    "Stars": 4.5,
+    "Description": "Colore identico alle foto",
+    "Name": "Federico C.",
+    "City": "Torino"
+  },
+  {
+    "id": 185,
+    "productId": 11,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Luca M.",
+    "City": "Firenze"
+  },
+  {
+    "id": 186,
+    "productId": 3,
+    "Stars": 5,
+    "Description": "Acquisto davvero soddisfacente",
+    "Name": "Francesca T.",
+    "City": "Torino"
+  },
+  {
+    "id": 187,
+    "productId": 3,
+    "Stars": 4,
+    "Description": "Taglia perfetta consigliato",
+    "Name": "Laura Z.",
+    "City": "Genova"
+  },
+  {
+    "id": 188,
+    "productId": 3,
+    "Stars": 4.5,
+    "Description": "Molto più bello dal vivo",
+    "Name": "Giorgia P.",
+    "City": "Trieste"
+  },
+  {
+    "id": 189,
+    "productId": 3,
+    "Stars": 5,
+    "Description": "Supera le aspettative",
+    "Name": "Laura Z.",
+    "City": "Padova"
+  },
+  {
+    "id": 190,
+    "productId": 3,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Luca M.",
+    "City": "Bologna"
+  },
+  {
+    "id": 191,
+    "productId": 8,
+    "Stars": 5,
+    "Description": "Bellissimo dal vivo",
+    "Name": "Chiara B.",
+    "City": "Bari"
+  },
+  {
+    "id": 192,
+    "productId": 8,
+    "Stars": 4,
+    "Description": "Colore identico alle foto",
+    "Name": "Davide S.",
+    "City": "Napoli"
+  },
+  {
+    "id": 193,
+    "productId": 8,
+    "Stars": 4,
+    "Description": "Materiale davvero piacevole",
+    "Name": "Matteo P.",
+    "City": "Milano"
+  },
+  {
+    "id": 194,
+    "productId": 8,
+    "Stars": 4.5,
+    "Description": "Finiture curate nei dettagli",
+    "Name": "Federico C.",
+    "City": "Padova"
+  },
+  {
+    "id": 195,
+    "productId": 8,
+    "Stars": 4,
+    "Description": "Ottima qualità dei materiali",
+    "Name": "Francesca T.",
+    "City": "Padova"
+  },
+  {
+    "id": 196,
+    "productId": 34,
+    "Stars": 4,
+    "Description": "Sta benissimo addosso",
+    "Name": "Davide S.",
+    "City": "Bari"
+  },
+  {
+    "id": 197,
+    "productId": 34,
+    "Stars": 5,
+    "Description": "Vestibilità davvero impeccabile",
+    "Name": "Chiara B.",
+    "City": "Perugia"
+  },
+  {
+    "id": 198,
+    "productId": 34,
+    "Stars": 5,
+    "Description": "Molto comodo da indossare",
+    "Name": "Davide S.",
+    "City": "Firenze"
+  },
+  {
+    "id": 199,
+    "productId": 34,
+    "Stars": 4,
+    "Description": "Tessuto morbido e resistente",
+    "Name": "Giulia R.",
+    "City": "Roma"
+  },
+  {
+    "id": 200,
+    "productId": 34,
+    "Stars": 4.5,
+    "Description": "Perfetto per ogni occasione",
+    "Name": "Francesca T.",
+    "City": "Trieste"
+  }
+]

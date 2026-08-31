@@ -108,8 +108,8 @@ def delete_cookie_tokens(response: Response) -> None:
         max_age=0,
         expires=0,
         path="/",
-        secure=True,
+        secure=True if settings.PRODUCTION else False,
         httponly=True,
-        samesite="none",
+        samesite="none" if settings.PRODUCTION else "lax",
         partitioned=True,
     )
