@@ -1,8 +1,8 @@
-"""initialized database
+"""initial schema
 
-Revision ID: c1246174de7e
+Revision ID: da942c93e752
 Revises: 
-Create Date: 2026-08-31 22:41:30.702129
+Create Date: 2026-09-01 17:24:54.880323
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = 'c1246174de7e'
+revision: str = 'da942c93e752'
 down_revision: Union[str, Sequence[str], None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -45,7 +45,7 @@ def upgrade() -> None:
     sa.Column('subtitle', sa.String(length=100), nullable=False),
     sa.Column('description', sa.Text(), nullable=False),
     sa.Column('slug', sa.String(length=100), nullable=False),
-    sa.Column('prince_cents', sa.Integer(), nullable=False),
+    sa.Column('price_cents', sa.Integer(), nullable=False),
     sa.Column('sale_percent', sa.Integer(), nullable=False),
     sa.Column('new_arrivals', sa.Boolean(), nullable=False),
     sa.Column('image_url', sa.String(length=300), nullable=False),
@@ -53,9 +53,9 @@ def upgrade() -> None:
     sa.Column('created_at', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
     sa.Column('updated_at', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
     sa.Column('category_id', sa.Integer(), nullable=False),
-    sa.Column('subcategory_id', sa.Integer(), nullable=False),
+    sa.Column('sub_category_id', sa.Integer(), nullable=False),
     sa.ForeignKeyConstraint(['category_id'], ['categories.id'], ),
-    sa.ForeignKeyConstraint(['subcategory_id'], ['sub_categories.id'], ),
+    sa.ForeignKeyConstraint(['sub_category_id'], ['sub_categories.id'], ),
     sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('slug')
     )
