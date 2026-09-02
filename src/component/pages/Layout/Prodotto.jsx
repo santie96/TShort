@@ -25,6 +25,7 @@ function Prodotto() {
 
     const [prodotto, setProdotto] = useState(null);
     const [status, setStatus] = useState("loading");
+    const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
         let isCurrent = true
@@ -39,7 +40,7 @@ function Prodotto() {
                 setProdotto(data);
                 setStatus("success")
             } catch (error) {
-                if (isCurrent) setStatus("error");
+                if (isCurrent) setStatus(error);
             }
         }
 
@@ -71,7 +72,7 @@ function Prodotto() {
 
     const roundedRating = Math.round(averageRating * 2) / 2;
 
-    const { addToCart } = useContext(CartContext);
+    
 
     return (
         <>
