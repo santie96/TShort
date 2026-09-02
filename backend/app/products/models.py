@@ -70,7 +70,7 @@ class Product(Base):
     description: Mapped[str] = mapped_column(Text, nullable=False)
 
     # genera sequenza per url
-    slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
+    slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True, index=True)
 
     price_cents: Mapped[int] = mapped_column(
         Integer,
@@ -84,7 +84,8 @@ class Product(Base):
     new_arrivals: Mapped[bool] = mapped_column(
         Boolean,
         nullable=False,
-        default=False
+        default=False,
+        index=True
     )
     image_url: Mapped[str] = mapped_column(
         String(300),
@@ -93,7 +94,8 @@ class Product(Base):
     is_active: Mapped[bool] = mapped_column(
         Boolean,
         nullable=False,
-        default=True
+        default=True,
+        index=True
     )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
@@ -105,7 +107,7 @@ class Product(Base):
         nullable=False,
         server_default=func.now(),
         onupdate=func.now()
-    )
+    )   
 
     category_id: Mapped[int] = mapped_column(
         ForeignKey("categories.id"), nullable=False

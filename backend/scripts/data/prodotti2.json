@@ -1,0 +1,1266 @@
+[
+  {
+    "id": 15,
+    "title": "Top",
+    "subtitle": "Top essenziale",
+    "description": "Top da donna in tessuto morbido e resistente.",
+    "price": 29.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 9,
+    "image": "https://i.ibb.co/F4TSXDkm/prodotto-15.webp"
+  },
+  {
+    "id": 4,
+    "title": "Camicia",
+    "subtitle": "Camicia in lino",
+    "description": "Camicia da uomo in tessuto morbido e resistente.",
+    "price": 49.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      },
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 13,
+    "image": "https://i.ibb.co/r2Dx6Xp2/prodotto-4.webp"
+  },
+  {
+    "id": 40,
+    "title": "Shorts",
+    "subtitle": "Shorts estivi",
+    "description": "Shorts da bambina in tessuto morbido e resistente.",
+    "price": 29.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 4,
+    "image": "https://i.ibb.co/mFYDLqZx/prodotto-40.webp"
+  },
+  {
+    "id": 14,
+    "title": "Jeans skinny",
+    "subtitle": "Jeans elasticizzati",
+    "description": "Jeans skinny da donna in tessuto morbido e resistente.",
+    "price": 64.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 28,
+    "image": "https://i.ibb.co/cSnJKsnZ/prodotto-14.webp"
+  },
+  {
+    "id": 32,
+    "title": "Felpa Rabbit",
+    "subtitle": "Felpa con zip Rabbit",
+    "description": "Felpa da bambina in tessuto morbido e resistente.",
+    "price": 59.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 18,
+    "image": "https://i.ibb.co/sv8BYrgf/prodotto-32.webp"
+  },
+  {
+    "id": 30,
+    "title": "Camicia",
+    "subtitle": "Camicia a quadretti",
+    "description": "Camicia da bambino in tessuto morbido e resistente.",
+    "price": 49.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 5,
+    "image": "https://i.ibb.co/ynHsBj5M/prodotto-30.webp"
+  },
+  {
+    "id": 31,
+    "title": "Vestito ballerina",
+    "subtitle": "Vestito da ballerina",
+    "description": "Vestito da bambina ballerina in tessuto morbido e resistente.",
+    "price": 39.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 21,
+    "image": "https://i.ibb.co/h1tMM3fj/prodotto-31.webp"
+  },
+  {
+    "id": 26,
+    "title": "Giubbotto",
+    "subtitle": "Giubbotto leggero",
+    "description": "Giubbotto da bambino in tessuto morbido e resistente.",
+    "price": 49.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 16,
+    "image": "https://i.ibb.co/pBNrK6dj/prodotto-26.webp"
+  },
+  {
+    "id": 21,
+    "title": "T-shirt",
+    "subtitle": "T-shirt in cotone",
+    "description": "T-shirt da bambino in tessuto morbido e resistente.",
+    "price": 24.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 48,
+    "image": "https://i.ibb.co/HTyfLXjk/prodotto-21.webp"
+  },
+  {
+    "id": 1,
+    "title": "T-shirt",
+    "subtitle": "T-shirt in cotone",
+    "description": "T-shirt da uomo in tessuto morbido e resistente.",
+    "price": 24.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 46,
+    "image": "https://i.ibb.co/CpH2bCkW/prodotto-1.webp"
+  },
+  {
+    "id": 23,
+    "title": "Jeans classici",
+    "subtitle": "Jeans comodi",
+    "description": "Jeans da bambino in tessuto morbido e resistente.",
+    "price": 34.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 7,
+    "image": "https://i.ibb.co/yc4CHY6T/prodotto-23.webp"
+  },
+  {
+    "id": 17,
+    "title": "Gonna",
+    "subtitle": "Gonna midi",
+    "description": "Gonna da donna in tessuto morbido e resistente.",
+    "price": 39.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 45,
+    "image": "https://i.ibb.co/hTTzkdg/prodotto-17.webp"
+  },
+  {
+    "id": 10,
+    "title": "Blazer",
+    "subtitle": "Blazer moderno",
+    "description": "Blazer da uomo in tessuto morbido e resistente.",
+    "price": 99.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 26,
+    "image": "https://i.ibb.co/Rph9kTKL/prodotto-10.webp"
+  },
+  {
+    "id": 37,
+    "title": "Jeans",
+    "subtitle": "Jeans comodi",
+    "description": "Jeans da bambina in tessuto morbido e resistente.",
+    "price": 34.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 13,
+    "image": "https://i.ibb.co/SXttbsdh/prodotto-37.webp"
+  },
+  {
+    "id": 39,
+    "title": "Pigiama animali",
+    "subtitle": "Pigiama in cotone animali",
+    "description": "Pigiama da bambina in tessuto morbido e resistente.",
+    "price": 24.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": true,
+    "colors": [
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 43,
+    "image": "https://i.ibb.co/ZpL6QyLL/prodotto-39.webp"
+  },
+  {
+    "id": 5,
+    "title": "Polo",
+    "subtitle": "Polo in piqué",
+    "description": "Polo da uomo in tessuto morbido e resistente.",
+    "price": 34.99,
+    "categories": "uomo",
+    "sale": 20,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      },
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 46,
+    "image": "https://i.ibb.co/b5dSKSkB/prodotto-5.webp"
+  },
+  {
+    "id": 18,
+    "title": "Blazer",
+    "subtitle": "Blazer elegante",
+    "description": "Blazer da donna in tessuto morbido e resistente.",
+    "price": 99.99,
+    "categories": "donna",
+    "sale": 30,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 20,
+    "image": "https://i.ibb.co/Fb0NG68L/prodotto-18.webp"
+  },
+  {
+    "id": 36,
+    "title": "Cardigan",
+    "subtitle": "Cardigan morbido",
+    "description": "Cardigan da bambina in tessuto morbido e resistente.",
+    "price": 49.99,
+    "categories": "bambina",
+    "sale": 40,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 11,
+    "image": "https://i.ibb.co/hx5Tf6MX/prodotto-36.webp"
+  },
+  {
+    "id": 16,
+    "title": "Cardigan",
+    "subtitle": "Cardigan morbido",
+    "description": "Cardigan da donna in tessuto morbido e resistente.",
+    "price": 49.99,
+    "categories": "donna",
+    "sale": 50,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 48,
+    "image": "https://i.ibb.co/3YjdZSyW/prodotto-16.webp"
+  },
+  {
+    "id": 7,
+    "title": "Giacca denim",
+    "subtitle": "Giacca casual",
+    "description": "Giacca denim da uomo in tessuto morbido e resistente.",
+    "price": 79.99,
+    "categories": "uomo",
+    "sale": 20,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 34,
+    "image": "https://i.ibb.co/r21B6MCF/prodotto-7.webp"
+  },
+  {
+    "id": 22,
+    "title": "Felpa",
+    "subtitle": "Felpa con cappuccio",
+    "description": "Felpa da bambino in tessuto morbido e resistente.",
+    "price": 59.99,
+    "categories": "bambino",
+    "sale": 30,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 15,
+    "image": "https://i.ibb.co/pBtMnsCf/prodotto-22.webp"
+  },
+  {
+    "id": 9,
+    "title": "Shorts",
+    "subtitle": "Shorts estivi",
+    "description": "Shorts da uomo in tessuto morbido e resistente.",
+    "price": 29.99,
+    "categories": "uomo",
+    "sale": 40,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 4,
+    "image": "https://i.ibb.co/JF7th0T3/prodotto-9.webp"
+  },
+  {
+    "id": 35,
+    "title": "T-shirt Love Topolino",
+    "subtitle": "T-shirt Love Topolino",
+    "description": "T-shirt da bambina Love Topolino in tessuto morbido e resistente.",
+    "price": 24.99,
+    "categories": "bambina",
+    "sale": 50,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      },
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 18,
+    "image": "https://i.ibb.co/49Qn1SM/prodotto-35.webp"
+  },
+  {
+    "id": 28,
+    "title": "Maglione",
+    "subtitle": "Maglione caldo",
+    "description": "Maglione da bambino in tessuto morbido e resistente.",
+    "price": 44.99,
+    "categories": "bambino",
+    "sale": 20,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 41,
+    "image": "https://i.ibb.co/KjKRFhPz/prodotto-28.webp"
+  },
+  {
+    "id": 20,
+    "title": "Giacca denim",
+    "subtitle": "Giacca casual",
+    "description": "Giacca denim da donna in tessuto morbido e resistente.",
+    "price": 79.99,
+    "categories": "donna",
+    "sale": 30,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 44,
+    "image": "https://i.ibb.co/DHB1sf57/prodotto-20.webp"
+  },
+  {
+    "id": 38,
+    "title": "Giacca",
+    "subtitle": "Giacca leggera",
+    "description": "Giacca da bambina in tessuto morbido e resistente.",
+    "price": 44.99,
+    "categories": "bambina",
+    "sale": 40,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 34,
+    "image": "https://i.ibb.co/xK4nBmxy/prodotto-38.webp"
+  },
+  {
+    "id": 2,
+    "title": "Felpa",
+    "subtitle": "Felpa con cappuccio",
+    "description": "Felpa da uomo in tessuto morbido e resistente.",
+    "price": 59.99,
+    "categories": "uomo",
+    "sale": 50,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      },
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 18,
+    "image": "https://i.ibb.co/fYYGjkS3/prodotto-2.webp"
+  },
+  {
+    "id": 25,
+    "title": "Pantaloni sport",
+    "subtitle": "Pantaloni morbidi",
+    "description": "Pantaloni sport da bambino in tessuto morbido e resistente.",
+    "price": 29.99,
+    "categories": "bambino",
+    "sale": 20,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 39,
+    "image": "https://i.ibb.co/6JDrQdGr/prodotto-25.webp"
+  },
+  {
+    "id": 33,
+    "title": "Leggings",
+    "subtitle": "Leggings elasticizzati",
+    "description": "Leggings da bambina in tessuto morbido e resistente.",
+    "price": 19.99,
+    "categories": "bambina",
+    "sale": 30,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 41,
+    "image": "https://i.ibb.co/pHML0n7/prodotto-33.webp"
+  },
+  {
+    "id": 27,
+    "title": "Shorts",
+    "subtitle": "Shorts estivi",
+    "description": "Shorts da bambino in tessuto morbido e resistente.",
+    "price": 29.99,
+    "categories": "bambino",
+    "sale": 40,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 17,
+    "image": "https://i.ibb.co/gNymM7M/prodotto-27.webp"
+  },
+  {
+    "id": 24,
+    "title": "Polo",
+    "subtitle": "Polo classica",
+    "description": "Polo da bambino in tessuto morbido e resistente.",
+    "price": 34.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Blu navy",
+        "hex": "#22304A"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 21,
+    "image": "https://i.ibb.co/RpZHwgNw/prodotto-24.webp"
+  },
+  {
+    "id": 13,
+    "title": "Felpa",
+    "subtitle": "Felpa oversize",
+    "description": "Felpa da donna in tessuto morbido e resistente.",
+    "price": 59.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 15,
+    "image": "https://i.ibb.co/LjkF8SS/prodotto-13.webp"
+  },
+  {
+    "id": 29,
+    "title": "Tuta",
+    "subtitle": "Tuta sportiva",
+    "description": "Tuta da bambino in tessuto morbido e resistente.",
+    "price": 39.99,
+    "categories": "bambino",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 29,
+    "image": "https://i.ibb.co/YrSSckh/prodotto-29.webp"
+  },
+  {
+    "id": 6,
+    "title": "Pantaloni chino",
+    "subtitle": "Pantaloni slim",
+    "description": "Pantaloni chino da uomo in tessuto morbido e resistente.",
+    "price": 54.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 3,
+    "image": "https://i.ibb.co/ZRJrksnj/prodotto-6.webp"
+  },
+  {
+    "id": 12,
+    "title": "T-shirt",
+    "subtitle": "T-shirt in cotone",
+    "description": "T-shirt da donna in tessuto morbido e resistente.",
+    "price": 24.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Bianco",
+        "hex": "#FFFFFF"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 46,
+    "image": "https://i.ibb.co/Mxk2qKzb/prodotto-12.webp"
+  },
+  {
+    "id": 19,
+    "title": "Pantaloni palazzo",
+    "subtitle": "Pantaloni fluidi",
+    "description": "Pantaloni palazzo da donna in tessuto morbido e resistente.",
+    "price": 59.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Crema",
+        "hex": "#F5F1E8"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 40,
+    "image": "https://i.ibb.co/4ZNj4K7F/prodotto-19.webp"
+  },
+  {
+    "id": 11,
+    "title": "Abito",
+    "subtitle": "Abito midi",
+    "description": "Abito da donna in tessuto morbido e resistente.",
+    "price": 69.99,
+    "categories": "donna",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Nero",
+        "hex": "#211D1A"
+      },
+      {
+        "nome": "Beige",
+        "hex": "#D8C3A5"
+      },
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 45,
+    "image": "https://i.ibb.co/0ytD0HBS/prodotto-11.webp"
+  },
+  {
+    "id": 3,
+    "title": "Jeans slim",
+    "subtitle": "Jeans elasticizzati",
+    "description": "Jeans slim da uomo in tessuto morbido e resistente.",
+    "price": 69.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Blu",
+        "hex": "#2F5D9F"
+      },
+      {
+        "nome": "Marrone",
+        "hex": "#7B4B2A"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 32,
+    "image": "https://i.ibb.co/V03zYmxk/prodotto-3.webp"
+  },
+  {
+    "id": 8,
+    "title": "Maglione",
+    "subtitle": "Maglione girocollo",
+    "description": "Maglione da uomo in tessuto morbido e resistente.",
+    "price": 44.99,
+    "categories": "uomo",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      },
+      {
+        "nome": "Rosso",
+        "hex": "#C62828"
+      },
+      {
+        "nome": "Ecrù",
+        "hex": "#F5F5DC"
+      },
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 25,
+    "image": "https://i.ibb.co/mVjL5yPf/prodotto-8.webp"
+  },
+  {
+    "id": 34,
+    "title": "Gonna pua",
+    "subtitle": "Gonna in cotone a pua",
+    "description": "Gonna da bambina a pua in tessuto morbido e resistente.",
+    "price": 39.99,
+    "categories": "bambina",
+    "sale": 0,
+    "newArrivals": false,
+    "colors": [
+      {
+        "nome": "Verde oliva",
+        "hex": "#556B2F"
+      },
+      {
+        "nome": "Grigio",
+        "hex": "#808080"
+      },
+      {
+        "nome": "Antracite",
+        "hex": "#36454F"
+      }
+    ],
+    "sizes": [
+      "4Y",
+      "6Y",
+      "8Y",
+      "10Y"
+    ],
+    "stock": 41,
+    "image": "https://i.ibb.co/pjw9NV35/prodotto-34.webp"
+  }
+]

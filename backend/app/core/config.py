@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pathlib import Path
+from pydantic import EmailStr
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -11,6 +12,19 @@ class Settings(BaseSettings):
     APP_NAME: str
     
     PRODUCTION: bool
+    
+    # email credentials
+    MAIL_USERNAME: str
+    MAIL_PASSWORD: str
+    MAIL_FROM: EmailStr
+
+    # email config
+    MAIL_PORT: int
+    MAIL_SERVER: str
+    MAIL_STARTTLS: bool = True
+    MAIL_SSL_TLS: bool = False
+    USE_CREDENTIALS: bool = True
+    VALIDATE_CERTS: bool = True
 
     # database
     POSTGRES_DRIVER: str

@@ -6,7 +6,7 @@ from app.database.connection import AsyncSessionLocal
 from app.products.models import Category, SubCategory, Product, ProductVariant, TargetKey
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
-PRODUCTS_PATH = DATA_DIR / "prodotti.json"
+PRODUCTS_PATH = DATA_DIR / "prodotti2.json"
 CATEGORIES_PATH = DATA_DIR / "prodotti_slug.json"
 
 
@@ -39,8 +39,8 @@ async def seed() -> None:
     product_meta: dict[int, dict] = {}  
 
     for item in categories_data:
-        cat = item["category"]
-        subcat = item["subcategory"]
+        category = item["category"]
+        subcategory = item["subcategory"]
 
         categories_raw.setdefault(category["slug"], {"name": category["name"], "slug": category["slug"]})
         subcategories_raw.setdefault(
@@ -88,12 +88,15 @@ async def seed() -> None:
                     print(f"[WARN] target sconosciuto '{item['categories']}' per prodotto id={pid}, skip")
                     skipped.append(pid)
                     continue
-
+                
+                target_str = target.value if hasattr(target, 'value') else str(target)
+                base_slug = item['subtitle'].strip().lower().replace(' ', '-')
+                
                 product = Product(
                     title=item["title"],
                     subtitle=item["subtitle"],
                     description=item["description"],
-                    slug=f"{item['title'].strip().lower().replace(' ', '-')}-{pid}",
+                    slug=f"{base_slug}-{target_str}",
                     price_cents=to_cents(item["price"]),
                     sale_percent=item.get("sale", 0),
                     new_arrivals=item.get("newArrivals", False),
@@ -110,7 +113,6 @@ async def seed() -> None:
 
                 stocks = distribute_stock(item.get("stock", 0), len(combos))
 
-                print(pid, item.get("stock"), combos, stocks)
                 for (color, size), stock in zip(combos, stocks):
                     variant = ProductVariant(
                         product_id=product.id,
