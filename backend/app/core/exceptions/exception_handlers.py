@@ -13,13 +13,13 @@ from slowapi.errors import RateLimitExceeded
 async def not_found_handler(request: Request, exc: NotFoundException):
     return JSONResponse(
         status_code=status.HTTP_404_NOT_FOUND,
-        content={"detail": exc.detail},
+        content={"detail": exc},
     )
 
 async def external_service_error_handler(request: Request, exc: ExternalServiceException):
     return JSONResponse(
         status_code=status.HTTP_400_BAD_REQUEST,
-        content={"detail": exc.detail},
+        content={"detail": exc},
     )    
     
 async def validation_handler(request: Request, exc: ValidationException):
@@ -40,7 +40,7 @@ async def internal_server_error_handler(request: Request, exc: Exception):
 # ========  LIMITER  =================
 # ====================================
 
-limiter = Limiter(key_func=get_remote_address)
+limiter = Limiter(key_func=get_remote_address, default_limits=["10/minute"])
 
 async def custom_rate_limit_handler(request: Request, exc: RateLimitExceeded):
     """
@@ -73,9 +73,9 @@ async def custom_rate_limit_handler(request: Request, exc: RateLimitExceeded):
     
 
 EXCEPTION_HANDLERS = [
+    (RateLimitExceeded, custom_rate_limit_handler),
     (NotFoundException, not_found_handler),
     (ValidationException, validation_handler),
     (ExternalServiceException, external_service_error_handler),
     (Exception, internal_server_error_handler),
-    (RateLimitExceeded, custom_rate_limit_handler)
 ]

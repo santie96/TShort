@@ -132,7 +132,6 @@ class Product(Base):
         "ProductVariant", back_populates="product", cascade="all, delete-orphan"
     )
 
-
 class ProductVariant(Base):
 
     __tablename__ = "product_variants"

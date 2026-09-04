@@ -3,6 +3,7 @@ from app.products.routes import router as products_router
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.exceptions.exception_handlers import EXCEPTION_HANDLERS, limiter
 
+
 app = FastAPI()
 
 app.add_middleware(
@@ -14,12 +15,14 @@ app.add_middleware(
     expose_headers=["X-CSRF-Token"],
 )
 
-# throttling
+# throttling 
 app.state.limiter = limiter
+
 
 # exception handlers
 for exc_class, handler in EXCEPTION_HANDLERS:
     app.add_exception_handler(exc_class, handler)
+
 
 # API v1 prefix
 api_v1 = APIRouter(prefix="/api/v1")
