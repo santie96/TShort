@@ -104,3 +104,27 @@ async def delete_product(product_id: int, db: AsyncSession = Depends(get_db)):
     """
     
     return await delete_product_service(db, product_id)
+
+@router.post("/variants", status_code=status.HTTP_201_CREATED, response_model=ProductVariantSchema)
+async def create_new_variant(
+    payload: ProductVariantCreateRequestSchema,
+    db: AsyncSession = Depends(get_db), 
+):
+    """
+    Create a new variant for a product
+    
+    (AUTHENTICATION AND ADMIN ROLE REQUIRED)
+    """
+    
+    return await create_variant_service(db, payload)
+
+
+@router.delete("/variants/{variant_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_variant(variant_id: int, db: AsyncSession = Depends(get_db)):
+    """
+    Delete permanently a variant
+    
+    (AUTHENTICATION AND ADMIN ROLE REQUIRED)
+    """
+    
+    return await delete_variant_service(db, variant_id)
