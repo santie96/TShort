@@ -1,5 +1,6 @@
 from fastapi import FastAPI, APIRouter
 from app.products.routes import router as products_router
+from app.categories.routes import router as categories_router
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.exceptions.exception_handlers import EXCEPTION_HANDLERS, limiter
 
@@ -26,6 +27,7 @@ for exc_class, handler in EXCEPTION_HANDLERS:
 
 # API v1 prefix
 api_v1 = APIRouter(prefix="/api/v1")
+api_v1.include_router(categories_router)
 api_v1.include_router(products_router)
 
 # Include API v1 + other routers

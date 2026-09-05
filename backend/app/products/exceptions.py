@@ -9,6 +9,3 @@ class ProductSlugAlreadyExistsException(AlreadyExistsException):
 
 class InvalidImageURLException(ExternalServiceException):
     pass
-
-class PageNotFoundException(NotFoundException):
-    pass

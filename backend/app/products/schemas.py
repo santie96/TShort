@@ -1,9 +1,9 @@
-from pydantic import BaseModel, ConfigDict, field_validator, field_serializer
+from pydantic import BaseModel, field_validator, field_serializer
 from datetime import datetime
 from .models import TargetKey
 from re import match
 from app.core.schemas import SyncModelORM
-from app.categories.schemas import CategorySchema, SubCategorySchema
+from app.categories.schemas import CategorySchema, SubCategoryNestedProductSchema
 
 # ====================================
 # PRODUCT
@@ -24,7 +24,7 @@ class ProductSchema(SyncModelORM):
     updated_at: datetime
 
     category: CategorySchema
-    sub_category: SubCategorySchema
+    sub_category: SubCategoryNestedProductSchema
     variants: list[ProductVariantSchema]
 
     @field_serializer("price_cents")
@@ -51,15 +51,15 @@ class ProductCreateRequestSchema(BaseModel):
     @field_validator("title")
     @classmethod
     def validate_title(cls, value: str) -> str:
-        if not match(r"^[\w ]{1,100}$", value):
-            raise ValueError("title length must be between 1 and 100 characters")
+        if not match(r"^[A-Za-z0-9 ]{1,100}$", value):
+            raise ValueError("title length must be between 1 and 100 characters can contain only alphanumeric characters and spaces")
         return value
     
     @field_validator("subtitle")
     @classmethod
     def validate_subtitle(cls, value: str) -> str:
-        if not match(r"^[\w ]{1,100}$", value):
-            raise ValueError("subtitle length must be between 1 and 100 characters")
+        if not match(r"^[A-Za-z0-9 ]{1,100}$", value):
+            raise ValueError("subtitle length must be between 1 and 100 characters can contain only alphanumeric characters and spaces")
         return value
     
     
@@ -101,6 +101,7 @@ class ProductUpdateRequestSchema(ProductCreateRequestSchema):
     sale_percent: int | None = None
     new_arrivals: bool | None = None
     image_url: str | None = None
+    is_active: bool | None = None
     
     category_id: int | None = None
     sub_category_id: int | None = None

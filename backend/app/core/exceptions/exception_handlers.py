@@ -13,13 +13,13 @@ from slowapi.errors import RateLimitExceeded
 async def not_found_handler(request: Request, exc: NotFoundException):
     return JSONResponse(
         status_code=status.HTTP_404_NOT_FOUND,
-        content={"detail": exc},
+        content={"detail": str(exc)},
     )
 
 async def external_service_error_handler(request: Request, exc: ExternalServiceException):
     return JSONResponse(
         status_code=status.HTTP_400_BAD_REQUEST,
-        content={"detail": exc},
+        content={"detail": str(exc)},
     )    
     
 async def validation_handler(request: Request, exc: ValidationException):

@@ -1,8 +1,8 @@
-"""refactor database models folder structures
+"""initialized database
 
-Revision ID: 74398ffcd785
+Revision ID: 1d30a431d3ba
 Revises: 
-Create Date: 2026-09-05 11:41:09.182727
+Create Date: 2026-09-05 13:38:17.472168
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '74398ffcd785'
+revision: str = '1d30a431d3ba'
 down_revision: Union[str, Sequence[str], None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -27,6 +27,7 @@ def upgrade() -> None:
     sa.Column('slug', sa.String(length=100), nullable=False),
     sa.Column('is_active', sa.Boolean(), nullable=False),
     sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('name'),
     sa.UniqueConstraint('slug')
     )
     op.create_table('sub_categories',
@@ -37,6 +38,7 @@ def upgrade() -> None:
     sa.Column('category_id', sa.Integer(), nullable=False),
     sa.ForeignKeyConstraint(['category_id'], ['categories.id'], ),
     sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('name'),
     sa.UniqueConstraint('slug')
     )
     op.create_table('products',

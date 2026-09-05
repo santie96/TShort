@@ -11,6 +11,14 @@ class CategorySchema(SyncModelORM):
     slug: str
     is_active: bool
 
+class CategoryPaginatedSchema(BaseModel):
+    total_items: int
+    total_pages: int
+    items_per_page: int
+    prev_page: int | None
+    current_page: int
+    next_page: int | None
+    items: list[CategorySchema]
     
 class CategoryCreateRequestSchema(BaseModel):
     name: str
@@ -18,22 +26,15 @@ class CategoryCreateRequestSchema(BaseModel):
     @field_validator("name")
     @classmethod
     def validate_name(cls, value: str) -> str:
-        if not match(r"^[\w ]{1,100}$", value):
-            raise ValueError("name length must be between 1 and 100 characters")
+        if not match(r"^[A-Za-z0-9 ]{1,100}$", value):
+            raise ValueError("name length must be between 1 and 100 characters can contain only alphanumeric characters and spaces")
         return value
 
 
 class CategoryUpdateRequestSchema(CategoryCreateRequestSchema):
-    id: int
     name: str | None = None
+    is_active: bool | None = None
 
-    @field_validator("id")
-    @classmethod
-    def validate_id(cls, value: int) -> int:
-        if value < 0:
-            raise ValueError("id must be positive value")
-        return value
-    
 # ====================================
 # SUBCATEGORY
 # ====================================
@@ -44,7 +45,24 @@ class SubCategorySchema(SyncModelORM):
     slug: str
     is_active: bool
     
+    category: CategorySchema
+
+class SubCategoryNestedProductSchema(SyncModelORM):
+    id: int
+    name: str
+    slug: str
+    is_active: bool
     
+
+class SubCategoryPaginatedSchema(BaseModel):
+    total_items: int
+    total_pages: int
+    items_per_page: int
+    prev_page: int | None
+    current_page: int
+    next_page: int | None
+    items: list[SubCategorySchema]
+
 class SubCategoryCreateRequestSchema(BaseModel):
     name: str
     category_id: int
@@ -52,20 +70,13 @@ class SubCategoryCreateRequestSchema(BaseModel):
     @field_validator("name")
     @classmethod
     def validate_name(cls, value: str) -> str:
-        if not match(r"^[\w ]{1,100}$", value):
-            raise ValueError("name length must be between 1 and 100 characters")
+        if not match(r"^[A-Za-z0-9 ]{1,100}$", value):
+            raise ValueError("name length must be between 1 and 100 characters can contain only alphanumeric characters and spaces")
         return value
 
 
 class SubCategoryUpdateRequestSchema(SubCategoryCreateRequestSchema):
-    id: int
     name: str | None = None
+    is_active: bool | None = None
     category_id: int | None = None
-    
-    @field_validator("id")
-    @classmethod
-    def validate_id(cls, value: int) -> int:
-        if value < 0:
-            raise ValueError("id must be positive value")
-        return value
     

@@ -9,3 +9,7 @@ class ExternalServiceException(Exception):
 
 class AlreadyExistsException(Exception):
     pass
+
+
+class PageNotFoundException(NotFoundException):
+    pass

@@ -3,11 +3,12 @@ from sqlalchemy import select, func, and_
 from sqlalchemy.ext.asyncio import AsyncSession
 from .schemas import *
 from sqlalchemy.orm import selectinload
-from .exceptions import *
 from httpx import AsyncClient
-from .utils import create_product_slug
+from .exceptions import ProductNotFoundException, ProductSlugAlreadyExistsException, InvalidImageURLException
+from app.core.utils import create_slug
 from typing import Literal
 from app.categories.exceptions import CategoryNotFoundException, SubCategoryNotFoundException
+from app.core.exceptions.exceptions import PageNotFoundException
 
 
 async def _get_product_with_relations(db: AsyncSession, product_id: int) -> Product | None:
@@ -36,7 +37,7 @@ def _is_product_active(product: Product) -> bool:
         and product.sub_category.is_active
     )
 
-async def _validate_product(products: list[Product]) -> list[Product]:
+def _validate_product(products: list[Product]) -> list[Product]:
     """
     Check if all products with relationships are active
     """
@@ -110,8 +111,6 @@ async def get_products_service(
     if 0 < total_pages < page:
         raise PageNotFoundException(f"Page {page} not found")
     
-    prev_page = page - 1 if page > 1 else None
-    next_page = page + 1 if page < total_pages else None
     
     # query to extract products with relationships
     products = (
@@ -134,9 +133,9 @@ async def get_products_service(
         total_items=total_items,
         total_pages=total_pages,
         items_per_page=limit,
-        prev_page=prev_page,
+        prev_page=page - 1 if page > 1 else None,
         current_page=page,
-        next_page=next_page,
+        next_page=page + 1 if page < total_pages else None,
         items=[ProductSchema.model_validate(product) for product in _validate_product(products)]
     )
 
@@ -187,7 +186,7 @@ async def create_product_service(db: AsyncSession, payload: ProductCreateRequest
         raise SubCategoryNotFoundException(f"SubCategory with id {payload.sub_category_id} not found")
     
     # create slug and check if it's unique
-    product_slug = create_product_slug(payload.title, payload.variant.target_key)
+    product_slug = create_slug(payload.title, payload.variant.target_key)
     
     existing_product_slug = (
         await db.execute(
@@ -253,7 +252,7 @@ async def update_product_service(
     variant_data = update_data.pop("variant", None)
     
     if payload.title and payload.variant.target_key:
-        product_slug = create_product_slug(payload.title, payload.variant.target_key)
+        product_slug = create_slug(payload.title, payload.variant.target_key)
 
         existing_product_slug = (
             await db.execute(

@@ -59,6 +59,8 @@ async def create_new_product(
     Format alidation on request body
     
     Validation image url (check if image is reachable)
+    
+    (AUTHENTICATION AND ADMIN ROLE REQUIRED)
     """
     
     return await create_product_service(db, payload)
@@ -86,6 +88,8 @@ async def update_product(
     Update a product
     
     This endpoint can also be used to update a product variant
+    
+    (AUTHENTICATION AND ADMIN ROLE REQUIRED)
     """
     
     return await update_product_service(db, product_id, payload)
@@ -95,6 +99,8 @@ async def update_product(
 async def delete_product(product_id: int, db: AsyncSession = Depends(get_db)):
     """
     Delete permanently a product and every related variant
+    
+    (AUTHENTICATION AND ADMIN ROLE REQUIRED)
     """
     
     return await delete_product_service(db, product_id)

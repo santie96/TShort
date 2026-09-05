@@ -7,9 +7,13 @@ class CategoryNotFoundException(NotFoundException):
 class CategoryAlreadyExistsException(AlreadyExistsException):
     pass
 
+
 # subcategory exceptions
 class SubCategoryNotFoundException(NotFoundException):
     pass
 
 class SubCategoryAlreadyExistsException(AlreadyExistsException):
+    pass
+
+class SubCategorySlugAlreadyExistsException(AlreadyExistsException):
     pass
