@@ -3,7 +3,8 @@ from json import loads
 from pathlib import Path
 
 from app.database.connection import AsyncSessionLocal
-from app.products.models import Category, SubCategory, Product, ProductVariant, TargetKey
+from app.products.models import Product, ProductVariant, TargetKey
+from app.categories.models import Category, SubCategory
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 PRODUCTS_PATH = DATA_DIR / "prodotti2.json"

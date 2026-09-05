@@ -4,59 +4,17 @@ from sqlalchemy import String, Text, Enum as SQLAEnum, Integer, Boolean, DateTim
 from enum import Enum
 from datetime import datetime
 
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from app.categories.models import Category, SubCategory
+
 
 class TargetKey(str, Enum):
     UOMO = "uomo"
     DONNA = "donna"
     BAMBINO = "bambino"
     BAMBINA = "bambina"
-
-
-class Category(Base):
-
-    __tablename__ = "categories"
-
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    name: Mapped[str] = mapped_column(String(100), nullable=False)
-    slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
-    is_active: Mapped[bool] = mapped_column(
-        Boolean,
-        nullable=False,
-        default=True
-    )
-
-    products: Mapped[list["Product"]] = relationship(
-        "Product", back_populates="category", cascade="all, delete-orphan"
-    )
-
-    sub_categories: Mapped[list["SubCategory"]] = relationship(
-        "SubCategory", back_populates="category", cascade="all, delete-orphan"
-    )
-
-
-class SubCategory(Base):
-
-    __tablename__ = "sub_categories"
-
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    name: Mapped[str] = mapped_column(String(100), nullable=False)
-    slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
-    is_active: Mapped[bool] = mapped_column(
-        Boolean,
-        nullable=False,
-        default=True
-    )
-
-    category_id: Mapped[int] = mapped_column(
-        ForeignKey("categories.id"), nullable=False
-    )
-
-    category: Mapped["Category"] = relationship(
-        "Category", back_populates="sub_categories")
-
-    products: Mapped[list["Product"]] = relationship(
-        "Product", back_populates="sub_category", cascade="all, delete-orphan"
-    )
 
 
 class Product(Base):
@@ -72,10 +30,7 @@ class Product(Base):
     # genera sequenza per url
     slug: Mapped[str] = mapped_column(String(100), nullable=False, unique=True, index=True)
 
-    price_cents: Mapped[int] = mapped_column(
-        Integer,
-        nullable=False
-    )
+    price_cents: Mapped[int] = mapped_column(Integer, nullable=False)
     sale_percent: Mapped[int] = mapped_column(
         Integer,
         nullable=False,
@@ -157,7 +112,3 @@ class ProductVariant(Base):
         "Product", back_populates="variants"
     )
 
-
-# TODO dopo implementazione flusso utenti
-# class ProductReview(Base):
-#     pass

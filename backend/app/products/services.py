@@ -7,6 +7,7 @@ from .exceptions import *
 from httpx import AsyncClient
 from .utils import create_product_slug
 from typing import Literal
+from app.categories.exceptions import CategoryNotFoundException, SubCategoryNotFoundException
 
 
 async def _get_product_with_relations(db: AsyncSession, product_id: int) -> Product | None:
