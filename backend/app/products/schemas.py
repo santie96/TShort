@@ -140,11 +140,19 @@ class ProductVariantSchema(SyncModelORM):
 
 
 class ProductVariantCreateRequestSchema(BaseModel):
+    product_id: int
     size: str
     color_name: str
     color_hex: str
     target_key: TargetKey
     stock: int    
+        
+    @field_validator("product_id")
+    @classmethod
+    def validate_product_id(cls, value: int) -> int:
+        if value < 0:
+            raise ValueError("product_id must be positive value")
+        return value
         
     @field_validator("stock")
     @classmethod

@@ -4,7 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from .schemas import *
 from sqlalchemy.orm import selectinload
 from httpx import AsyncClient
-from .exceptions import ProductNotFoundException, ProductSlugAlreadyExistsException, InvalidImageURLException
+from .exceptions import *
 from app.core.utils import create_slug
 from typing import Literal
 from app.categories.exceptions import CategoryNotFoundException, SubCategoryNotFoundException
@@ -293,4 +293,48 @@ async def delete_product_service(db: AsyncSession, product_id: int) -> None:
         raise ProductNotFoundException(f"Product with id {product_id} not found")
     
     db.delete(product)
+    await db.commit()
+    
+    
+async def create_variant_service(db: AsyncSession, payload: ProductVariantCreateRequestSchema) -> ProductSchema:
+    """
+    Create a new product variant
+    """
+    
+    product = await _get_product_with_relations(db, payload.product_id)
+    
+    # 404
+    if product is None or not _validate_product([product]):
+        raise ProductNotFoundException(f"Product with id {payload.product_id} not found")
+    
+    new_variant = ProductVariant(
+        product_id=product.id,
+        size=payload.size,
+        color_name=payload.color_name,
+        color_hex=payload.color_hex,
+        target_key=payload.target_key,
+        stock=payload.stock
+    )
+    
+    db.add(new_variant)
+    await db.commit()
+    
+    return ProductSchema.model_validate(product)
+
+
+async def delete_variant_service(db: AsyncSession, variant_id: int) -> None:
+    """
+    Delete a product variant
+    """
+    
+    variant = (
+        await db.execute(
+            select(ProductVariant).where(ProductVariant.id == variant_id)
+        )
+    ).scalar_one_or_none()
+    
+    if variant is None:
+        raise ProductVariantNotFoundException(f"Product variant with id {variant_id} not found")
+    
+    await db.delete(variant)
     await db.commit()
